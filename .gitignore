@@ -10,6 +10,7 @@ build/
 
 ### Spring Resources ###
 src/main/resources/**/*.yml
+src/main/resources/application.properties
 src/main/resources/**/*.properties
 src/main/generated/
 
