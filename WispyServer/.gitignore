@@ -1,19 +1,9 @@
-### Gradle ###
+HELP.md
 .gradle
 build/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
 !**/src/test/**/build/
-.DS_Store
-
-### Spring Resources ###
-src/main/resources/**/*.yml
-src/main/resources/**/*.properties
-src/main/generated/
-
-### Logs ###
-*.log
-logs/
 
 ### STS ###
 .apt_generated
@@ -45,4 +35,3 @@ out/
 
 ### VS Code ###
 .vscode/
-
