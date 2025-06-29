@@ -26,7 +26,7 @@ public class AuthController {
     public ResponseEntity<ApiResponse<GuestAccountResponse>> createGuestAccount(
             @Valid @RequestBody GuestAccountRequest request) {
 
-        log.info("POST /api/auth/guset - Device: {}, Platform: {}",
+        log.info("POST /api/auth/guest - Device: {}, Platform: {}",
                 request.getDeviceId(), request.getPlatform());
 
         try {
