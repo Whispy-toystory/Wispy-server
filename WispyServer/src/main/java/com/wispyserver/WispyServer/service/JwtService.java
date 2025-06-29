@@ -17,7 +17,7 @@ public class JwtService {
     @Value("${jwt.secret:mySecretKey123456789012345678901234567890}")
     private String secretKey;
 
-    @Value("${jwt.access-token-expiration:259200}") // NOTICE = 일단 3일로 설정!
+    @Value("${jwt.access-token-expiration:86400}") // NOTICE = 일단 하루 설정!
     private Long accessTokenExpiration;
 
     @Value("${jwt.refresh-token-expiration:2592000}")
