@@ -22,7 +22,7 @@ public class GuestAccountResponse {
 
     private Long expiresIn;
 
-    private Long refreshExpireseIn;
+    private Long refreshExpiresIn;
 
     private LocalDateTime createdAt;
 
