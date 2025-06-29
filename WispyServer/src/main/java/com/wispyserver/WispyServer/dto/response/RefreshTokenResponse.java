@@ -22,5 +22,5 @@ public class RefreshTokenResponse {
     private Long refreshExpiresIn;
 
     private LocalDateTime createdAt;
-    
+
 }
