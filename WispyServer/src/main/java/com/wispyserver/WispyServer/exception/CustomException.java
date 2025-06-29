@@ -23,6 +23,7 @@ public class CustomException extends RuntimeException {
     }
 
     public static CustomException notFound(String message) {
+
         return new CustomException("NOT_FOUND", message, 404);
     }
 
