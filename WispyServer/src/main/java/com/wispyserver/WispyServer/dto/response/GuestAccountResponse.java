@@ -12,7 +12,7 @@ import java.util.UUID;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class GustAccountResponse {
+public class GuestAccountResponse {
 
     private UUID userId;
 
