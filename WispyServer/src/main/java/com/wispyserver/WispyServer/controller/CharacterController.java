@@ -74,4 +74,5 @@ public class CharacterController {
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(errorResponse);
         }
     }
+
 }

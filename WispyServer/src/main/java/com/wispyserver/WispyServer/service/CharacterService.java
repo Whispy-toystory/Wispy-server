@@ -1,6 +1,7 @@
 package com.wispyserver.WispyServer.service;
 
 import com.wispyserver.WispyServer.dto.request.CreateCharacterRequest;
+import com.wispyserver.WispyServer.dto.response.CharacterListResponse;
 import com.wispyserver.WispyServer.dto.response.CharacterResponse;
 import com.wispyserver.WispyServer.entity.Character;
 import com.wispyserver.WispyServer.entity.User;
@@ -15,6 +16,7 @@ import org.springframework.transaction.annotation.Transactional;
 import java.time.LocalDate;
 import java.util.List;
 import java.util.UUID;
+import java.util.stream.Collectors;
 
 @Service
 @RequiredArgsConstructor
@@ -74,6 +76,31 @@ public class CharacterService {
                 .glbUrl(savedCharacter.getGlbUrl())
                 .createdDate(savedCharacter.getCreatedDate())
                 .build();
+    }
+
+    @Transactional(readOnly = true)
+    public List<CharacterListResponse> getCharacterList(UUID userId) {
+        log.info("Fetching character list for user: {}", userId);
+
+        // 사용자 존재 및 활성 상태 확인
+        User user = userRepository.findById(userId)
+                .orElseThrow(() -> CustomException.notFound("User not found"));
+
+        if (!user.getIsActive()) {
+            throw CustomException.badRequest("User account is inactive");
+        }
+
+        List<Character> characters = characterRepository.findByUserAndIsActiveTrueOrderByCharacterSlot(user);
+
+        log.info("Found {} characters for user {}", characters.size(), userId);
+
+        return characters.stream()
+                .map(character -> CharacterListResponse.builder()
+                        .characterId(character.getCharacterId())
+                        .characterName(character.getCharacterName())
+                        .characterSlot(character.getCharacterSlot())
+                        .build())
+                .collect(Collectors.toList());
     }
 
     private Integer findNextAvailableSlot(User user) {

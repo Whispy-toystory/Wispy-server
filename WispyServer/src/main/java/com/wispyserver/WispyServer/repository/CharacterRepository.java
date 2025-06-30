@@ -22,6 +22,8 @@ public interface CharacterRepository extends JpaRepository<Character, UUID> {
 
     long countByUserAndIsActiveTrue(User user);
 
+    List<Character> findByUserAndIsActiveTrueOrderByCharacterSlot(User user);
+
     @Query("SELECT c.characterSlot FROM Character c WHERE c.user = :user AND c.isActive = true ORDER BY c.characterSlot")
     List<Integer> findUsedSlotsByUser(@Param("user") User user);
 }
