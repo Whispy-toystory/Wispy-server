@@ -57,7 +57,7 @@ public class User {
 
     @Column(name = "provider_id")
     private String providerId;
-    
+
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     private List<Character> characters = new ArrayList<>();
 

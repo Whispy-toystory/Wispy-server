@@ -28,6 +28,9 @@ public class Character {
     @Column(name = "character_name", nullable = false)
     private String characterName;
 
+    @Column(name = "character_slot", nullable = false)
+    private Integer characterSlot;
+
     @Column(name = "glb_url")
     private String glbUrl;
 
