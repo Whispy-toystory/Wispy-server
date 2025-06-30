@@ -44,7 +44,7 @@ public class CharacterService {
             );
         }
 
-        user.setUserName(request.getUserName());
+        user.setUsername(request.getUserName());
         user.setUserBirthDate(request.getUserBirthDate());
         userRepository.save(user);
 

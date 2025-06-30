@@ -44,9 +44,6 @@ public class User {
     @Column(name = "username")
     private String username;
 
-    @Column(name = "user_name")
-    private String userName;
-
     @Column(name = "user_birth_date")
     private LocalDate userBirthDate;
 
