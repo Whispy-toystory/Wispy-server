@@ -23,5 +23,4 @@ public class CharacterResponse {
     private String glbUrl;
 
     private LocalDate createdDate;
-
 }

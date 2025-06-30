@@ -1,5 +1,6 @@
 package com.wispyserver.WispyServer.dto.request;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Past;
@@ -15,9 +16,9 @@ public class CreateCharacterRequest {
 
     @NotNull(message = "User birth date is required")
     @Past(message = "Birth date must be in the past")
+    @JsonFormat(pattern = "yyyy-MM-dd")
     private LocalDate userBirthDate;
 
     @NotBlank(message = "Character name is required")
     private String characterName;
-
 }

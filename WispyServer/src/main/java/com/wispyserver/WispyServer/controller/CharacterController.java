@@ -32,8 +32,10 @@ public class CharacterController {
             String userIdStr = authentication.getName();
             UUID userId = UUID.fromString(userIdStr);
 
-            log.info("POST /api/characters - User ID: {}, Character name: {}",
-                    userId, request.getCharacterName());
+            log.info("POST /api/characters - User ID: {}, Request: {}",
+                    userId, request);
+            log.info("Request details - userName: {}, userBirthDate: {}, characterName: {}",
+                    request.getUserName(), request.getUserBirthDate(), request.getCharacterName());
 
             CharacterResponse response = characterService.createCharacter(userId, request);
 
@@ -66,7 +68,7 @@ public class CharacterController {
 
             ApiResponse<CharacterResponse> errorResponse = ApiResponse.error(
                     "INVALID_CHARACTER_DATA",
-                    "Missing or invalid character creation data"
+                    "Missing or invalid character creation data: " + e.getMessage()
             );
 
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(errorResponse);

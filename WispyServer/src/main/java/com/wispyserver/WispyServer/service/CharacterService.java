@@ -48,8 +48,14 @@ public class CharacterService {
         user.setUserBirthDate(request.getUserBirthDate());
         userRepository.save(user);
 
+        Integer slot = findNextAvailableSlot(user);
+        if (slot == null) {
+            throw CustomException.characterLimitExceeded("No available character slot");
+        }
+
         Character character = Character.builder()
                 .characterName(request.getCharacterName())
+                .characterSlot(slot)
                 .createdDate(LocalDate.now())
                 .isActive(true)
                 .user(user)
@@ -64,6 +70,7 @@ public class CharacterService {
         return CharacterResponse.builder()
                 .characterId(savedCharacter.getCharacterId())
                 .characterName(savedCharacter.getCharacterName())
+                .characterSlot(slot)
                 .glbUrl(savedCharacter.getGlbUrl())
                 .createdDate(savedCharacter.getCreatedDate())
                 .build();
