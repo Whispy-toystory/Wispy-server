@@ -8,6 +8,7 @@ import lombok.NoArgsConstructor;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
 
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
@@ -43,14 +44,17 @@ public class User {
     @Column(name = "username")
     private String username;
 
+    @Column(name = "user_name")
+    private String userName;
+
+    @Column(name = "user_birth_date")
+    private LocalDate userBirthDate;
+
     @Column(name = "email")
     private String email;
 
     @Column(name = "password_hash")
     private String passwordHash;
-
-    @Column(name = "refresh_token")
-    private String refreshToken;
 
     @Column(name = "provider")
     private String provider;
@@ -60,6 +64,9 @@ public class User {
 
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     private List<Character> characters = new ArrayList<>();
+
+    @Column(name = "refresh_token")
+    private String refreshToken;
 
     @Column(name = "refresh_token_expires_at")
     private LocalDateTime refreshTokenExpiresAt;

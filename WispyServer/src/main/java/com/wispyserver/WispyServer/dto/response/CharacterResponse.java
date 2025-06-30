@@ -18,6 +18,8 @@ public class CharacterResponse {
 
     private String characterName;
 
+    private Integer characterSlot;
+
     private String glbUrl;
 
     private LocalDate createdDate;
