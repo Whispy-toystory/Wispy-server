@@ -2,6 +2,7 @@ package com.wispyserver.WispyServer.controller;
 
 import com.wispyserver.WispyServer.dto.request.CreateCharacterRequest;
 import com.wispyserver.WispyServer.dto.response.ApiResponse;
+import com.wispyserver.WispyServer.dto.response.CharacterListResponse;
 import com.wispyserver.WispyServer.dto.response.CharacterResponse;
 import com.wispyserver.WispyServer.exception.CustomException;
 import com.wispyserver.WispyServer.service.CharacterService;
@@ -13,6 +14,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.Authentication;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
 import java.util.UUID;
 
 @RestController
@@ -75,4 +77,43 @@ public class CharacterController {
         }
     }
 
+    @GetMapping
+    public ResponseEntity<ApiResponse<List<CharacterListResponse>>> getCharacterList(
+            Authentication authentication) {
+
+        try {
+            String userIdStr = authentication.getName();
+            UUID userId = UUID.fromString(userIdStr);
+
+            log.info("GET /api/characters - User ID: {}", userId);
+
+            List<CharacterListResponse> characterList = characterService.getCharacterList(userId);
+
+            ApiResponse<List<CharacterListResponse>> apiResponse = ApiResponse.success(
+                    characterList,
+                    "Character list fetched successfully"
+            );
+
+            return ResponseEntity.ok(apiResponse);
+
+        } catch (CustomException e) {
+            log.error("Character list fetch failed: {}", e.getMessage());
+
+            ApiResponse<List<CharacterListResponse>> errorResponse = ApiResponse.error(
+                    e.getErrorCode(),
+                    e.getMessage()
+            );
+            return ResponseEntity.status(e.getStatusCode()).body(errorResponse);
+
+        } catch (Exception e) {
+            log.error("Unexpected error during character list fetch", e);
+
+            ApiResponse<List<CharacterListResponse>> errorResponse = ApiResponse.error(
+                    "CHARACTER_LIST_FETCH_FAILED",
+                    "Failed to fetch character list: " + e.getMessage()
+            );
+
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(errorResponse);
+        }
+    }
 }
