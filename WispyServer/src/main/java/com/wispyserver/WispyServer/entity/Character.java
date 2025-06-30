@@ -28,7 +28,7 @@ public class Character {
     @Column(name = "character_name", nullable = false)
     private String characterName;
 
-    @Column(name = "character_slot", nullable = false)
+    @Column(name = "character_slot")
     private Integer characterSlot;
 
     @Column(name = "glb_url")
