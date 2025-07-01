@@ -1,10 +1,7 @@
 package com.wispyserver.WispyServer.controller;
 
 import com.wispyserver.WispyServer.dto.request.CreateCharacterRequest;
-import com.wispyserver.WispyServer.dto.response.ApiResponse;
-import com.wispyserver.WispyServer.dto.response.CharacterListResponse;
-import com.wispyserver.WispyServer.dto.response.CharacterResponse;
-import com.wispyserver.WispyServer.dto.response.GlbUploadResponse;
+import com.wispyserver.WispyServer.dto.response.*;
 import com.wispyserver.WispyServer.exception.CustomException;
 import com.wispyserver.WispyServer.service.CharacterService;
 import jakarta.validation.Valid;
@@ -113,6 +110,64 @@ public class CharacterController {
             ApiResponse<List<CharacterListResponse>> errorResponse = ApiResponse.error(
                     "CHARACTER_LIST_FETCH_FAILED",
                     "Failed to fetch character list: " + e.getMessage()
+            );
+
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(errorResponse);
+        }
+    }
+
+    @PostMapping("/{characterId}/select")
+    public ResponseEntity<ApiResponse<CharacterSelectResponse>> selectCharacter(
+            @PathVariable("characterId") UUID characterId,
+            Authentication authentication) {
+
+        try {
+            String userIdStr = authentication.getName();
+            UUID userId = UUID.fromString(userIdStr);
+
+            log.info("POST /api/characters/{}/select - User ID: {}", characterId, userId);
+
+            CharacterSelectResponse response = characterService.selectCharacter(userId, characterId);
+
+            ApiResponse<CharacterSelectResponse> apiResponse = ApiResponse.success(
+                    response,
+                    "Character selected successfully"
+            );
+
+            return ResponseEntity.ok(apiResponse);
+
+        } catch (CustomException e) {
+            log.error("Character selection failed: {}", e.getMessage());
+
+            String errorCode = e.getErrorCode();
+            if ("CHARACTER_NOT_FOUND".equals(errorCode)) {
+                ApiResponse<CharacterSelectResponse> errorResponse = ApiResponse.error(
+                        "CHARACTER_NOT_FOUND",
+                        "Character not found"
+                );
+                return ResponseEntity.status(HttpStatus.NOT_FOUND).body(errorResponse);
+            }
+
+            if ("UNAUTHORIZED".equals(errorCode)) {
+                ApiResponse<CharacterSelectResponse> errorResponse = ApiResponse.error(
+                        "UNAUTHORIZED",
+                        "Invalid or expired access token"
+                );
+                return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body(errorResponse);
+            }
+
+            ApiResponse<CharacterSelectResponse> errorResponse = ApiResponse.error(
+                    e.getErrorCode(),
+                    e.getMessage()
+            );
+            return ResponseEntity.status(e.getStatusCode()).body(errorResponse);
+
+        } catch (Exception e) {
+            log.error("Unexpected error during character selection", e);
+
+            ApiResponse<CharacterSelectResponse> errorResponse = ApiResponse.error(
+                    "CHARACTER_SELECTION_FAILED",
+                    "Failed to select character: " + e.getMessage()
             );
 
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(errorResponse);
