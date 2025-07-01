@@ -4,6 +4,7 @@ import com.wispyserver.WispyServer.dto.request.CreateCharacterRequest;
 import com.wispyserver.WispyServer.dto.response.ApiResponse;
 import com.wispyserver.WispyServer.dto.response.CharacterListResponse;
 import com.wispyserver.WispyServer.dto.response.CharacterResponse;
+import com.wispyserver.WispyServer.dto.response.GlbUploadResponse;
 import com.wispyserver.WispyServer.exception.CustomException;
 import com.wispyserver.WispyServer.service.CharacterService;
 import jakarta.validation.Valid;
@@ -13,6 +14,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.Authentication;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
 
 import java.util.List;
 import java.util.UUID;
@@ -111,6 +113,66 @@ public class CharacterController {
             ApiResponse<List<CharacterListResponse>> errorResponse = ApiResponse.error(
                     "CHARACTER_LIST_FETCH_FAILED",
                     "Failed to fetch character list: " + e.getMessage()
+            );
+
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(errorResponse);
+        }
+    }
+
+    @PostMapping("/{characterId}/upload-glb")
+    public ResponseEntity<ApiResponse<GlbUploadResponse>> uploadGlbFile(
+            @PathVariable("characterId") UUID characterId,
+            @RequestParam("file") MultipartFile file,
+            Authentication authentication) {
+
+        try {
+            String userIdStr = authentication.getName();
+            UUID userId = UUID.fromString(userIdStr);
+
+            log.info("POST /api/characters/{}/upload-glb - User ID: {}, File: {}",
+                    characterId, userId, file.getOriginalFilename());
+
+            if (file == null || file.isEmpty()) {
+                ApiResponse<GlbUploadResponse> errorResponse = ApiResponse.error(
+                        "NO_FILE_UPLOADED",
+                        "No file was uploaded"
+                );
+                return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(errorResponse);
+            }
+
+            GlbUploadResponse response = characterService.uploadGlbFile(userId, characterId, file);
+
+            ApiResponse<GlbUploadResponse> apiResponse = ApiResponse.success(
+                    response,
+                    "GLB file uploaded successfully"
+            );
+
+            return ResponseEntity.ok(apiResponse);
+
+        } catch (CustomException e) {
+            log.error("GLB file upload failed: {}", e.getMessage());
+
+            String errorCode = e.getErrorCode();
+            if ("CHARACTER_NOT_FOUND".equals(errorCode)) {
+                ApiResponse<GlbUploadResponse> errorResponse = ApiResponse.error(
+                        "CHARACTER_NOT_FOUND",
+                        "Character not found"
+                );
+                return ResponseEntity.status(HttpStatus.NOT_FOUND).body(errorResponse);
+            }
+
+            ApiResponse<GlbUploadResponse> errorResponse = ApiResponse.error(
+                    e.getErrorCode(),
+                    e.getMessage()
+            );
+            return ResponseEntity.status(e.getStatusCode()).body(errorResponse);
+
+        } catch (Exception e) {
+            log.error("Unexpected error during GLB file upload", e);
+
+            ApiResponse<GlbUploadResponse> errorResponse = ApiResponse.error(
+                    "FILE_UPLOAD_FAILED",
+                    "Failed to upload GLB file: " + e.getMessage()
             );
 
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(errorResponse);

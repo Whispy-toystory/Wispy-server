@@ -3,6 +3,7 @@ package com.wispyserver.WispyServer.service;
 import com.wispyserver.WispyServer.dto.request.CreateCharacterRequest;
 import com.wispyserver.WispyServer.dto.response.CharacterListResponse;
 import com.wispyserver.WispyServer.dto.response.CharacterResponse;
+import com.wispyserver.WispyServer.dto.response.GlbUploadResponse;
 import com.wispyserver.WispyServer.entity.Character;
 import com.wispyserver.WispyServer.entity.User;
 import com.wispyserver.WispyServer.exception.CustomException;
@@ -12,7 +13,9 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+import org.springframework.web.multipart.MultipartFile;
 
+import java.io.IOException;
 import java.time.LocalDate;
 import java.util.List;
 import java.util.UUID;
@@ -25,6 +28,7 @@ public class CharacterService {
 
     private final CharacterRepository characterRepository;
     private final UserRepository userRepository;
+    private final S3Service s3Service;
 
     private static final long MAX_CHARACTERS_PER_USER = 4;
 
@@ -100,6 +104,50 @@ public class CharacterService {
                         .characterSlot(character.getCharacterSlot())
                         .build())
                 .collect(Collectors.toList());
+    }
+
+    @Transactional
+    public GlbUploadResponse uploadGlbFile(UUID userId, UUID characterId, MultipartFile file) {
+        log.info("Uploading GLB file for character: {}, user: {}", characterId, userId);
+
+        try {
+            s3Service.validateGlbFile(file);
+
+            Character character = characterRepository.findById(characterId)
+                    .orElseThrow(() -> CustomException.characterNotFound("Character not found"));
+
+            if (!character.getUser().getUserId().equals(userId)) {
+                throw CustomException.unauthorized("You do not have permission to upload files for this character");
+            }
+
+            if (!character.getIsActive()) {
+                throw CustomException.badRequest("Character is not active");
+            }
+
+            String glbUrl = s3Service.uploadGlbFile(characterId, file);
+
+            character.setGlbUrl(glbUrl);
+            Character updatedCharacter = characterRepository.save(character);
+
+            log.info("GLB file uploaded successfully for character: {}, URL: {}",
+                    characterId, glbUrl);
+
+            return GlbUploadResponse.builder()
+                    .characterId(updatedCharacter.getCharacterId())
+                    .glbUrl(updatedCharacter.getGlbUrl())
+                    .build();
+
+        } catch (IOException e) {
+            log.error("IOException while uploading GLB file for character: {}", characterId, e);
+            throw CustomException.badRequest("Failed to upload GLB file: " + e.getMessage());
+        } catch (Exception e) {
+            log.error("Failed to upload GLB file for character: {}", characterId, e);
+
+            if (e instanceof CustomException) {
+                throw e;
+            }
+            throw CustomException.badRequest("Failed to upload GLB file: " + e.getMessage());
+        }
     }
 
     private Integer findNextAvailableSlot(User user) {
