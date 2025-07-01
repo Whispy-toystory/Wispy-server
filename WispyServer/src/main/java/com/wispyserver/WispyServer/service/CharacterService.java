@@ -82,7 +82,6 @@ public class CharacterService {
     public List<CharacterListResponse> getCharacterList(UUID userId) {
         log.info("Fetching character list for user: {}", userId);
 
-        // 사용자 존재 및 활성 상태 확인
         User user = userRepository.findById(userId)
                 .orElseThrow(() -> CustomException.notFound("User not found"));
 
