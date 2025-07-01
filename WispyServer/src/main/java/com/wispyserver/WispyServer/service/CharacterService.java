@@ -3,11 +3,14 @@ package com.wispyserver.WispyServer.service;
 import com.wispyserver.WispyServer.dto.request.CreateCharacterRequest;
 import com.wispyserver.WispyServer.dto.response.CharacterListResponse;
 import com.wispyserver.WispyServer.dto.response.CharacterResponse;
+import com.wispyserver.WispyServer.dto.response.CharacterSelectResponse;
 import com.wispyserver.WispyServer.dto.response.GlbUploadResponse;
 import com.wispyserver.WispyServer.entity.Character;
+import com.wispyserver.WispyServer.entity.ConversationSummary;
 import com.wispyserver.WispyServer.entity.User;
 import com.wispyserver.WispyServer.exception.CustomException;
 import com.wispyserver.WispyServer.repository.CharacterRepository;
+import com.wispyserver.WispyServer.repository.ConversationSummaryRepository;
 import com.wispyserver.WispyServer.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -17,7 +20,9 @@ import org.springframework.web.multipart.MultipartFile;
 
 import java.io.IOException;
 import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.List;
+import java.util.Optional;
 import java.util.UUID;
 import java.util.stream.Collectors;
 
@@ -28,7 +33,9 @@ public class CharacterService {
 
     private final CharacterRepository characterRepository;
     private final UserRepository userRepository;
+    private final ConversationSummaryRepository conversationSummaryRepository;
     private final S3Service s3Service;
+
 
     private static final long MAX_CHARACTERS_PER_USER = 4;
 
@@ -149,6 +156,83 @@ public class CharacterService {
             throw CustomException.badRequest("Failed to upload GLB file: " + e.getMessage());
         }
     }
+
+    @Transactional(readOnly = true)
+    public CharacterSelectResponse selectCharacter(UUID userId, UUID characterId) {
+        log.info("Selecting character: {} for user: {}", characterId, userId);
+
+        User user = userRepository.findById(userId)
+                .orElseThrow(() -> CustomException.notFound("User not found"));
+
+        if (!user.getIsActive()) {
+            throw CustomException.badRequest("User account is inactive");
+        }
+
+        Character character = characterRepository.findById(characterId)
+                .orElseThrow(() -> CustomException.characterNotFound("Character not found"));
+
+        if (!character.getUser().getUserId().equals(userId)) {
+            throw CustomException.unauthorized("You do not have permission to select this character");
+        }
+
+        if (!character.getIsActive()) {
+            throw CustomException.badRequest("Character is not active");
+        }
+
+        CharacterSelectResponse.UserInfo userInfo = CharacterSelectResponse.UserInfo.builder()
+                .name(user.getUsername())
+                .birthDate(user.getUserBirthDate() != null ?
+                        user.getUserBirthDate().format(DateTimeFormatter.ofPattern("yyyy-MM-dd")) : null)
+                .build();
+
+        boolean isReady = character.getGlbUrl() != null && !character.getGlbUrl().trim().isEmpty();
+        CharacterSelectResponse.CharacterInfo characterInfo = CharacterSelectResponse.CharacterInfo.builder()
+                .characterId(character.getCharacterId().toString())
+                .name(character.getCharacterName())
+                .glbUrl(character.getGlbUrl())
+                .isReady(isReady)
+                .build();
+
+        CharacterSelectResponse.SummaryInfo summaryInfo = getYesterdaySummary(user, character);
+
+        log.info("Character selected successfully. Character: {}, Ready: {}, Summary exists: {}",
+                character.getCharacterName(), isReady, summaryInfo != null);
+
+        return CharacterSelectResponse.builder()
+                .user(userInfo)
+                .character(characterInfo)
+                .summary(summaryInfo)
+                .build();
+    }
+
+    private CharacterSelectResponse.SummaryInfo getYesterdaySummary(User user, Character character) {
+        LocalDate yesterday = LocalDate.now().minusDays(1);
+
+        Optional<ConversationSummary> summaryOptional =
+                conversationSummaryRepository.findYesterdaySummary(user, character, yesterday);
+
+        if (summaryOptional.isPresent()) {
+            ConversationSummary summary = summaryOptional.get();
+            return CharacterSelectResponse.SummaryInfo.builder()
+                    .date(summary.getSummaryDate().format(DateTimeFormatter.ofPattern("yyyy-MM-dd")))
+                    .text(summary.getSummaryText())
+                    .build();
+        }
+
+        Optional<ConversationSummary> latestSummaryOptional =
+                conversationSummaryRepository.findLatestSummaryByUserAndCharacter(user, character);
+
+        if (latestSummaryOptional.isPresent()) {
+            ConversationSummary summary = latestSummaryOptional.get();
+            return CharacterSelectResponse.SummaryInfo.builder()
+                    .date(summary.getSummaryDate().format(DateTimeFormatter.ofPattern("yyyy-MM-dd")))
+                    .text(summary.getSummaryText())
+                    .build();
+        }
+
+        return null;
+    }
+
 
     private Integer findNextAvailableSlot(User user) {
         List<Integer> usedSlots = characterRepository.findUsedSlotsByUser(user);
