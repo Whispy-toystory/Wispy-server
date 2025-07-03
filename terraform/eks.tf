@@ -30,15 +30,7 @@ module "eks" {
 
   enable_irsa = true
 
-  manage_aws_auth_configmap = true
-
-  aws_auth_users = [
-    {
-      userarn  = data.aws_caller_identity.current.arn
-      username = data.aws_caller_identity.current.user_id
-      groups   = ["system:masters"]
-    },
-  ]
+  manage_aws_auth_configmap = false
 
   tags = {
     Environment = var.environment
