@@ -11,7 +11,7 @@ module "eks" {
 
   eks_managed_node_groups = {
     one = {
-      name = "wispy-server-node-group"
+      name = "wispy-nodes"
 
       instance_types = ["t3.small"]
       capacity_type  = "ON_DEMAND"
