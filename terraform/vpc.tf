@@ -18,7 +18,6 @@ module "vpc" {
   enable_dns_hostnames = true
   enable_dns_support = true
 
-  # EKS 클러스터용 태그
   public_subnet_tags = {
     "kubernetes.io/cluster/${var.cluster_name}" = "shared"
     "kubernetes.io/role/elb"                    = "1"
