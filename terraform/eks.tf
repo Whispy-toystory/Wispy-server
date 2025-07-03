@@ -9,8 +9,6 @@ module "eks" {
   subnet_ids                     = module.vpc.private_subnets
   cluster_endpoint_public_access = true
 
-  cluster_service_role_arn = aws_iam_role.eks_cluster_role.arn
-
   eks_managed_node_groups = {
     one = {
       name = "wispy-server-node-group"
@@ -25,8 +23,6 @@ module "eks" {
       ami_type = "AL2_x86_64"
       
       disk_size = 20
-      
-      iam_role_arn = aws_iam_role.eks_node_group_role.arn
       
       vpc_security_group_ids = [aws_security_group.node_group_sg.id]
     }
