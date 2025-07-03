@@ -25,10 +25,10 @@ module "eks" {
       disk_size = 20
       
       vpc_security_group_ids = [aws_security_group.node_group_sg.id]
-
-      iam_role_additional_policies = [
-      "arn:aws:iam::aws:policy/AmazonEBSCSIDriverPolicy"
-    ]
+      
+      iam_role_additional_policies = { 
+        ebs_csi_policy = "arn:aws:iam::aws:policy/service-role/AmazonEBSCSIDriverPolicy"
+        }
     }
   }
 
