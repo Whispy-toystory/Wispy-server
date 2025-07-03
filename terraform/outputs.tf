@@ -52,3 +52,18 @@ output "ecr_repository_name" {
   description = "ECR repository name"
   value       = aws_ecr_repository.wispy_server.name
 }
+
+output "s3_access_role_arn" {
+  description = "S3 access role ARN for service account"
+  value       = aws_iam_role.s3_access_role.arn
+}
+
+output "eks_cluster_role_arn" {
+  description = "EKS cluster role ARN"
+  value       = aws_iam_role.eks_cluster_role.arn
+}
+
+output "eks_node_group_role_arn" {
+  description = "EKS node group role ARN"
+  value       = aws_iam_role.eks_node_group_role.arn
+}
