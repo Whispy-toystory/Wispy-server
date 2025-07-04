@@ -1,5 +1,5 @@
-resource "aws_ecr_repository" "wispy_server" {
-  name                 = var.project_name
+resource "aws_ecr_repository" "main" {
+  name                 = "${var.project_name}-api"
   image_tag_mutability = "MUTABLE"
 
   image_scanning_configuration {
@@ -7,14 +7,38 @@ resource "aws_ecr_repository" "wispy_server" {
   }
 
   tags = {
-    Environment = var.environment
-    Project     = var.project_name
-    Terraform   = "true"
+    Name = "${var.project_name}-api-repository"
   }
 }
 
-resource "aws_ecr_lifecycle_policy" "wispy_server_policy" {
-  repository = aws_ecr_repository.wispy_server.name
+resource "aws_ecr_repository_policy" "main" {
+  repository = aws_ecr_repository.main.name
+
+  policy = jsonencode({
+    Version = "2012-10-17"
+    Statement = [
+      {
+        Sid    = "AllowPushPull"
+        Effect = "Allow"
+        Principal = {
+          AWS = "arn:aws:iam::${data.aws_caller_identity.current.account_id}:root"
+        }
+        Action = [
+          "ecr:GetDownloadUrlForLayer",
+          "ecr:BatchGetImage",
+          "ecr:BatchCheckLayerAvailability",
+          "ecr:PutImage",
+          "ecr:InitiateLayerUpload",
+          "ecr:UploadLayerPart",
+          "ecr:CompleteLayerUpload"
+        ]
+      }
+    ]
+  })
+}
+
+resource "aws_ecr_lifecycle_policy" "main" {
+  repository = aws_ecr_repository.main.name
 
   policy = jsonencode({
     rules = [
@@ -33,7 +57,7 @@ resource "aws_ecr_lifecycle_policy" "wispy_server_policy" {
       },
       {
         rulePriority = 2
-        description  = "Delete untagged images"
+        description  = "Delete untagged images older than 1 day"
         selection = {
           tagStatus   = "untagged"
           countType   = "sinceImagePushed"
@@ -47,3 +71,5 @@ resource "aws_ecr_lifecycle_policy" "wispy_server_policy" {
     ]
   })
 }
+
+data "aws_caller_identity" "current" {}
