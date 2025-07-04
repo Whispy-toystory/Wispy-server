@@ -36,7 +36,6 @@ resource "aws_subnet" "public" {
   }
 }
 
-# 프라이빗 서브넷
 resource "aws_subnet" "private" {
   count             = 2
   vpc_id            = aws_vpc.main.id
@@ -50,7 +49,6 @@ resource "aws_subnet" "private" {
   }
 }
 
-# NAT 게이트웨이용 EIP
 resource "aws_eip" "nat" {
   count  = 2
   domain = "vpc"
@@ -62,7 +60,6 @@ resource "aws_eip" "nat" {
   depends_on = [aws_internet_gateway.main]
 }
 
-# NAT 게이트웨이
 resource "aws_nat_gateway" "main" {
   count         = 2
   allocation_id = aws_eip.nat[count.index].id
@@ -75,7 +72,6 @@ resource "aws_nat_gateway" "main" {
   depends_on = [aws_internet_gateway.main]
 }
 
-# 퍼블릭 라우팅 테이블
 resource "aws_route_table" "public" {
   vpc_id = aws_vpc.main.id
 
@@ -89,7 +85,6 @@ resource "aws_route_table" "public" {
   }
 }
 
-# 프라이빗 라우팅 테이블
 resource "aws_route_table" "private" {
   count  = 2
   vpc_id = aws_vpc.main.id
@@ -104,7 +99,6 @@ resource "aws_route_table" "private" {
   }
 }
 
-# 라우팅 테이블 연결
 resource "aws_route_table_association" "public" {
   count          = 2
   subnet_id      = aws_subnet.public[count.index].id
@@ -117,7 +111,6 @@ resource "aws_route_table_association" "private" {
   route_table_id = aws_route_table.private[count.index].id
 }
 
-# 보안 그룹 - EKS 클러스터
 resource "aws_security_group" "eks_cluster" {
   name_prefix = "${var.project_name}-eks-cluster"
   vpc_id      = aws_vpc.main.id
@@ -134,7 +127,6 @@ resource "aws_security_group" "eks_cluster" {
   }
 }
 
-# 보안 그룹 - EKS 노드
 resource "aws_security_group" "eks_nodes" {
   name_prefix = "${var.project_name}-eks-nodes"
   vpc_id      = aws_vpc.main.id
@@ -162,53 +154,5 @@ resource "aws_security_group" "eks_nodes" {
 
   tags = {
     Name = "${var.project_name}-eks-nodes-sg"
-  }
-}
-
-# 보안 그룹 - RDS
-resource "aws_security_group" "rds" {
-  name_prefix = "${var.project_name}-rds"
-  vpc_id      = aws_vpc.main.id
-
-  ingress {
-    from_port       = 3306
-    to_port         = 3306
-    protocol        = "tcp"
-    security_groups = [aws_security_group.eks_nodes.id]
-  }
-
-  egress {
-    from_port   = 0
-    to_port     = 0
-    protocol    = "-1"
-    cidr_blocks = ["0.0.0.0/0"]
-  }
-
-  tags = {
-    Name = "${var.project_name}-rds-sg"
-  }
-}
-
-# 보안 그룹 - DocumentDB
-resource "aws_security_group" "documentdb" {
-  name_prefix = "${var.project_name}-documentdb"
-  vpc_id      = aws_vpc.main.id
-
-  ingress {
-    from_port       = 27017
-    to_port         = 27017
-    protocol        = "tcp"
-    security_groups = [aws_security_group.eks_nodes.id]
-  }
-
-  egress {
-    from_port   = 0
-    to_port     = 0
-    protocol    = "-1"
-    cidr_blocks = ["0.0.0.0/0"]
-  }
-
-  tags = {
-    Name = "${var.project_name}-documentdb-sg"
   }
 }

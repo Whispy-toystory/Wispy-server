@@ -43,31 +43,6 @@ output "s3_bucket_arn" {
   value       = aws_s3_bucket.main.arn
 }
 
-output "mysql_endpoint" {
-  description = "MySQL endpoint"
-  value       = aws_db_instance.mysql.endpoint
-}
-
-output "mysql_port" {
-  description = "MySQL port"
-  value       = aws_db_instance.mysql.port
-}
-
-output "mysql_database_name" {
-  description = "MySQL database name"
-  value       = aws_db_instance.mysql.db_name
-}
-
-output "documentdb_endpoint" {
-  description = "DocumentDB endpoint"
-  value       = aws_docdb_cluster.main.endpoint
-}
-
-output "documentdb_port" {
-  description = "DocumentDB port"
-  value       = aws_docdb_cluster.main.port
-}
-
 output "vpc_id" {
   description = "VPC ID"
   value       = aws_vpc.main.id
