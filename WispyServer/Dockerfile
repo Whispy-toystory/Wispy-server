@@ -1,4 +1,4 @@
-FROM openjdk:21-jdk-slim as builder
+FROM eclipse-temurin:21-jdk-jammy as builder
 
 WORKDIR /app
 
@@ -14,7 +14,7 @@ COPY src src
 
 RUN ./gradlew bootJar
 
-FROM openjdk:21-jre-slim
+FROM eclipse-temurin:21-jre-jammy
 
 ENV TZ=Asia/Seoul
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
