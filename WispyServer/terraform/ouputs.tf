@@ -52,3 +52,8 @@ output "configure_kubectl" {
   description = "Configure kubectl: make sure you're logged in with the correct AWS profile and run the following command to update your kubeconfig"
   value       = "aws eks --region ${var.aws_region} update-kubeconfig --name ${aws_eks_cluster.main.name}"
 }
+
+output "s3_bucket_name" {
+  description = "Name of the S3 bucket for GLB files"
+  value       = aws_s3_bucket.wispy_bucket.bucket
+}
