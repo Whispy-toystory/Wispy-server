@@ -108,3 +108,4 @@ out/
 .vscode/
 
 terraform/terraform.tfvars.old
+WispyServer/src/main/resources/application-prod.properties
