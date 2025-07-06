@@ -1,28 +1,30 @@
-FROM eclipse-temurin:21-jdk-jammy as builder
+# Multi-stage build for optimized image
+FROM openjdk:21-jdk-slim as builder
 
 WORKDIR /app
-
+COPY build.gradle settings.gradle ./
+COPY gradle/ gradle/
 COPY gradlew .
-COPY gradle gradle
-COPY build.gradle .
-COPY settings.gradle .
+COPY src ./src
 
+# Gradle 실행 권한 부여 및 빌드
 RUN chmod +x gradlew
-RUN ./gradlew dependencies
+RUN ./gradlew clean bootJar --no-daemon
 
-COPY src src
-
-RUN ./gradlew bootJar
-
-FROM eclipse-temurin:21-jre-jammy
-
-ENV TZ=Asia/Seoul
-RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
+# 실행 이미지
+FROM openjdk:21-jdk-slim
 
 WORKDIR /app
 
+# 빌드된 JAR 파일 복사
 COPY --from=builder /app/build/libs/*.jar app.jar
 
+# 포트 노출
 EXPOSE 8080
 
-ENTRYPOINT ["java", "-jar", "app.jar"]
+# 환경 변수 설정
+ENV SPRING_PROFILES_ACTIVE=prod
+
+# 애플리케이션 실행
+ENTRYPOINT ["java", "-jar", "app.jar", "--spring.profiles.active=${SPRING_PROFILES_ACTIVE}"]
+
