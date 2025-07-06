@@ -111,3 +111,4 @@ terraform/terraform.tfvars.old
 WispyServer/src/main/resources/application-prod.properties
 WispyServer/src/main/resources/application-prod.properties
 WispyServer/docker-compose.yml
+WispyServer/terraform/terraform.tfvars
