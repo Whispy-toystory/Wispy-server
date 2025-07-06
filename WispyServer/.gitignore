@@ -7,7 +7,10 @@ build/
 k8s/*secret*.yaml
 k8s/mongodb-statefulset.yaml
 k8s/mysql-statefulset.yaml
+
 src/main/resources/application-prod.properties
+src/main/resources/application-local.properties
+
 ### STS ###
 .apt_generated
 .classpath
