@@ -112,3 +112,4 @@ WispyServer/src/main/resources/application-prod.properties
 WispyServer/src/main/resources/application-prod.properties
 WispyServer/docker-compose.yml
 WispyServer/terraform/terraform.tfvars
+WispyServer/docker-compose.yml
