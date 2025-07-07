@@ -72,12 +72,40 @@ resource "aws_iam_role_policy_attachment" "eks_container_registry_policy" {
   role       = aws_iam_role.eks_node_group.name
 }
 
+resource "aws_launch_template" "eks_node_group" {
+  name_prefix = "${var.project_name}-${var.environment}-node-template-"
+
+  metadata_options {
+    http_tokens   = "optional"
+    http_endpoint = "enabled"
+  }
+
+  tag_specifications {
+    resource_type = "instance"
+
+    tags = {
+      Name = "${var.project_name}-${var.environment}-eks-node"
+    }
+  }
+
+  lifecycle {
+    create_before_destroy = true
+  }
+
+  tags = var.tags
+}
+
 resource "aws_eks_node_group" "main" {
   cluster_name    = aws_eks_cluster.main.name
   node_group_name = "${var.project_name}-${var.environment}-nodes"
   node_role_arn   = aws_iam_role.eks_node_group.arn
   subnet_ids      = aws_subnet.private[*].id
   instance_types  = var.node_instance_types
+
+  launch_template {
+    id      = aws_launch_template.eks_node_group.id
+    version = "$Latest"
+  }
 
   scaling_config {
     desired_size = var.node_desired_capacity
@@ -93,6 +121,7 @@ resource "aws_eks_node_group" "main" {
     aws_iam_role_policy_attachment.eks_worker_node_policy,
     aws_iam_role_policy_attachment.eks_cni_policy,
     aws_iam_role_policy_attachment.eks_container_registry_policy,
+    aws_launch_template.eks_node_group
   ]
 
   tags = var.tags
