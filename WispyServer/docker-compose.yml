@@ -1,36 +1,53 @@
+version: '3.8'
+
 services:
   mysql:
     image: mysql:8.0
-    container_name: dev-mysql
-    ports:
-      - "3307:3306"
+    container_name: mysql
     environment:
       MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
       MYSQL_DATABASE: wispymqdb
       MYSQL_USER: devuser
       MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+    ports:
+      - "3306:3306"
     volumes:
       - mysql_data:/var/lib/mysql
-    command: --default-authentication-plugin=mysql_native_password
-    networks: 
+    networks:
       - app-network
+    restart: unless-stopped
 
   mongodb:
     image: mongo:7.0
-    container_name: dev-mongodb
+    container_name: mongodb
+    environment:
+      MONGO_INITDB_DATABASE: wispymgdb
     ports:
       - "27017:27017"
-    environment:
-      MONGO_INITDB_ROOT_USERNAME: admin
-      MONGO_INITDB_ROOT_PASSWORD: ${MONGO_ROOT_PASSWORD}
-      MONGO_INITDB_DATABASE: wispymgdb
     volumes:
-      - mongo_data:/data/db
+      - mongodb_data:/data/db
+    networks:
+      - app-network
+    restart: unless-stopped
+
+  app:
+    build: .
+    container_name: wispy-server-local
+    depends_on:
+      - mysql
+      - mongodb
+    env_file:
+      - .env
+    ports:
+      - "8080:8080"
+    networks:
+      - app-network
+    restart: unless-stopped
 
 volumes:
   mysql_data:
-  mongo_data:
+  mongodb_data:
 
 networks:
-  app-network: 
+  app-network:
     driver: bridge
