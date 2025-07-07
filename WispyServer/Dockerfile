@@ -1,5 +1,5 @@
 # Multi-stage build for optimized image
-FROM openjdk:21-jdk-slim as builder
+FROM openjdk:21-jdk-slim AS builder
 
 WORKDIR /app
 COPY build.gradle settings.gradle ./
