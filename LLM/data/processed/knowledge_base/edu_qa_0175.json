@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: What do you call your brother's daughter?...",
+  "content": "Question: What do you call your brother's daughter?\n\nAnswer: Your niece!",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "factual",
+    "topic": "general_knowledge",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.585469",
+    "content_length": 2,
+    "difficulty": "beginner"
+  }
+}

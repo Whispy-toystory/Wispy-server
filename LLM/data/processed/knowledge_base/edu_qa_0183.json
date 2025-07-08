@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: What is a shape with three sides and three corners...",
+  "content": "Question: What is a shape with three sides and three corners called?\n\nAnswer: A triangle!",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "factual",
+    "topic": "math_numbers",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.586129",
+    "content_length": 2,
+    "difficulty": "beginner"
+  }
+}

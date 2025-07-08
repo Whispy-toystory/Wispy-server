@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: Why do we burp?...",
+  "content": "Question: Why do we burp?\n\nAnswer: Burps are our bodies getting rid of extra air we swallow while eating or drinking. It's a bubbly way to let it out!",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "explanatory",
+    "topic": "nutrition_cooking",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.595763",
+    "content_length": 23,
+    "difficulty": "intermediate"
+  }
+}

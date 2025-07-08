@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: What's more fun: following a recipe exactly, or ex...",
+  "content": "Question: What's more fun: following a recipe exactly, or experimenting a little with flavors you like?\n\nAnswer: Both are fun!  Recipes teach you basics, then you can get creative.",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "factual",
+    "topic": "nutrition_cooking",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.604738",
+    "content_length": 12,
+    "difficulty": "beginner"
+  }
+}

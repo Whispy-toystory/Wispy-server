@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: Is the sun a planet?...",
+  "content": "Question: Is the sun a planet?\n\nAnswer: Nope! The sun is a star, a giant ball of fiery hot gas. Planets are smaller and orbit stars.",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "general",
+    "topic": "general_knowledge",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.614730",
+    "content_length": 19,
+    "difficulty": "beginner"
+  }
+}

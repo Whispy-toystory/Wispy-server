@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: Why are some rocks shiny?...",
+  "content": "Question: Why are some rocks shiny?\n\nAnswer: Some rocks have tiny crystals inside that catch the light and make them sparkle.",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "explanatory",
+    "topic": "general_knowledge",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.618236",
+    "content_length": 14,
+    "difficulty": "beginner"
+  }
+}

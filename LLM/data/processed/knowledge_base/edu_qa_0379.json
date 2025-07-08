@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: Do you think playing video games can help you beco...",
+  "content": "Question: Do you think playing video games can help you become a better problem-solver?\n\nAnswer: Sometimes! Many games involve puzzles, strategies, and having to figure things out to get to the next level.",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "instructional",
+    "topic": "physical_activity",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.601339",
+    "content_length": 18,
+    "difficulty": "beginner"
+  }
+}

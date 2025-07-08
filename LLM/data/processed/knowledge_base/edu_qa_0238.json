@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: How many ounces are in one cup?...",
+  "content": "Question: How many ounces are in one cup?\n\nAnswer: There are 8 ounces in one cup.",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "explanatory",
+    "topic": "general_knowledge",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.590515",
+    "content_length": 7,
+    "difficulty": "beginner"
+  }
+}

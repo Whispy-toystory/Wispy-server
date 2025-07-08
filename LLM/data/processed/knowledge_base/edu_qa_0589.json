@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: What do doctors and nurses do?...",
+  "content": "Question: What do doctors and nurses do?\n\nAnswer: They help us stay healthy, and take care of us when we're sick or hurt.",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "factual",
+    "topic": "nutrition_cooking",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.617298",
+    "content_length": 15,
+    "difficulty": "beginner"
+  }
+}

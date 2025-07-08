@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: Why is it important to wash your hands before cook...",
+  "content": "Question: Why is it important to wash your hands before cooking?\n\nAnswer: We don't want to spread germs onto the food we're making!",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "explanatory",
+    "topic": "nutrition_cooking",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.582657",
+    "content_length": 11,
+    "difficulty": "beginner"
+  }
+}

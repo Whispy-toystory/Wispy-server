@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: What do you call your sister's son?...",
+  "content": "Question: What do you call your sister's son?\n\nAnswer: Your nephew!",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "factual",
+    "topic": "general_knowledge",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.621710",
+    "content_length": 2,
+    "difficulty": "beginner"
+  }
+}

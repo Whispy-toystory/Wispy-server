@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: What are some traditional foods from different cou...",
+  "content": "Question: What are some traditional foods from different countries?\n\nAnswer: Pizza (Italy), Sushi (Japan), Tacos (Mexico), Pad Thai (Thailand)... the world is a delicious place!",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "factual",
+    "topic": "nutrition_cooking",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.623480",
+    "content_length": 15,
+    "difficulty": "beginner"
+  }
+}

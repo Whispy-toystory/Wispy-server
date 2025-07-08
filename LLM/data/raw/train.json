@@ -1,0 +1,2918 @@
+[
+    {
+        "Question": "What word describes a color that is very, very dark?",
+        "Answer": "Black!  Like the night sky when there's no moon."
+    },
+    {
+        "Question": "What are some special tools or equipment that firefighters use?",
+        "Answer": "Hoses, ladders, axes, protective suits, and their big firetrucks!"
+    },
+    {
+        "Question": "Should you squeeze fruits and vegetables before putting them in your cart?",
+        "Answer": "Gently, to check if they're too soft or mushy (that means they might be old). But be careful not to bruise them!"
+    },
+    {
+        "Question": "Who is a superstar gymnast who has won lots of Olympic medals?",
+        "Answer": "Simone Biles is an amazing gymnast!"
+    },
+    {
+        "Question": "Can you see germs with your eyes?",
+        "Answer": "Nope, they're way too tiny. We only know they're there if we get sick, or under a special microscope."
+    },
+    {
+        "Question": "Do all sports use a ball?",
+        "Answer": "Nope!  Some do, but there are sports like gymnastics, running, swimming, and dancing that don't need a ball."
+    },
+    {
+        "Question": "What does a yellow light mean?",
+        "Answer": "Slow down and get ready to stop. It's about to turn red!"
+    },
+    {
+        "Question": "Did you know there's a lady with a mysterious smile in a super famous painting?  Who painted it?",
+        "Answer": "That's the Mona Lisa, painted by the amazing Leonardo da Vinci."
+    },
+    {
+        "Question": "Should you try a food more than once to decide if you really don't like it?",
+        "Answer": "Yes! Our tastebuds change as we grow, you might like it later."
+    },
+    {
+        "Question": "What word means to feel like you need to sleep?",
+        "Answer": "Tired or sleepy.  When you're tired, you might yawn a lot or your eyes might feel heavy."
+    },
+    {
+        "Question": "What makes thunder?",
+        "Answer": "Lightning gets super-hot and makes the air around it explode really fast \u2013 that's the BOOM of thunder!"
+    },
+    {
+        "Question": "What tool can you use to measure how tall you are?",
+        "Answer": "A ruler or a measuring tape."
+    },
+    {
+        "Question": "Is pizza a healthy food to eat every single day?",
+        "Answer": " Nope! It's okay sometimes, but our bodies need lots of different foods to be healthy."
+    },
+    {
+        "Question": "Do you have a favorite way to exercise?",
+        "Answer": "There's no wrong answer!  Whatever you find fun is the best kind of exercise."
+    },
+    {
+        "Question": "What are some kitchen tools kids can use?",
+        "Answer": "Spoons for mixing, butter knives, whisks, cookie cutters, measuring cups..."
+    },
+    {
+        "Question": "Are there healthy snacks you can keep in your backpack or lunchbox?",
+        "Answer": "Totally!  Things like fruit, nuts, or whole grain crackers."
+    },
+    {
+        "Question": "Why do we have different colored skin?",
+        "Answer": "Our bodies have something called melanin, which gives our skin its color. Everyone has unique amounts, that's why we have so many beautiful skin colors!"
+    },
+    {
+        "Question": "Do engineers design the cars we drive?",
+        "Answer": "Yes! Automotive engineers play a big role in making cars safe, how they look, and all the technology inside them."
+    },
+    {
+        "Question": "Which country is famous for men wearing skirts called kilts?",
+        "Answer": "Scotland!"
+    },
+    {
+        "Question": "If you're hungry and there's no food in the house, what are some solutions?",
+        "Answer": "Ask a grownup for help making a snack, see if you can go to the store, maybe order food delivery."
+    },
+    {
+        "Question": "Have you ever seen someone making clothes by hand?",
+        "Answer": "People knit, sew, and craft clothes as a hobby!  Sometimes people sew to fix clothes, too."
+    },
+    {
+        "Question": "If you have six cookies and eat three, how many would be left?",
+        "Answer": "You'd have three left! Six minus three equals three."
+    },
+    {
+        "Question": "What are clothes made of?",
+        "Answer": "Clothes can be made from cotton, wool, silk, and lots of other fabrics!"
+    },
+    {
+        "Question": "How do you know how much something costs at the grocery store?",
+        "Answer": "There's a price tag on the shelf or on the item itself."
+    },
+    {
+        "Question": "Can you think of another word for 'run'?",
+        "Answer": "Sprint, dash, hurry, or race!"
+    },
+    {
+        "Question": "Why do we wear seatbelts in cars?",
+        "Answer": "Seatbelts help keep us safe if a car stops suddenly.  Without them, we'd keep moving forward due to a force called inertia!"
+    },
+    {
+        "Question": "Can food be healthy AND delicious?",
+        "Answer": "Absolutely! There are so many tasty recipes with good-for-you ingredients."
+    },
+    {
+        "Question": "Is there a place called 9-1-1 that you should call if you need help in an emergency?",
+        "Answer": "Yes! It's very important to know that number, but only call if there's a real emergency."
+    },
+    {
+        "Question": "Why do we measure things?",
+        "Answer": "Measuring tells us how tall, long, heavy, or how much of something there is."
+    },
+    {
+        "Question": "Setting the table is part of cooking too! Do you like to help with that?",
+        "Answer": "It makes the meal feel special and shows you care about the food you made."
+    },
+    {
+        "Question": "Why do some things in the grocery store have barcodes on them?",
+        "Answer": "The cashier scans the barcode to find out the price and add it to your bill."
+    },
+    {
+        "Question": "Are all germs bad?",
+        "Answer": "Nope! There are good germs in our bodies that help with digestion and keeping us healthy."
+    },
+    {
+        "Question": "Why do we sometimes 'pull a muscle'?",
+        "Answer": "Pulling a muscle means overstretching or tearing the muscle fibers. This can happen if we don't warm up properly or push ourselves too hard."
+    },
+    {
+        "Question": "Where can we find different types of rocks?",
+        "Answer": "Rocks are everywhere! In mountains, by rivers, on beaches, even in your backyard!"
+    },
+    {
+        "Question": "Why do we need to wash our hands?",
+        "Answer": "Washing hands gets rid of germs that can make us sick. It's like giving those nasty germs a super bubbly eviction!"
+    },
+    {
+        "Question": "What were the pyramids in Egypt built for?",
+        "Answer": "Pyramids were built as tombs for powerful Pharaohs (ancient Egyptian rulers)."
+    },
+    {
+        "Question": "Where do babies come from?",
+        "Answer": "Babies grow inside a special place in their mom's tummy called the uterus. When they're ready to be born, they come out through a special opening."
+    },
+    {
+        "Question": "What are some kind things you could say to your friend if they're feeling sad?",
+        "Answer": "'Are you okay?' 'I'm sorry you're sad,' or 'Do you want a hug?'"
+    },
+    {
+        "Question": "What are the main food groups?",
+        "Answer": "Fruits, vegetables, grains, protein foods, and dairy (like milk and yogurt)."
+    },
+    {
+        "Question": "Who is a famous athlete who became a boxer and activist?",
+        "Answer": "Muhammad Ali was a boxing champion and fought for important causes."
+    },
+    {
+        "Question": "How can you add more vegetables to a pizza you make at home?",
+        "Answer": "Onions, peppers, mushrooms, spinach \u2013 load up those toppings!"
+    },
+    {
+        "Question": "Is it important to warm up before playing hard?",
+        "Answer": "Yes!  Stretching or a light jog helps our muscles get ready and prevents getting hurt."
+    },
+    {
+        "Question": "What kind of big machines do you sometimes see on construction sites? ",
+        "Answer": "Cranes, bulldozers, excavators, dump trucks..."
+    },
+    {
+        "Question": "What are some foods that have a very long shelf life, meaning they last a long time?",
+        "Answer": "Canned goods, pasta, rice, things in jars."
+    },
+    {
+        "Question": "Should you cough or sneeze into your hand?",
+        "Answer": "Nope!  Into your elbow is better, so you don't spread germs on your hands."
+    },
+    {
+        "Question": "Why do we get tired after exercising?",
+        "Answer": "Our muscles run low on energy, and they also produce waste products that make them feel sore and tired."
+    },
+    {
+        "Question": "What causes a storm?",
+        "Answer": "Storms happen when warm air and cold air meet and mix in the atmosphere \u2013 it makes the air swirl and causes strong winds and rain."
+    },
+    {
+        "Question": "How do we taste things?",
+        "Answer": "Our tongues have tiny taste buds! They sense sweet, sour, salty, and other flavors and send signals to our brain."
+    },
+    {
+        "Question": "Think of a water well with a bucket on a rope.  What simple machines are being used to draw water up?",
+        "Answer": "A pulley to make lifting the bucket easier, and a wheel and axle as part of the handle you crank. "
+    },
+    {
+        "Question": "What rhymes with 'blue'?",
+        "Answer": "Shoe, glue, flew..."
+    },
+    {
+        "Question": "Besides sandwiches, what else can you spread peanut butter on?",
+        "Answer": "Apples, bananas, crackers, or even celery stalks."
+    },
+    {
+        "Question": "Why do we need money?",
+        "Answer": "We use money to buy the things we need and want. It's a way of trading something everyone agrees has value."
+    },
+    {
+        "Question": "If your friend is good at drawing and you're not, does that mean you never will be?",
+        "Answer": "Nope!  They might have practiced more. A growth mindset means believing you can improve too."
+    },
+    {
+        "Question": "Why do sneezes come out so fast?",
+        "Answer": "Sneezes are our body's way of blasting out dust or things that bother our nose! The air shoots out to get rid of those irritations."
+    },
+    {
+        "Question": "Why do doctors sometimes give you a shot (vaccine)?",
+        "Answer": "It's a tiny bit of medicine that helps your body learn to fight off germs and stay healthy."
+    },
+    {
+        "Question": "Why do we blink?",
+        "Answer": "Blinking cleans and moistens our eyes, keeping them healthy and seeing clearly."
+    },
+    {
+        "Question": "Whose job is it to try the healthy foods grown-ups make, even just a bite?",
+        "Answer": "Kids!  Our tastebuds change as we grow."
+    },
+    {
+        "Question": "Is the number four odd or even?",
+        "Answer": "The number four is even. Even numbers always have a partner to match up with!"
+    },
+    {
+        "Question": "Where can you donate food if you buy too much, or have cans in your pantry you won't eat?",
+        "Answer": "Food banks! They help families who don't have enough to eat."
+    },
+    {
+        "Question": "What if your friend is happy about something, how can you share their excitement?",
+        "Answer": "Smile, say 'That's awesome!'  or 'I'm happy for you!'  Being happy with them is a kind way to show you care."
+    },
+    {
+        "Question": "Why do sunflowers follow the sun?",
+        "Answer": "Young sunflowers turn towards the sun to get more energy to grow big and strong!"
+    },
+    {
+        "Question": "Did people always have supermarkets to get their food?",
+        "Answer": "Nope!  Long ago they had to grow their own, or go to small markets."
+    },
+    {
+        "Question": "What's one food that comes from a chicken?",
+        "Answer": "Eggs!"
+    },
+    {
+        "Question": "Why do we need to go to the doctor for check-ups?",
+        "Answer": "Doctors make sure we're growing healthy and strong! They can also catch things early if we might be getting sick."
+    },
+    {
+        "Question": "What's a better snack choice, an apple or cookies?",
+        "Answer": "An apple!  It's naturally sweet and has vitamins.  Cookies are mostly sugar."
+    },
+    {
+        "Question": "Why do some animals migrate?",
+        "Answer": "Animals migrate (travel long distances) to find food, warmer weather, or a safe place to have babies."
+    },
+    {
+        "Question": "What kind of story usually starts with 'Once upon a time'?",
+        "Answer": "A fairy tale!"
+    },
+    {
+        "Question": "What happened during World War II?",
+        "Answer": "A huge war involving many countries around the world. It lasted from 1939-1945."
+    },
+    {
+        "Question": "Why do some people snore?",
+        "Answer": "When people snore, it's because the air they breathe vibrates tissues in their throat, making that noisy sound!"
+    },
+    {
+        "Question": "If you drop food on the floor, is it safe to eat if you pick it up really fast?",
+        "Answer": "Nope!  Germs stick to things SUPER quickly (this is called the '5-second rule' myth!)"
+    },
+    {
+        "Question": "Who were the ancient Greeks famous for?",
+        "Answer": "Big thinkers (philosophers), stories of gods and heroes (mythology), the Olympic games, and their style of buildings."
+    },
+    {
+        "Question": "What does a crossing guard do?",
+        "Answer": "They help children cross the street safely on their way to school. "
+    },
+    {
+        "Question": "Why do we need to eat foods from all the food groups?",
+        "Answer": "Different food groups give our bodies different things it needs to be healthy \u2013 like vitamins, energy, and stuff to make us strong!"
+    },
+    {
+        "Question": "Why do bubbles float in the air?",
+        "Answer": "Bubbles are actually filled with air, just like the air around them!  But the soapy film of a bubble is a bit heavier, so they slowly float down."
+    },
+    {
+        "Question": "What is the Milky Way?",
+        "Answer": "The Milky Way is our galaxy! It's a huge collection of stars, gas, and dust shaped like a swirl, and our sun is just one tiny star in it."
+    },
+    {
+        "Question": "Do helpers sometimes wear special uniforms or clothes so we know what their job is?",
+        "Answer": "Yes! Firefighter gear, a doctor's coat, or a police officer's badge helps us recognize them quickly. "
+    },
+    {
+        "Question": "What do doctors and nurses wear sometimes to protect themselves from germs?",
+        "Answer": "Masks and gloves!"
+    },
+    {
+        "Question": "Who is a famous athlete who became a boxer and activist?",
+        "Answer": "Muhammad Ali was a boxing champion and fought for important causes."
+    },
+    {
+        "Question": "What solid shape is round like a ball?",
+        "Answer": "A sphere!"
+    },
+    {
+        "Question": "Can you name a famous tennis player known for her powerful serve?",
+        "Answer": "Serena Williams is a top tennis champion!"
+    },
+    {
+        "Question": "Can you think of a long, flowing dress worn by women in India?",
+        "Answer": "It's called a sari, and they come in beautiful colors and patterns!"
+    },
+    {
+        "Question": "What does hand sanitizer do?",
+        "Answer": "It kills some germs when you can't wash with soap and water."
+    },
+    {
+        "Question": "Why do we put bandages on cuts?",
+        "Answer": "To keep them clean and help them heal faster."
+    },
+    {
+        "Question": "What is blood made of?",
+        "Answer": "Blood is like a liquid transport system! It carries oxygen, nutrients, waste products, and helpers that fight off germs."
+    },
+    {
+        "Question": "Why does oil splatter when you add water?",
+        "Answer": "Water turns to steam (gas) instantly when it hits hot oil.  This sudden expansion makes the oil splash outwards."
+    },
+    {
+        "Question": "What's death?",
+        "Answer": "Death is when someone's body no longer works and they can't come back. It's a part of life, but that doesn't make it easy. If you're worried about someone who died, or just curious about it, you can talk to your mom/dad, or a trusted grown-up."
+    },
+    {
+        "Question": "What word describes a color that has no color at all, like snow?",
+        "Answer": "White!  A blank piece of paper is white too."
+    },
+    {
+        "Question": "Is it okay to ask politely to be excused if you really don't like the food that's served?",
+        "Answer": "Yes! It's good to communicate what you like and don't like in a polite way."
+    },
+    {
+        "Question": "Are aliens real?",
+        "Answer": "We don't know yet! Scientists are searching for signs of life on other planets, but haven't found proof of aliens so far."
+    },
+    {
+        "Question": "What kind of animal gives us soft, fluffy wool for sweaters?",
+        "Answer": "Sheep!"
+    },
+    {
+        "Question": "If something is 'delicious', how does it taste?",
+        "Answer": "Really yummy! Delicious food makes you want to eat lots more. What's your favorite delicious snack?"
+    },
+    {
+        "Question": "When eating at a restaurant, is it important to use good manners?",
+        "Answer": "Yes! It shows respect to the people who cooked the food, and those around you."
+    },
+    {
+        "Question": "Why do old people sometimes get wrinkles?",
+        "Answer": "As we get older, our skin changes and becomes less stretchy. This can make wrinkles, which are like little folds in our skin."
+    },
+    {
+        "Question": "Why do we have to wash our hands?",
+        "Answer": "Washing hands gets rid of germs that can make us sick. It's like giving those nasty germs a super bubbly eviction!"
+    },
+    {
+        "Question": "What does an illustrator do?",
+        "Answer": "An illustrator creates the pictures you see in a book."
+    },
+    {
+        "Question": "What does Dora the Explorer always carry?",
+        "Answer": "Her backpack (and Map!)"
+    },
+    {
+        "Question": "Why do you think learning about clothes from other places is interesting?",
+        "Answer": "It shows us how people around the world are different and celebrate their own special traditions!"
+    },
+    {
+        "Question": "Can you solve problems without using any words, just by doing or trying things?",
+        "Answer": "Absolutely!  Think of fixing a broken toy, or figuring out how a new gadget works."
+    },
+    {
+        "Question": "What is a healthy protein food that swims in the ocean?",
+        "Answer": "Fish!"
+    },
+    {
+        "Question": "What are some different kinds of hats?",
+        "Answer": "Baseball caps, winter hats, straw hats for the sun, and fancy hats for special occasions"
+    },
+    {
+        "Question": "Why is space dark?",
+        "Answer": "Space is dark because there's not much out there to reflect the light from stars! It's like being in a giant room with only a few tiny flashlights."
+    },
+    {
+        "Question": "What do we use to carry our groceries around the store?",
+        "Answer": "A shopping cart or a basket."
+    },
+    {
+        "Question": "Why is it important to be kind?",
+        "Answer": "Being kind makes everyone feel good! It helps spread happiness and makes our world a better place."
+    },
+    {
+        "Question": "Can you think of a small problem you might have?",
+        "Answer": "Losing a toy, not being able to reach something, or a disagreement with a friend."
+    },
+    {
+        "Question": "Someone showed me their private parts.  Is that okay?",
+        "Answer": "No, that's not okay. Your body is private, and no one should touch you in a way that makes you feel uncomfortable.  Tell a grown-up you trust right away, like your mom, dad, or teacher."
+    },
+    {
+        "Question": "How does recycling help the environment?",
+        "Answer": "Recycling turns old things into new things! This saves resources and helps keep our planet cleaner. "
+    },
+    {
+        "Question": "What are fossils?",
+        "Answer": "Fossils are the super-old remains of plants or animals preserved in rocks. They're like clues about the past!"
+    },
+    {
+        "Question": "Do people in different parts of the world speak the same language?",
+        "Answer": "No! There are lots of languages like Spanish, French, Chinese, and many more."
+    },
+    {
+        "Question": "Is Santa Claus real?",
+        "Answer": "Do you want to be in on the secret of the fun of Santa Claus? When you know the secret, you get to *help* make the magic for younger kids!"
+    },
+    {
+        "Question": "How does our heart know to beat faster during exercise?",
+        "Answer": "Our body sends signals to our brain about needing more oxygen. The brain tells our heart to pump faster!"
+    },
+    {
+        "Question": "Is there a difference between rushing to try and solve a problem, and taking some time to think about it first?",
+        "Answer": "Yes!  Thinking first often leads to better solutions than just jumping in without a plan."
+    },
+    {
+        "Question": "Why are our legs stronger than our arms?",
+        "Answer": "Leg muscles are generally bigger and used more often in everyday movement like walking and standing."
+    },
+    {
+        "Question": "Why do we sometimes get hiccups?",
+        "Answer": "Hiccups happen when a muscle in our chest suddenly tightens, making a funny 'hic' sound!"
+    },
+    {
+        "Question": "If there's leftover birthday cake, when is it okay to have some?",
+        "Answer": "As a 'sometimes' treat!  Sugary treats shouldn't be an everyday thing."
+    },
+    {
+        "Question": "What are black holes?",
+        "Answer": "Black holes are super strong pockets of gravity in space. They pull everything in, even light, so we can't see them!"
+    },
+    {
+        "Question": "What animal gives us soft, warm wool?",
+        "Answer": "Sheep! We shear their fluffy coats to make wool."
+    },
+    {
+        "Question": "Where can you find lots of words to learn?",
+        "Answer": "In books! Reading helps us learn new words."
+    },
+    {
+        "Question": "What's a carpenter?",
+        "Answer": "A builder who specializes in working with wood to make things like houses and furniture. "
+    },
+    {
+        "Question": "When you bake cookies, do you measure the ingredients?",
+        "Answer": "Yes! Recipes use measuring cups and spoons to make sure we add the right amount of things."
+    },
+    {
+        "Question": "After clothes are made, how do they get to a store where you can buy them?",
+        "Answer": "Big trucks or ships carry them across long distances."
+    },
+    {
+        "Question": "If a fruit or vegetable has a small bruise or funny shape, is it still okay to eat?",
+        "Answer": "Usually yes! Just cut the bad part off. It doesn't look perfect, but reduces food waste."
+    },
+    {
+        "Question": "Why do camels have humps?",
+        "Answer": "Camels store fat in their humps \u2013 it's like having a built-in lunchbox for long desert journeys!"
+    },
+    {
+        "Question": "What happens if athletes don't drink enough water?",
+        "Answer": "Dehydration can make you feel tired, dizzy, and make it hard to perform your best, or even worse, make you sick."
+    },
+    {
+        "Question": "What is reaction time?",
+        "Answer": "Reaction time is how quickly your body reacts to something. Fast reaction time is important in many sports!"
+    },
+    {
+        "Question": "Why do we have two ears?",
+        "Answer": "Two ears help us figure out where sounds are coming from! It's like having super hearing direction powers."
+    },
+    {
+        "Question": "Have you ever grown herbs that you can use to add flavor to your cooking?",
+        "Answer": "It's fun to grow your own!  Basil, mint, and chives are good starters."
+    },
+    {
+        "Question": "What do cousins call each other's parents?",
+        "Answer": "Aunt and Uncle (even though they're not your direct aunt/uncle, but that of your cousin)"
+    },
+    {
+        "Question": "What is a magnet?",
+        "Answer": "Magnets have a special force called magnetism! They can pull some types of metals towards them, or even push against other magnets.  "
+    },
+    {
+        "Question": "Can you name other ways we communicate besides talking?",
+        "Answer": "We can write, use sign language, draw pictures, or even use our facial expressions!"
+    },
+    {
+        "Question": "Sculptures are like 3D drawings you can walk around! What are they made of?",
+        "Answer": "They can be made of all sorts of cool stuff, like clay, stone, metal, or even found objects."
+    },
+    {
+        "Question": "What does a red triangle with a downward arrow mean?",
+        "Answer": "Yield.  Slow down and be ready to stop if there's other traffic coming."
+    },
+    {
+        "Question": "Where can we find amazing artwork?",
+        "Answer": "Let's take a trip to a museum - there are so many treasures to see!"
+    },
+    {
+        "Question": "Why do we get dizzy if we spin around?",
+        "Answer": "Spinning messes with fluid in our ears that helps us with balance! It makes our brain think we're still moving even when we stop."
+    },
+    {
+        "Question": "Which planet is the hottest?",
+        "Answer": "Venus is the hottest planet!  Even though it's not the closest to the sun, its thick atmosphere traps heat."
+    },
+    {
+        "Question": "Can you decorate a plain rice cake to look like a funny face?",
+        "Answer": "Definitely! Use fruit for eyes, nut butter for a smile... get creative!"
+    },
+    {
+        "Question": "What does the word 'fast' mean?",
+        "Answer": "It means something can move quickly \u2013 like a cheetah running, or a car zooming down the street!"
+    },
+    {
+        "Question": "Which country is known for pyramids and pharaohs?",
+        "Answer": "Egypt"
+    },
+    {
+        "Question": "What does a sign with the words 'One Way' and an arrow mean? ",
+        "Answer": "Traffic can only go in the direction the arrow points."
+    },
+    {
+        "Question": "Why is it important to wash your hands before cooking?",
+        "Answer": "We don't want to spread germs onto the food we're making!"
+    },
+    {
+        "Question": "Do doctors have to go to school for a long time?",
+        "Answer": "Yes! Many years of college, plus medical school and extra training to be a specialist."
+    },
+    {
+        "Question": "Are grocery store workers helpers?",
+        "Answer": "Yes! They keep the shelves stocked so we can buy the food we need."
+    },
+    {
+        "Question": "Who works at the grocery store to help customers?",
+        "Answer": "Cashiers, people stocking shelves, sometimes butchers or bakers in special sections."
+    },
+    {
+        "Question": "Why do we wear different clothes for different weather?",
+        "Answer": "We dress for the weather to stay comfortable. Warm clothes in winter keep us from getting too cold, and light clothes in summer help us stay cool."
+    },
+    {
+        "Question": "Why is sleep so important?",
+        "Answer": "Sleep is like a rest time for our bodies and brains. It helps us recharge, grow stronger, and be ready for a new day! "
+    },
+    {
+        "Question": "How long does it take to get to the moon?",
+        "Answer": "It took astronauts about three days to travel to the moon on the Apollo missions!"
+    },
+    {
+        "Question": "A slide at the park is a simple machine, what is it called?",
+        "Answer": "An inclined plane, which is a fancy name for a ramp.  It makes it easier to move things up or down."
+    },
+    {
+        "Question": "Does buying 'organic' food matter?",
+        "Answer": "It's a choice! Organic means grown without certain chemicals, which some people prefer. It might be a bit more expensive."
+    },
+    {
+        "Question": "What does exercise do for our bodies?",
+        "Answer": "Exercise makes our hearts, muscles, and bones stronger. It helps us stay healthy and have energy to play!"
+    },
+    {
+        "Question": "If you spill something, is just cleaning it up part of the learning process?",
+        "Answer": "Yes! And thinking about how to be more careful next time to prevent it from happening again."
+    },
+    {
+        "Question": "Is being kind to others a way of being a helper?",
+        "Answer": "Definitely!  Even small acts of kindness can make someone's day better."
+    },
+    {
+        "Question": "If you have a recipe that needs 2 cups of milk, but you only have a big 1-pint measuring cup, can you still measure the milk?",
+        "Answer": "Yes! Since there are 2 cups in each pint, you would fill your big measuring cup up to the 1-pint line."
+    },
+    {
+        "Question": "What is the tallest tree in the world?",
+        "Answer": "The tallest trees are redwoods! They can grow taller than a football field is long."
+    },
+    {
+        "Question": "Why does it rain sometimes and snow other times?",
+        "Answer": "It depends how cold it is! If it's below freezing, water droplets in clouds turn into ice crystals and fall as snow."
+    },
+    {
+        "Question": "How does regular exercise make us healthier overall?",
+        "Answer": "Exercise strengthens our heart, lungs, muscles, and bones, helps us maintain a healthy weight, and even improves our mood!"
+    },
+    {
+        "Question": "Who was a famous civil rights leader in India that fought for independence?",
+        "Answer": "Mahatma Gandhi"
+    },
+    {
+        "Question": "What simple machine has a wheel and a rope to make lifting things easier? ",
+        "Answer": "A pulley! The rope goes over the wheel and changes the direction of the force, making it easier to pull heavy things up. "
+    },
+    {
+        "Question": "Does the size of a wheel on a wheel and axle matter?",
+        "Answer": "Yes! A bigger wheel means you turn it less to make the axle turn a lot - think of how much easier it is to turn a big steering wheel compared to a small toy one."
+    },
+    {
+        "Question": "Why do we have toes?",
+        "Answer": "Our toes help us balance, walk smoothly, and even grip things with our feet!"
+    },
+    {
+        "Question": "Why do people wear uniforms?",
+        "Answer": "Uniforms show which team you're on, your job (like firefighters), or what school you go to."
+    },
+    {
+        "Question": "Can you make your artwork bumpy, smooth, or fuzzy?  What's that called?",
+        "Answer": "That's called texture \u2013 it makes your art even more interesting!"
+    },
+    {
+        "Question": "What is the name of the Paw Patrol's leader?",
+        "Answer": "Ryder"
+    },
+    {
+        "Question": "What if you painted with a sponge, or even leaves?",
+        "Answer": "Art can be made with all sorts of things!"
+    },
+    {
+        "Question": "What are some good ways to solve a disagreement with a friend?",
+        "Answer": "Talk calmly, listen to each other's feelings, try to find a compromise, or apologize if you need to."
+    },
+    {
+        "Question": "I saw something scary on the internet about [inappropriate theme]. What does it mean?",
+        "Answer": "The internet can have things that aren't for kids. It sounds like you saw something that made you uncomfortable. You can always turn off the computer and tell a grown-up you trust, even if you were looking when you weren't supposed to."
+    },
+    {
+        "Question": "What's a better choice for most meals, water or a sugary drink like soda?",
+        "Answer": "Water! It helps our bodies work their best, and doesn't have lots of sugar."
+    },
+    {
+        "Question": "Besides meat, what are other protein foods that help build strong muscles?",
+        "Answer": "Beans, eggs, nuts, fish, and tofu are all good protein choices."
+    },
+    {
+        "Question": "Do all cars look the same? What are some different sizes and shapes of cars?",
+        "Answer": "There are big trucks, small sports cars, and even family vans. Cars come in all shapes and sizes!"
+    },
+    {
+        "Question": "What does a plumber do?",
+        "Answer": "They install and fix all the pipes that bring water into our houses, and take used water away."
+    },
+    {
+        "Question": "How do people get around in places where there are no roads?",
+        "Answer": "In some places, people ride bikes, horses, or even camels!"
+    },
+    {
+        "Question": "How does a magnifying glass make things look bigger?",
+        "Answer": "A magnifying glass bends light rays, making an object look bigger than it really is."
+    },
+    {
+        "Question": "Why do we have fingerprints?",
+        "Answer": "Fingerprints are unique to each person \u2013 no one else has the same ones! They help us grip things and even help the police solve mysteries."
+    },
+    {
+        "Question": "What could you add to a salad to make it more filling and have protein?",
+        "Answer": "Grilled chicken, beans, nuts, or even cheese!"
+    },
+    {
+        "Question": "What if you want to make a treehouse, but have no idea where to start? What's the first problem-solving step?",
+        "Answer": "Research and planning! Find designs, figure out what materials you need, and where to build it safely."
+    },
+    {
+        "Question": "If a recipe calls for 2 eggs, and you only have 1, is that a problem to solve?",
+        "Answer": "Yes!  You'll need to adjust the recipe, or find an egg substitute."
+    },
+    {
+        "Question": "Do scientists and inventors make a lot of mistakes along the way?",
+        "Answer": "Tons!  Each mistake helps them get closer to a solution that works."
+    },
+    {
+        "Question": "What do you call your brother's daughter?",
+        "Answer": "Your niece!"
+    },
+    {
+        "Question": "Are there ways to make cooking a team effort with a sibling or your friends?",
+        "Answer": "Definitely!  One person reads the recipe, others measure, someone mixes..."
+    },
+    {
+        "Question": "Why is it important to be kind to yourself when you make a mistake?",
+        "Answer": "We learn best when we're not feeling frustrated or bad about ourselves. Everyone messes up!"
+    },
+    {
+        "Question": "Why does the Earth have seasons?",
+        "Answer": "We have seasons because the Earth is tilted! As it orbits the sun, different parts get more direct sunlight, making them warmer."
+    },
+    {
+        "Question": "Who is a famous soccer player known for his amazing goals and skills?",
+        "Answer": "Lionel Messi (or Cristiano Ronaldo) are both soccer superstars!"
+    },
+    {
+        "Question": "What food comes from a chicken?",
+        "Answer": "Eggs!"
+    },
+    {
+        "Question": "Where do most of the foods we eat come from before we buy them?",
+        "Answer": "Grocery stores!"
+    },
+    {
+        "Question": "Whose job is it to buy healthy food?",
+        "Answer": "Grown-ups!"
+    },
+    {
+        "Question": "What is a shape with three sides and three corners called?",
+        "Answer": "A triangle!"
+    },
+    {
+        "Question": "Could we breathe on other planets?",
+        "Answer": "Not on any of the planets we know of! Each planet has a different atmosphere (mix of gases), and none are quite like Earth's."
+    },
+    {
+        "Question": "How do broken bones heal?",
+        "Answer": "Our bodies are amazing fixers! When a bone breaks, special cells rush in to form new bone, and it slowly gets strong again, often with a doctor's help."
+    },
+    {
+        "Question": "If you get a cut, why is it important to clean it with soap and water?",
+        "Answer": "To wash away any germs that might get inside where the skin is broken, and help prevent infection."
+    },
+    {
+        "Question": "Why do we need to save some of our money?",
+        "Answer": "Saving money helps us prepare for unexpected things, or buy something special in the future."
+    },
+    {
+        "Question": "Which Disney princess has long, magical hair?",
+        "Answer": "Rapunzel"
+    },
+    {
+        "Question": "What's one exercise you can do to make your legs stronger?",
+        "Answer": "Squats, running, lunges, or even climbing stairs!"
+    },
+    {
+        "Question": "Why do we need to warm up before exercising?",
+        "Answer": "Warming up gets your heart pumping, loosens your muscles, and helps prevent injuries by making your body more flexible."
+    },
+    {
+        "Question": "Can you show the number five twice - once using one hand, and the other time using both hands?",
+        "Answer": "Absolutely!  Hold up all five fingers on one hand, then hold up one whole hand on the other side to show five again."
+    },
+    {
+        "Question": "Why is our skin stretchy?",
+        "Answer": "Our skin contains fibers that make it stretchy and flexible, helping it move with us as we bend and stretch."
+    },
+    {
+        "Question": "How do gymnasts flip and spin so easily?",
+        "Answer": "By tucking their bodies tightly, they reduce their 'size' which makes it easier to rotate quickly."
+    },
+    {
+        "Question": "How do plants drink water?",
+        "Answer": "Plants have roots that act like tiny straws! They suck up water and nutrients from the soil."
+    },
+    {
+        "Question": "What's something simple but tasty you can bake?",
+        "Answer": "Cookies or muffins (pre-made mixes are a good start!)"
+    },
+    {
+        "Question": "Does getting a vaccine hurt?",
+        "Answer": "A little pinch, but it's fast! Vaccines help our body learn to fight off serious germs!"
+    },
+    {
+        "Question": "Why do we sometimes get a shock from the fridge or oven?",
+        "Answer": "This is static electricity! It happens when there's a build-up of electric charges on the appliance, and they jump to your body when you touch it."
+    },
+    {
+        "Question": "What kind of transportation uses wings to fly?",
+        "Answer": "Airplanes! They have powerful engines and wings that help them soar through the sky."
+    },
+    {
+        "Question": "What part of a car helps it stop?",
+        "Answer": "The brakes."
+    },
+    {
+        "Question": "Why do our fingers get wrinkly when we're in the water for a long time?",
+        "Answer": "Scientists think wrinkly fingers might have helped our ancestors grip things better when things were wet!"
+    },
+    {
+        "Question": "If you want to build the tallest block tower possible, what are some important things to think about?",
+        "Answer": "A strong base, balancing the blocks carefully, maybe even the shape of the blocks themselves."
+    },
+    {
+        "Question": "When building with blocks or LEGOs, and your tower keeps falling over, is that problem-solving?",
+        "Answer": "Definitely! You're experimenting to find what makes it stronger and more stable."
+    },
+    {
+        "Question": "Why is it important to talk about our feelings?",
+        "Answer": "Bottling up our feelings can make us feel worse. Talking to a trusted adult can help us feel better and solve problems."
+    },
+    {
+        "Question": "How do we get taller?",
+        "Answer": "We have special parts in our bones that help us grow. Eating healthy food and getting good sleep helps our bodies grow big and strong."
+    },
+    {
+        "Question": "What is the International Space Station?",
+        "Answer": "The International Space Station (ISS) is like a big science lab orbiting Earth! Astronauts from different countries live and work there."
+    },
+    {
+        "Question": "Why do traffic lights change color?",
+        "Answer": "Traffic lights control the flow of cars so everyone can take turns and avoid accidents."
+    },
+    {
+        "Question": "Why do birds fly south in the winter?",
+        "Answer": "Birds fly south in a trip called migration to find warmer weather and enough food to eat. It's like taking a winter vacation!"
+    },
+    {
+        "Question": "Can you name 3 sports you can play with a ball?",
+        "Answer": "Basketball, soccer, baseball, football, tennis... there are so many!"
+    },
+    {
+        "Question": "Is dessert a part of every meal?",
+        "Answer": "Nope! Dessert is a 'sometimes' food."
+    },
+    {
+        "Question": "What does an author do?",
+        "Answer": "An author writes the words that make up a book or story."
+    },
+    {
+        "Question": "If you're looking for peanut butter, do you find it in the same aisle as bread, or somewhere else?",
+        "Answer": "Usually in the same aisle!  Things that go together are often near each other."
+    },
+    {
+        "Question": "Is it okay if your first attempt at a new recipe doesn't turn out perfect?",
+        "Answer": "Absolutely!  It's all part of learning.  You can try again or adjust things next time."
+    },
+    {
+        "Question": "What does empathy mean?",
+        "Answer": "Empathy is trying to understand how someone else feels, and caring about their feelings."
+    },
+    {
+        "Question": "Why do some fruits and vegetables have stickers on them?",
+        "Answer": "The stickers have codes that tell the cashier what kind they are and how much they cost."
+    },
+    {
+        "Question": "Why do we need to brush our teeth?",
+        "Answer": "Brushing removes yucky stuff called plaque that can cause cavities (holes in our teeth). It helps keep our smiles healthy!"
+    },
+    {
+        "Question": "Can eating healthy food also be delicious?",
+        "Answer": "Definitely! There are so many tasty and healthy recipes out there."
+    },
+    {
+        "Question": "If your friend is sick at school, is it better to give them a high five or a fist bump?",
+        "Answer": "Fist bump!  There's less hand contact, which means fewer germs spreading."
+    },
+    {
+        "Question": "Why do some sports balls have dimples?",
+        "Answer": "Dimples on balls like golf balls mess with the air around them, creating a force that helps them fly further and straighter!"
+    },
+    {
+        "Question": "What is a librarian? ",
+        "Answer": "A helper who works in a library, surrounded by books! They help us find stories and information."
+    },
+    {
+        "Question": "How does a seesaw work?",
+        "Answer": "A seesaw is like a simple machine called a lever! It uses the force of weight to lift things on the other side."
+    },
+    {
+        "Question": "Is it okay for siblings to sometimes disagree or argue?",
+        "Answer": "Definitely! It's normal, but the important part is learning how to work it out and make up."
+    },
+    {
+        "Question": "Is there a healthy way to make popcorn even more delicious?",
+        "Answer": "Sprinkle cheese, herbs, or a little garlic powder instead of just salt and butter."
+    },
+    {
+        "Question": "Who is Mickey Mouse's best friend?",
+        "Answer": "Goofy"
+    },
+    {
+        "Question": "Where does our voice come from?",
+        "Answer": "We have special folds in our throat called vocal cords. When we talk, air makes those cords vibrate to create sound \u2013 our voice!"
+    },
+    {
+        "Question": "Why does a ball curve when you throw it with a spin?",
+        "Answer": "Spinning the ball messes with the airflow around it! This creates unequal pressure on different sides, making the ball curve in flight."
+    },
+    {
+        "Question": "Which ocean is the largest?",
+        "Answer": "The Pacific Ocean"
+    },
+    {
+        "Question": "Name a food that's spicy.",
+        "Answer": "Peppers, salsa... (this depends on the child's experience!)"
+    },
+    {
+        "Question": "What food group gives us energy to run and play?",
+        "Answer": "Grains!  Things like bread, pasta, rice, and cereal."
+    },
+    {
+        "Question": "Do you look at cookbooks or websites for new recipes to try?",
+        "Answer": "It's a great way to find yummy ideas and get inspired!"
+    },
+    {
+        "Question": "Which cartoon character says 'D'oh!'?",
+        "Answer": "Homer Simpson"
+    },
+    {
+        "Question": "Can you find shapes in your house? ",
+        "Answer": "Yes! Tables might be rectangles, pizza is a circle, and blocks might be squares or cubes."
+    },
+    {
+        "Question": "Why does my body look different than my friend's?",
+        "Answer": "Our bodies come in all shapes and sizes, and that's what makes us special!  Just like how we have different hair colors or eye colors, our bodies can develop at different paces too.  Is there something specific you're wondering about?"
+    },
+    {
+        "Question": "Can you show empathy to animals?",
+        "Answer": "Absolutely!  Being gentle with pets, noticing if they look tired, or giving them fresh water shows we care about how they feel."
+    },
+    {
+        "Question": "Do all countries have the same kind of government?",
+        "Answer": "No! There are democracies, monarchies (kings and queens), and other systems of who makes decisions for a country."
+    },
+    {
+        "Question": "Can you name some famous explorers?",
+        "Answer": "Christopher Columbus, Marco Polo, Amelia Earhart, and many more throughout history!"
+    },
+    {
+        "Question": "Can you sometimes find treats like cookies or candy near the checkout line?",
+        "Answer": "Yes! Stores put them there hoping you might buy them on impulse."
+    },
+    {
+        "Question": "Why do we shiver when we're cold?",
+        "Answer": "Shivering is our body's super speedy workout to warm us up! Our muscles shake to create heat."
+    },
+    {
+        "Question": "How many ounces are in one cup?",
+        "Answer": "There are 8 ounces in one cup."
+    },
+    {
+        "Question": "How does a phone let us talk to people far away?",
+        "Answer": "Phones turn our voices into special signals that travel through wires or even through the air to reach the other person's phone!"
+    },
+    {
+        "Question": "Why is breakfast important?",
+        "Answer": "It gives your body energy to start the day, especially for your brain to learn and focus!"
+    },
+    {
+        "Question": "What are some units we use to measure length?",
+        "Answer": "Inches, feet, centimeters, and meters are some units for measuring length."
+    },
+    {
+        "Question": "What's the opposite of 'hot'?",
+        "Answer": "Cold!"
+    },
+    {
+        "Question": "What's one section of the grocery store that might have lots of colorful foods? ",
+        "Answer": "The produce section, with all the fruits and vegetables!"
+    },
+    {
+        "Question": "What's a crosswalk?",
+        "Answer": "Stripes on the road that show pedestrians where it's safer to cross."
+    },
+    {
+        "Question": "Have you ever gotten lost? What are some problem-solving things you could do?",
+        "Answer": "Stay calm, look for familiar signs, and if you're safe, ask a trusted adult for help."
+    },
+    {
+        "Question": "There are all sorts of shapes \u2013 circles, squares, triangles... can you find some around you?",
+        "Answer": "Look at plates, books, windows, even your toys!"
+    },
+    {
+        "Question": "What are some different sports people play?",
+        "Answer": "Soccer, basketball, baseball, swimming, tennis, gymnastics, and many more!"
+    },
+    {
+        "Question": "What simple machine do you think stairs are made from?",
+        "Answer": "Lots of little inclined planes! Each step is a small ramp that makes it easier to get up to higher places."
+    },
+    {
+        "Question": "Do all families look the same?",
+        "Answer": "Nope! Families come in all shapes and sizes. Some kids live with two parents, some with one parent, some with grandparents."
+    },
+    {
+        "Question": "Imagine there are 10 birds on a tree and 3 fly away.  How many birds are left on the tree?",
+        "Answer": "There would be 7 birds left on the tree."
+    },
+    {
+        "Question": "How do airplanes fly?",
+        "Answer": "Airplanes fly using lift! The special shape of their wings makes air move faster over the top, creating a force that pushes them up."
+    },
+    {
+        "Question": "Is it a  good idea to ask for help when you're stuck on a problem?",
+        "Answer": "Absolutely!  Sometimes another person can give you fresh ideas."
+    },
+    {
+        "Question": "If your friend falls down and gets hurt, how might they be feeling?",
+        "Answer": "They might feel scared, sad, or in pain."
+    },
+    {
+        "Question": "Can we predict the weather?",
+        "Answer": "Meteorologists (weather scientists) study patterns and use computers to predict, but weather can be tricky to get exactly right!"
+    },
+    {
+        "Question": "Do you like to help cook or bake in the kitchen?",
+        "Answer": "It's a fun way to learn, and sometimes you get to lick the spoon!"
+    },
+    {
+        "Question": "What safety rules are important to remember when riding a bike?",
+        "Answer": "Always wear a helmet, follow traffic signs, and watch out for cars!"
+    },
+    {
+        "Question": "How do stores decide how much things cost?",
+        "Answer": "Stores need to cover the cost of getting the item, paying their workers, and make a little extra to stay open!"
+    },
+    {
+        "Question": "Can you 'catch' feelings from someone else?",
+        "Answer": "Sometimes! If your friend is giggling, you might start laughing too.  Or if someone is grumpy, it might affect your mood."
+    },
+    {
+        "Question": "What do the signs + and \u2013 mean?",
+        "Answer": "Plus (+) means putting things together, and minus (-) means taking things away."
+    },
+    {
+        "Question": "What do you wear on a rainy day to keep your feet dry?",
+        "Answer": "Rain boots."
+    },
+    {
+        "Question": "Is it important to clean up spills right away?",
+        "Answer": "Yes! Spills (especially of food) can attract bugs and make germs spread."
+    },
+    {
+        "Question": "Some cultures wear beautiful robes. Can you think of a country where people wear kimonos?",
+        "Answer": "Japan!"
+    },
+    {
+        "Question": "Can you name a fast swimmer who won lots of Olympic gold medals?",
+        "Answer": "Michael Phelps is a record-breaking Olympic swimmer!"
+    },
+    {
+        "Question": "Can you name a famous tennis player known for her powerful serve?",
+        "Answer": "Serena Williams is a top tennis champion!"
+    },
+    {
+        "Question": "Why does a spinning top stay upright?",
+        "Answer": "Spinning gives the top something called angular momentum, which helps it balance and resist falling over."
+    },
+    {
+        "Question": "Is it okay to feel frustrated when you have a problem to solve?",
+        "Answer": "Definitely!  It's normal, but we can learn ways to manage that frustration. "
+    },
+    {
+        "Question": "What is a machine that uses a big wheel and rope to lift heavy things?",
+        "Answer": "A pulley!"
+    },
+    {
+        "Question": "Why do flowers smell nice?",
+        "Answer": "Flowers smell nice to attract bees and butterflies! Their sweet smell is like an invitation for a yummy nectar snack. Nectar is a bug's favorite treat!"
+    },
+    {
+        "Question": "Is it okay to ask for help when you don't understand a word?",
+        "Answer": "Absolutely! Asking for help is how we learn new things."
+    },
+    {
+        "Question": "What's something besides food that you can buy in bulk to reduce waste?",
+        "Answer": "Things like soap, shampoo, or even toilet paper come in big sizes so you need less packaging."
+    },
+    {
+        "Question": "How does the internet work?",
+        "Answer": "The internet is like a giant network of connected computers all around the world! Information travels along cables and wireless signals."
+    },
+    {
+        "Question": "How do owls see so well at night?",
+        "Answer": "Owls have huge eyes that let in lots of light, and their heads can turn super far for spotting prey in the dark."
+    },
+    {
+        "Question": "What do we call a drawing of a person?",
+        "Answer": "A portrait!"
+    },
+    {
+        "Question": "Can words have more than one meaning?",
+        "Answer": "Yes! Think of the word 'bat' \u2013 it can be an animal or something you hit a ball with."
+    },
+    {
+        "Question": "How are rocks made?",
+        "Answer": "Some are made from fiery melted rock (magma or lava), others from tiny bits of stuff squished together over a long time!"
+    },
+    {
+        "Question": "Why is buying fruits and veggies that are 'in season' a good idea?",
+        "Answer": "They're fresher, tastier, often cheaper, and didn't have to travel as far by truck (which is better for the environment)."
+    },
+    {
+        "Question": "What does a red traffic light mean?",
+        "Answer": "Stop!"
+    },
+    {
+        "Question": "Imagine a road stretching far away...things in the distance look tiny, right? What's that called in art?",
+        "Answer": "That's called perspective \u2013 it makes drawings look more realistic."
+    },
+    {
+        "Question": "How does a blender work?",
+        "Answer": "The blades in a blender spin super fast! The force of the spinning mixes things together and chops them into tiny pieces. "
+    },
+    {
+        "Question": "If you have 3 crayons and your friend gives you 2 more, how many do you have in total?",
+        "Answer": "You have 5 crayons."
+    },
+    {
+        "Question": "What is a word for a really big and impressive building?",
+        "Answer": "You could call it a castle, a palace, or a mansion.  Those are places where kings and queens might live!"
+    },
+    {
+        "Question": "How does a car work?",
+        "Answer": "Cars have engines that burn fuel to create energy. This energy turns the wheels and makes the car move!"
+    },
+    {
+        "Question": "What do your parents call their parents?",
+        "Answer": "Grandma and Grandpa (just like you do!)"
+    },
+    {
+        "Question": "Why do we sometimes get muscle cramps?",
+        "Answer": "Scientists aren't sure, but cramps might happen when muscles are overworked, dehydrated, or low on certain minerals."
+    },
+    {
+        "Question": "If you see your dog or cat stretching, is that a kind of exercise for them too?",
+        "Answer": "Yes!  Animals need to move their bodies too."
+    },
+    {
+        "Question": "What happens if I eat too many sweets?",
+        "Answer": "Eating lots of sweets means not enough room for healthy foods, and too much sugar can make us tired and shaky, and even hurt our teeth."
+    },
+    {
+        "Question": "Where do babies come from?",
+        "Answer": "That's a question for when you're a little older! But for now, know that families are made with lots of love. How about we learn about how animals have babies?"
+    },
+    {
+        "Question": "Do poems always rhyme?",
+        "Answer": "Nope! Poems can have rhythm and interesting words, even if they don't always rhyme."
+    },
+    {
+        "Question": "Why do I have to apologize when I do something wrong?",
+        "Answer": "Apologizing shows that you understand you made a mistake, you regret it, and you want to make things better with the other person."
+    },
+    {
+        "Question": "Can you write your own name?",
+        "Answer": "Maybe! Some kids are still learning to write all the letters of their name."
+    },
+    {
+        "Question": "Is exercise more fun by yourself, or with friends and family?",
+        "Answer": "It can be fun both ways!  But playing together is often extra silly and fun."
+    },
+    {
+        "Question": "Why is it important to wash our hands before preparing food?",
+        "Answer": "So we don't spread germs to the food we're going to eat."
+    },
+    {
+        "Question": "Is it okay to share food or drinks with a friend who is sick?",
+        "Answer": "No!  It's easy to spread germs that way, even if we love our friends."
+    },
+    {
+        "Question": "Why do we get scared?",
+        "Answer": "Being scared is our body's way of protecting us from danger! It gets us ready to act quickly if we need to."
+    },
+    {
+        "Question": "Can you cut out pictures and glue them together to make a new silly picture?",
+        "Answer": "That's a collage \u2013 it's a fun way to make art!"
+    },
+    {
+        "Question": "If you help grow a vegetable, are you more likely to want to taste it?",
+        "Answer": "Often, yes!  We're proud of the food we help grow."
+    },
+    {
+        "Question": "Who was Marie Curie?",
+        "Answer": "A brilliant scientist who studied radioactivity and won Nobel Prizes for her amazing discoveries!"
+    },
+    {
+        "Question": "What are some different ways we can travel from one place to another?",
+        "Answer": "We can walk, bike, ride in cars, buses, trains, airplanes, and even ships!"
+    },
+    {
+        "Question": "Where is a fun place to play tag?",
+        "Answer": "At the park, the backyard, or maybe even at school during recess!"
+    },
+    {
+        "Question": "Can you hop on one foot? How about the other foot?",
+        "Answer": "Hopping helps build balance and coordination."
+    },
+    {
+        "Question": "What makes someone a good friend?",
+        "Answer": "Someone who is kind, makes you laugh, listens, and supports you."
+    },
+    {
+        "Question": "How can I help someone who is being bullied?",
+        "Answer": "Stand up for the person being bullied if you can. Tell a trusted adult what's happening so they can help."
+    },
+    {
+        "Question": "Why do we burp?",
+        "Answer": "Burps are our bodies getting rid of extra air we swallow while eating or drinking. It's a bubbly way to let it out!"
+    },
+    {
+        "Question": "How does a hug make someone feel?",
+        "Answer": "A hug can make someone feel loved, cared for, and less alone."
+    },
+    {
+        "Question": "Should you touch your eyes, nose, or mouth if your hands aren't clean?",
+        "Answer": "No way!  That's how germs can get inside our bodies."
+    },
+    {
+        "Question": "Are there other planets like Earth?",
+        "Answer": "Scientists think so! They've found planets called exoplanets that might be similar to Earth, but we're still exploring."
+    },
+    {
+        "Question": "Would a peanut butter and jelly sandwich be better on white bread or whole grain bread?",
+        "Answer": "Whole grain bread! It's healthier and gives us more fiber."
+    },
+    {
+        "Question": "Why do swimmers wear tight swimsuits?",
+        "Answer": "Tight suits reduce drag (the water's resistance). Less drag means they can move faster through the water!"
+    },
+    {
+        "Question": "Are simple machines only found in old-fashioned things?",
+        "Answer": "Not at all! Simple machines are hidden inside all sorts of complex machines.  Cars, bulldozers, even your bike use these building blocks."
+    },
+    {
+        "Question": "What do you call your aunt or uncle's children?",
+        "Answer": "Your cousins!"
+    },
+    {
+        "Question": "If there's a food you BEG your parents to buy, but they say 'no', is it okay to be a little disappointed?",
+        "Answer": "Yes, it's okay to feel that way.  But remember grown-ups often try to make healthy choices."
+    },
+    {
+        "Question": "How are the pieces of a shirt put together?",
+        "Answer": "They are sewn together using a sewing machine and thread."
+    },
+    {
+        "Question": "Is the number seven odd or even?",
+        "Answer": "Seven is an odd number. Odd numbers don't have a partner to perfectly match up with."
+    },
+    {
+        "Question": "Why do we need to wear sunscreen?",
+        "Answer": "Sunscreen protects our skin from the sun's strong rays that can hurt us. It's like putting on a sun-safety shield!"
+    },
+    {
+        "Question": "Does flossing help get rid of germs hiding in your mouth?",
+        "Answer": "Yes! It cleans between your teeth, where your toothbrush can't reach. "
+    },
+    {
+        "Question": "What does our stomach do?",
+        "Answer": "Our stomach is like a food blender! It breaks down food into smaller pieces that our body can use."
+    },
+    {
+        "Question": "How do volcanoes work?",
+        "Answer": "Volcanoes are like mountains with fiery melted rock (magma) inside. Sometimes the pressure builds up and they erupt!"
+    },
+    {
+        "Question": "If a recipe calls for 1 cup, and you only need half as much, how much would you use?",
+        "Answer": "A half cup!"
+    },
+    {
+        "Question": "How do cuts heal?",
+        "Answer": "Our bodies are incredible! When we get a cut, our blood makes a special clot (like a scab) and new skin cells grow to fix it up."
+    },
+    {
+        "Question": "Which cartoon dog has a big red nose?",
+        "Answer": "Clifford the Big Red Dog"
+    },
+    {
+        "Question": "Can you name 3 different types of helpers?",
+        "Answer": "Doctors, teachers, firefighters, police officers... there are so many!"
+    },
+    {
+        "Question": "How do high jumpers get so high?",
+        "Answer": "They run fast to gain momentum, then convert that forward motion into upward power by pushing hard off the ground."
+    },
+    {
+        "Question": "Why is buying food from a local farmer's market a responsible choice?",
+        "Answer": "The food doesn't travel as far (less pollution), it supports farmers in your community, and it's often super fresh!"
+    },
+    {
+        "Question": "Why do babies cry?",
+        "Answer": "Crying is a baby's way of talking before they can use words! It can mean they're hungry, tired, need a diaper change, or just want a cuddle."
+    },
+    {
+        "Question": "Why do we need to take a bath or shower?",
+        "Answer": "To wash away dirt, sweat, and some of the germs from the day."
+    },
+    {
+        "Question": "What food group gives us strong bones and teeth?",
+        "Answer": "Dairy! Milk, yogurt, and cheese are good sources of calcium."
+    },
+    {
+        "Question": "What is a good 'first recipe' to learn how to cook all by yourself?",
+        "Answer": "Scrambled eggs!  They're easy, but still feel like a big accomplishment."
+    },
+    {
+        "Question": "What does it mean to count?",
+        "Answer": "Counting means figuring out how many things there are in a group."
+    },
+    {
+        "Question": "What's another way to say 'throw'?",
+        "Answer": "Toss, fling, or hurl."
+    },
+    {
+        "Question": "Why should we try to have a positive attitude?",
+        "Answer": "Thinking positive thoughts can make us feel happier, and even help us tackle challenges better!"
+    },
+    {
+        "Question": "What does a red and white sideways triangle mean?",
+        "Answer": "No Parking. You cannot leave your car there."
+    },
+    {
+        "Question": "Does helping prepare food in the kitchen sometimes make you want to try it?",
+        "Answer": "Often it does!  Helping out can be fun, and you get to see how the food is made."
+    },
+    {
+        "Question": "Is ice cream a good way to get your dairy in?",
+        "Answer": "It has some calcium, but also lots of sugar.  Yogurt or a glass of milk are healthier everyday dairy choices."
+    },
+    {
+        "Question": "What is the past tense of the verb 'eat'?",
+        "Answer": "Ate!"
+    },
+    {
+        "Question": "What are allergies?",
+        "Answer": "Allergies happen when our bodies overreact to something that's usually harmless, like pollen or peanuts. It can make us sneeze or get a rash."
+    },
+    {
+        "Question": "Besides yummy food, what's the best part about cooking?",
+        "Answer": "Feeling proud of what you made, and maybe even sharing it with others!"
+    },
+    {
+        "Question": "What happens when you mix a primary color and a secondary color together?",
+        "Answer": "You get even more cool colors!"
+    },
+    {
+        "Question": "Where do germs like to hide?",
+        "Answer": "On our hands, under fingernails, on things we touch, and sometimes in food that's gone bad."
+    },
+    {
+        "Question": "Why do some people need glasses?",
+        "Answer": "Glasses help our eyes focus on things properly. Sometimes our eyes are a little differently shaped, and glasses help them see clearly. "
+    },
+    {
+        "Question": "Can you build a simple machine using things from around your house?",
+        "Answer": "Absolutely! Try stacking some books and using a ruler as a lever to lift them, or creating a ramp with a board and seeing how it makes rolling a toy car easier. "
+    },
+    {
+        "Question": "If you want something really badly, how might you feel?",
+        "Answer": "You might feel eager or excited!  Maybe you can't wait for your birthday or a special trip."
+    },
+    {
+        "Question": "If something is 'sticky', what happens when you touch it?",
+        "Answer": "It sticks to your fingers! Think of how tape, honey, or glue feels when you touch them."
+    },
+    {
+        "Question": "Why are some rocks smooth and some rough?",
+        "Answer": "Rocks get smoothed by wind, water, and even bumping into each other. It's like nature's sandpaper!"
+    },
+    {
+        "Question": "What could you use to measure how heavy you are?",
+        "Answer": "A scale!  We stand on a scale to find out our weight."
+    },
+    {
+        "Question": "How many inches are in one foot?",
+        "Answer": "There are 12 inches in one foot."
+    },
+    {
+        "Question": "There are lots of choices of cereal! How do you decide which one to try?",
+        "Answer": "Read the labels!  Look for ones with whole grains, less sugar, and maybe a flavor you like."
+    },
+    {
+        "Question": "Does cheese come from plants or animals?",
+        "Answer": "Animals!  Cheese is made from milk, which comes from cows."
+    },
+    {
+        "Question": "Is it okay to ask for a sample or taste of something at the grocery store before buying it?",
+        "Answer": "Sometimes! Stores often have sample stations where you can try things."
+    },
+    {
+        "Question": "If a table is 3 feet long, how many inches long is it?",
+        "Answer": "It's 36 inches long. (Since each foot is 12 inches, we do 3 x 12 = 36)"
+    },
+    {
+        "Question": "Do you know a solid shape that looks like a party hat?",
+        "Answer": "A cone!"
+    },
+    {
+        "Question": "What is bread made from?",
+        "Answer": "Grains, like wheat or oats!"
+    },
+    {
+        "Question": "Should you wash your hands with hot or cold water?",
+        "Answer": "Either works!  The important part is using soap and scrubbing well."
+    },
+    {
+        "Question": "What are the first ten numbers you learn to count?",
+        "Answer": "One, two, three, four, five, six, seven, eight, nine, and ten!"
+    },
+    {
+        "Question": "Is a pencil longer or shorter than your foot?",
+        "Answer": "A pencil is shorter than your foot."
+    },
+    {
+        "Question": "Does practicing a sport over and over help you get better at it?",
+        "Answer": "Yes! Practice builds muscle memory and helps us improve our skills."
+    },
+    {
+        "Question": "Is your mail carrier a helper in your community?",
+        "Answer": "Yes!  They deliver important letters and packages to our homes."
+    },
+    {
+        "Question": "What do we call the shape of a stop sign?",
+        "Answer": "An octagon (it has eight sides)."
+    },
+    {
+        "Question": "Why do we pay taxes?",
+        "Answer": "Taxes are money collected by the government to pay for things everyone uses, like roads, schools, and firefighters."
+    },
+    {
+        "Question": "Can you draw a picture of yourself?",
+        "Answer": "That's called a portrait!"
+    },
+    {
+        "Question": "When it's cold outside, what does a thermometer measure?",
+        "Answer": "It measures the temperature, or how hot or cold something is."
+    },
+    {
+        "Question": "What's another word for 'happy'?",
+        "Answer": "Joyful, glad, cheerful, or excited could all work!"
+    },
+    {
+        "Question": "Do builders have to work as a team?",
+        "Answer": "Definitely!  It takes lots of different people with different skills to get a big job done."
+    },
+    {
+        "Question": "Are quesadillas easy to make?",
+        "Answer": "Yes!  Just cheese and a tortilla warmed up, then add what you like!"
+    },
+    {
+        "Question": "Where do apples come from?",
+        "Answer": "Apples grow on trees!"
+    },
+    {
+        "Question": "Can you see a clock in your house?  What parts of a clock help us tell time?",
+        "Answer": "The numbers, the big hand for minutes, and the little hand for hours all help us tell time!"
+    },
+    {
+        "Question": "Can you use your fingers to paint?",
+        "Answer": "Absolutely! Fingerpainting is messy and fun."
+    },
+    {
+        "Question": "Artists mix colors on a special flat board. What's it called?",
+        "Answer": "A palette - it's like a rainbow workstation!"
+    },
+    {
+        "Question": "If you want to build something, is it important to have a plan?",
+        "Answer": "It helps!  Even a simple sketch can help you figure out what you need and how to put it together."
+    },
+    {
+        "Question": "Why do we need to sleep?",
+        "Answer": "Sleep is like a rest time for our bodies and brains. It helps us recharge and feel ready for a new day!"
+    },
+    {
+        "Question": "Why does food cook faster in a pressure cooker?",
+        "Answer": "Pressure cookers trap steam, which makes the temperature inside get super high. This helps food cook much faster!"
+    },
+    {
+        "Question": "What's the opposite of 'start'?",
+        "Answer": "Stop, finish, or end."
+    },
+    {
+        "Question": "Do you have to be good at a sport to have fun playing?",
+        "Answer": "Nope!  The fun part is trying your best and playing with friends or family."
+    },
+    {
+        "Question": "Where can you find a ramp besides a slide at the playground?",
+        "Answer": "Wheelchair ramps make it easier for people to get into buildings, and moving trucks use ramps to load and unload stuff.  "
+    },
+    {
+        "Question": "Can you name some nouns in your room?",
+        "Answer": "Answers will vary, but could include things like: bed, desk, toy, book, etc."
+    },
+    {
+        "Question": "Name a food that's crunchy.",
+        "Answer": "Carrots, celery, apples... (let the child name them!)"
+    },
+    {
+        "Question": "Why do we say please and thank you?",
+        "Answer": "Saying please and thank you shows good manners! It's a way of being polite and showing appreciation to others."
+    },
+    {
+        "Question": "If a word starts with a capital letter, what does that usually mean?",
+        "Answer": "It might be a name, the first word of a sentence, or an important word."
+    },
+    {
+        "Question": "What happens to the food we eat?",
+        "Answer": "Our bodies take a wild digestion journey! Food gets broken down along the way and our body grabs the good stuff for energy."
+    },
+    {
+        "Question": "Do you think playing video games can help you become a better problem-solver?",
+        "Answer": "Sometimes! Many games involve puzzles, strategies, and having to figure things out to get to the next level."
+    },
+    {
+        "Question": "Can you find levers anywhere in your house?",
+        "Answer": "Look closely!  Doorknobs, light switches, scissors, and even the handle on a faucet all use a lever."
+    },
+    {
+        "Question": "Why do frogs have long, sticky tongues?",
+        "Answer": "Their long, sticky tongues help frogs snatch bugs for a quick and easy meal."
+    },
+    {
+        "Question": "What's a good way to keep your immune system strong? ",
+        "Answer": "Eating healthy foods, washing your hands, getting enough sleep, and playing outside!"
+    },
+    {
+        "Question": "Can playing video games count as exercise?",
+        "Answer": "There are some that get you moving, but most don't.  Active play is better for exercise."
+    },
+    {
+        "Question": "Where can you find new, healthy recipes to try?",
+        "Answer": "In cookbooks, online, or you can ask a grown-up for their favorites!"
+    },
+    {
+        "Question": "What do we call a big competition where athletes try to win medals?",
+        "Answer": "The Olympics!"
+    },
+    {
+        "Question": "Why does our hair grow long?",
+        "Answer": "Hair grows from tiny little pockets in our skin called follicles. Cells in the follicles keep making new hair, which is why it gets longer!"
+    },
+    {
+        "Question": "What is a vote, and why is it important?",
+        "Answer": "Voting is how we choose our leaders. It's a way for everyone to have a say in how things are decided in their community."
+    },
+    {
+        "Question": "Why do athletes need a good diet?",
+        "Answer": "Healthy food gives our bodies the fuel (energy) and nutrients they need to perform their best and stay strong."
+    },
+    {
+        "Question": "Why do grocery stores keep milk and cheese refrigerated?",
+        "Answer": "To keep them cold and fresh so they don't go bad too quickly."
+    },
+    {
+        "Question": "What simple salad dressings can you make by whisking things together?",
+        "Answer": "Olive oil and lemon juice, honey mustard, or Italian dressing!"
+    },
+    {
+        "Question": "Why do some people have freckles?",
+        "Answer": "Freckles are tiny spots where the skin has more melanin (that stuff that gives color). Some people are born with them, and they can get darker in the sun!"
+    },
+    {
+        "Question": "What are some ways to show your family you love them?",
+        "Answer": "Hugs, saying 'I love you', helping out, spending time together, making them a card or drawing."
+    },
+    {
+        "Question": "Why do some animals sleep during the winter?",
+        "Answer": "Some animals take a super deep winter sleep called hibernation \u2013 it's like a super long nap!  It helps them save energy when it's cold and food is scarce."
+    },
+    {
+        "Question": "What is the capital of France?",
+        "Answer": "Paris"
+    },
+    {
+        "Question": "Where does our garbage go?",
+        "Answer": "Garbage trucks take our trash to special places.  Some is buried in landfills, some is burned, and some is recycled!"
+    },
+    {
+        "Question": "Why do people wear different traditional clothing?",
+        "Answer": "Clothes often reflect climate, culture, religious beliefs, and show what's special to a group of people."
+    },
+    {
+        "Question": "Why do we sometimes get bruises?",
+        "Answer": "Bruises happen when we bump ourselves and tiny blood vessels under the skin break.  It's like a little colorful ouch badge!"
+    },
+    {
+        "Question": "What are some adjectives to describe a tree?",
+        "Answer": "Tall, green, leafy, rough..."
+    },
+    {
+        "Question": "Can rocks change?",
+        "Answer": "Definitely! Heat, pressure, and weather can change one type of rock into another slowly over time."
+    },
+    {
+        "Question": "Can animals talk to each other?",
+        "Answer": "Animals talk in different ways! They might use sounds, smells, body movements, or even dances like bees do."
+    },
+    {
+        "Question": "Are plastic water bottles a responsible choice?",
+        "Answer": "No! A reusable water bottle is much better for the environment."
+    },
+    {
+        "Question": "What is whole grain bread made from?",
+        "Answer": "Grains like wheat or oats. It's healthier than white bread."
+    },
+    {
+        "Question": "Which Disney princess has a pet tiger named Rajah?",
+        "Answer": "Princess Jasmine"
+    },
+    {
+        "Question": "What do you need to wear on your feet to go play in the snow?",
+        "Answer": "Boots!"
+    },
+    {
+        "Question": "If it's raining outside, how could we measure how much rain has fallen?",
+        "Answer": "With a rain gauge! It's like a special cup with markings to show how many inches of rain."
+    },
+    {
+        "Question": "Name something we can grow in a garden.",
+        "Answer": "Tomatoes, cucumbers, beans, peppers... (let the child name them!)"
+    },
+    {
+        "Question": "Why do astronauts wear spacesuits?",
+        "Answer": "Spacesuits are like tiny spaceships for people! They provide air, protect from extreme temperatures, and keep them safe in space."
+    },
+    {
+        "Question": "Is it important to listen to your body when you're feeling full?",
+        "Answer": "Yes!  It's telling you it has enough energy for now."
+    },
+    {
+        "Question": "How many continents are there?",
+        "Answer": "Seven! North America, South America, Europe, Asia, Africa, Australia, and Antarctica"
+    },
+    {
+        "Question": "What is a problem?",
+        "Answer": "Something that needs fixing, a puzzle to figure out, or a challenge to overcome."
+    },
+    {
+        "Question": "Photos can be beautiful art too! What would you like to take a picture of?",
+        "Answer": "A flower, your pet, a cool building... anything that catches your eye!"
+    },
+    {
+        "Question": "Why does being strong help you climb up on the playground?",
+        "Answer": "Strong muscles help you pull yourself up and have the energy to climb!"
+    },
+    {
+        "Question": "Is it okay to hit someone back if they hit me?",
+        "Answer": "Violence is never the answer.  If someone hits you, the best thing to do is walk away and tell a teacher or grown-up. They can help you deal with the situation."
+    },
+    {
+        "Question": "Why is ice slippery?",
+        "Answer": "Ice has a thin layer of water on top when it gets a little warmer. That water reduces friction, making it super slippery!"
+    },
+    {
+        "Question": "What color do you get when you mix blue and yellow?",
+        "Answer": "Green!"
+    },
+    {
+        "Question": "Is it okay to make a mess sometimes when you're cooking?",
+        "Answer": "A little mess is expected! The important part is having fun and cleaning up together afterward."
+    },
+    {
+        "Question": "Do penguins live in the North Pole or South Pole?",
+        "Answer": "Penguins live in the South Pole! Polar bears are found in the North Pole."
+    },
+    {
+        "Question": "Why is it good to have a variety of colors on your plate?",
+        "Answer": "Different colored foods have different vitamins and good stuff for our bodies!"
+    },
+    {
+        "Question": "What are some words that rhyme with 'cat'?",
+        "Answer": "Hat, bat, sat, mat... words with the same ending sound rhyme!"
+    },
+    {
+        "Question": "Can sharing toys spread germs?",
+        "Answer": "Yes, especially if someone puts the toy in their mouth."
+    },
+    {
+        "Question": "Do your clothes look the same as clothes kids in other countries wear?",
+        "Answer": "There might be similarities and differences!  Our clothes often reflect the weather where we live."
+    },
+    {
+        "Question": "Have you seen a painting with a magical night sky filled with swirls? What is it called?",
+        "Answer": "The artist Van Gogh painted it, and he called it Starry Night."
+    },
+    {
+        "Question": "When you tie your shoes, what kind of problem are you solving?",
+        "Answer": "How to keep them on your feet!  You're figuring out the right steps to tie a secure knot."
+    },
+    {
+        "Question": "Should you always try new foods, even once?",
+        "Answer": "Yes! You might be surprised and find something you really like."
+    },
+    {
+        "Question": "Which is longer, a sentence or a paragraph?",
+        "Answer": "A paragraph! It has a group of sentences about one topic. "
+    },
+    {
+        "Question": "What's more fun: following a recipe exactly, or experimenting a little with flavors you like?",
+        "Answer": "Both are fun!  Recipes teach you basics, then you can get creative."
+    },
+    {
+        "Question": "How many ounces are in one pound?",
+        "Answer": "There are 16 ounces in one pound."
+    },
+    {
+        "Question": "If you get sick at night, can you still go to the doctor?",
+        "Answer": "Sometimes!  Urgent care centers or emergency rooms are open when regular doctor's offices are closed."
+    },
+    {
+        "Question": "What is an architect?",
+        "Answer": "They design the buildings!  They draw plans that the builders follow."
+    },
+    {
+        "Question": "What does a 'helper' do?",
+        "Answer": "Helpers are people who make our lives better.  They might keep us safe, teach us things, or help when we're sick."
+    },
+    {
+        "Question": "What were some inventions from ancient China?",
+        "Answer": "Paper, printing, gunpowder, and the compass are just a few!"
+    },
+    {
+        "Question": "How do plants help us breathe?",
+        "Answer": "Plants make oxygen, which is the stuff we breathe in! They're like little air fresheners for the whole planet."
+    },
+    {
+        "Question": "Sketching is like a quick drawing to capture an idea. What happens in a detailed drawing?",
+        "Answer": "A detailed drawing takes more time and shows lots of small parts."
+    },
+    {
+        "Question": "What solid shape looks like a box?",
+        "Answer": "A cube or a rectangular prism."
+    },
+    {
+        "Question": "Where do you keep foods that need to stay cold?",
+        "Answer": "In the refrigerator!"
+    },
+    {
+        "Question": "Can you name some healthy snacks?",
+        "Answer": "Apples, carrot sticks, yogurt, nuts, or whole grain crackers."
+    },
+    {
+        "Question": "What do we use to talk to each other?",
+        "Answer": "We use language! That means words and sounds we put together."
+    },
+    {
+        "Question": "Why was the Titanic a famous ship?",
+        "Answer": "It was a huge luxury ship that tragically sank on its first voyage after hitting an iceberg."
+    },
+    {
+        "Question": "What is a synonym? ",
+        "Answer": "A word that means the same or almost the same as another word.  Like 'happy' and 'joyful' are synonyms."
+    },
+    {
+        "Question": "What clothes do you put on first when you get dressed?",
+        "Answer": "Underwear usually goes on first!"
+    },
+    {
+        "Question": "Where does rain come from?",
+        "Answer": "Rain comes from clouds! Water on the ground warms up, turns into invisible vapor, and makes clouds. When the clouds get too heavy, it rains!"
+    },
+    {
+        "Question": "Why can we stand on the ground without sinking?",
+        "Answer": "The ground pushes back up against our feet with an equal force! This is called a reaction force."
+    },
+    {
+        "Question": "What should be the biggest part of a healthy meal?",
+        "Answer": "Fruits and vegetables!"
+    },
+    {
+        "Question": "What do teachers do?",
+        "Answer": "They help us learn new things and share their knowledge!"
+    },
+    {
+        "Question": "Why is drinking water important?",
+        "Answer": "Our bodies are mostly water! We need to drink more to stay hydrated and help all our body parts work properly."
+    },
+    {
+        "Question": "Can you use your favorite book to practice your reading?",
+        "Answer": "Yes! Reading the same book over and over helps you learn new words and get faster."
+    },
+    {
+        "Question": "Is being patient important for both engineers and doctors?",
+        "Answer": "Yes! Engineering projects can take time, and doctors need patience when caring for people."
+    },
+    {
+        "Question": "Have you ever seen a train? What kind of tracks does it travel on?",
+        "Answer": "Trains connect cities and towns. They ride on long metal tracks that stretch for miles."
+    },
+    {
+        "Question": "What is a job, and why do people work?",
+        "Answer": "A job is a task someone does regularly to earn money. People work to buy what they need, take care of themselves, and sometimes do things they enjoy!"
+    },
+    {
+        "Question": "Would you rather make a sweet treat or a savory snack to cook?",
+        "Answer": "It depends! Both can be delicious."
+    },
+    {
+        "Question": "Is it harder to learn a sport when you're younger or older?",
+        "Answer": "Sometimes it's easier when you're younger, but anyone can learn with practice!"
+    },
+    {
+        "Question": "What are shapes?",
+        "Answer": "Shapes are flat, closed figures with sides \u2013 like squares, circles, and triangles."
+    },
+    {
+        "Question": "Can solving a problem sometimes involve teamwork?",
+        "Answer": "Very often! Putting your brains together can lead to better solutions."
+    },
+    {
+        "Question": "Can you name 3 red fruits or vegetables?",
+        "Answer": "Strawberries, apples, tomatoes, peppers, etc."
+    },
+    {
+        "Question": "What kind of vehicles do you see on the road most often?",
+        "Answer": "Cars, trucks, and buses are very common!"
+    },
+    {
+        "Question": "If you break a bone, what kind of doctor might help fix it?",
+        "Answer": "An orthopedic doctor specializes in bones and joints."
+    },
+    {
+        "Question": "Why do we get stronger when we exercise?",
+        "Answer": "Exercise makes tiny tears in our muscles. As they heal, those muscles grow back a little bit bigger and stronger."
+    },
+    {
+        "Question": "When you're swinging on a swingset, what simple machine are you using?",
+        "Answer": "It might seem surprising, but swings are actually a type of lever! The middle point where the chain is attached is like the point a lever rests on, and you move back and forth on either side."
+    },
+    {
+        "Question": "Which word means happy and excited?",
+        "Answer": "Joyful! When you feel joyful, you might want to jump up and down, or smile really big!"
+    },
+    {
+        "Question": "Can gardening be a form of exercise?",
+        "Answer": "It can!  Digging, weeding, and carrying things all use your muscles."
+    },
+    {
+        "Question": "Why do we see rainbows after it rains?",
+        "Answer": "Sunlight and raindrops work together! The water bends the light, splitting it into all the colors of the rainbow."
+    },
+    {
+        "Question": "What makes ice skates glide on the ice so well?",
+        "Answer": "The skate's blade melts a tiny layer of ice, creating a thin layer of water that reduces friction and lets them slide smoothly."
+    },
+    {
+        "Question": "Are there foods from other countries you'd like to try?",
+        "Answer": "Maybe!  Chinese food, Mexican food, Indian food... there's so much out there!"
+    },
+    {
+        "Question": "What are some important kitchen safety rules?",
+        "Answer": "Always ask an adult before using the stove or oven, use knives carefully (or have an adult help), wash your hands often!"
+    },
+    {
+        "Question": "What does an electrician do?",
+        "Answer": "They work with all the wires that bring electricity into our buildings so the lights and things work."
+    },
+    {
+        "Question": "When something is 'rough', how does it feel?",
+        "Answer": "It feels bumpy or scratchy, not soft and smooth.  Tree bark is a good example of something rough."
+    },
+    {
+        "Question": "Can people really kill each other? Like in movies?",
+        "Answer": "Sadly, sometimes people can do very harmful things. Movies pretend, but violence in real life is never fun. If something you see worries you, it's good to talk about it with a parent, teacher, or someone you trust."
+    },
+    {
+        "Question": "Why do we sometimes get scars?",
+        "Answer": "Scars are marks left behind when deeper cuts heal. Our bodies make special tissue to fix the area, which can look a bit different."
+    },
+    {
+        "Question": "What's a different word for 'small'?",
+        "Answer": "Tiny, little, or petite"
+    },
+    {
+        "Question": "When you're jumping on a trampoline, what kind of exercise are you doing?",
+        "Answer": "It's a great cardio workout!  It gets your heart pumping and uses many muscles."
+    },
+    {
+        "Question": "Can food be healthy AND fun?",
+        "Answer": "Definitely!  Think of making fruit kebabs, or cutting sandwiches into fun shapes."
+    },
+    {
+        "Question": "Knives and axes have a type of simple machine that helps split things. What is it called?",
+        "Answer": "A wedge! It's two inclined planes put together. Think of how an axe splits wood when you push it in. "
+    },
+    {
+        "Question": "What does 'swear word' mean?",
+        "Answer": "Those are words that some grown-ups use when they're upset, but they're not nice words to say. We can use lots of other words to express ourselves! How about we learn a new fun fact instead?"
+    },
+    {
+        "Question": "Why do we need exercise?",
+        "Answer": "Exercise keeps our bodies strong and healthy! It makes our hearts, muscles, and bones work hard and get even stronger."
+    },
+    {
+        "Question": "What are the names of the Teenage Mutant Ninja Turtles?",
+        "Answer": "Leonardo, Raphael, Michelangelo, and Donatello"
+    },
+    {
+        "Question": "What if you're playing a game and keep losing?  What are some problem-solving things you can try?",
+        "Answer": "Reading the rules carefully again, changing your strategy, taking a break and coming back to it later."
+    },
+    {
+        "Question": "What does a blue sign with a white 'P' mean? ",
+        "Answer": "You can park your car in this area."
+    },
+    {
+        "Question": "Is a plate full of only french fries a balanced meal?",
+        "Answer": "Nope!  It needs more variety \u2013 maybe some fruit, and a protein food too."
+    },
+    {
+        "Question": "Do famous athletes always win?",
+        "Answer": "Nope! Even the best athletes lose sometimes.  It's important to try your best, even if you don't always win."
+    },
+    {
+        "Question": "Why can't we hear sounds in space?",
+        "Answer": "Sound needs something to travel through, like air. Space is mostly empty, so there's nothing for sound to move through!"
+    },
+    {
+        "Question": "Can Bugs Bunny fly?",
+        "Answer": "Nope! But he's a great digger and loves to hop."
+    },
+    {
+        "Question": "What does a sign with a curved arrow and a line through it mean? ",
+        "Answer": "No U-Turns allowed."
+    },
+    {
+        "Question": "Do you need to wash your hands after playing with stuffed animals?",
+        "Answer": "Not unless they've been on the floor or somewhere dirty. Stuffed animals at home are usually clean."
+    },
+    {
+        "Question": "What word means to move back and forth in a playful way?",
+        "Answer": "Wiggle!  Can you wiggle your fingers and toes?"
+    },
+    {
+        "Question": "Why does dough rise?",
+        "Answer": "Yeast in bread dough eats sugar and releases tiny gas bubbles. These bubbles get trapped, making the dough puff up!"
+    },
+    {
+        "Question": "Did you know some types of clothes were originally made for practical reasons, but became traditional?",
+        "Answer": "Things like cowboy hats to shade from the sun, or clogs (wooden shoes) for farm workers."
+    },
+    {
+        "Question": "What makes some people more flexible than others?",
+        "Answer": "Flexibility depends on our joints, how stretchy our tendons and ligaments are, and even the shape of our bones!"
+    },
+    {
+        "Question": "Can we find rocks from space on Earth?",
+        "Answer": "Yes! Sometimes rocks from space (meteorites) crash onto Earth, and we can find them."
+    },
+    {
+        "Question": "Should you always carry hand sanitizer with you?",
+        "Answer": "It's a good idea! That way you can keep your hands clean even when there's no sink nearby."
+    },
+    {
+        "Question": "Why do leaves change color in the fall?",
+        "Answer": "Trees rest in the winter. Losing leaves helps them save energy until it gets warm again."
+    },
+    {
+        "Question": "Which famous baseball player was known for hitting lots of home runs?",
+        "Answer": "Babe Ruth was a legendary baseball player."
+    },
+    {
+        "Question": "Is the word 'skip' a noun, verb, or adjective?",
+        "Answer": "Verb!  It's an action word."
+    },
+    {
+        "Question": "Can engineers help design things that protect the environment?",
+        "Answer": "Yes! Environmental engineers work on things like clean energy, recycling, and keeping our water safe."
+    },
+    {
+        "Question": "Who was Albert Einstein?",
+        "Answer": "A super smart scientist famous for his ideas about energy, gravity, and how the universe works."
+    },
+    {
+        "Question": "Is a pound heavier or lighter than an ounce?",
+        "Answer": "A pound is heavier than an ounce."
+    },
+    {
+        "Question": "Can germs make us cough or sneeze?",
+        "Answer": "Yes! That's how our body tries to get rid of the germs that make us sick."
+    },
+    {
+        "Question": "Is being brave a part of some helper jobs?",
+        "Answer": "Definitely! Think about firefighters rushing into danger, or doctors helping very sick people."
+    },
+    {
+        "Question": "Why is it a good idea to celebrate when you solve a difficult problem?",
+        "Answer": "It makes you feel proud of yourself, and more confident to tackle the next challenge!"
+    },
+    {
+        "Question": "Why do athletes practice so much?",
+        "Answer": "Practice helps build 'muscle memory' \u2013 our brain learns to do movements smoothly and efficiently without thinking too much."
+    },
+    {
+        "Question": "Can you exercise along with your favorite cartoon characters?",
+        "Answer": "Definitely!  Lots of kids' shows have movement breaks or dances to follow along with."
+    },
+    {
+        "Question": "What are some ways to reduce food waste at home?",
+        "Answer": "Only buy what you'll eat, use leftovers creatively, learn how to store foods properly so they last longer."
+    },
+    {
+        "Question": "What makes a silly sentence? ",
+        "Answer": "If the words don't make sense together!  Like 'The purple car ate a banana.'"
+    },
+    {
+        "Question": "Do carrots grow on trees, or under the ground?",
+        "Answer": "Carrots grow under the ground."
+    },
+    {
+        "Question": "What rhymes with 'dog'?",
+        "Answer": "Log, frog, hog..."
+    },
+    {
+        "Question": "Have you ever worn clothes from a different culture?",
+        "Answer": "Maybe for a school play, a costume at a party, or a cultural celebration."
+    },
+    {
+        "Question": "Someone with a growth mindset sees a difficult problem and thinks...?",
+        "Answer": "'This is a chance to learn something new!'  instead of 'I'll never be able to do this.'"
+    },
+    {
+        "Question": "How many sides does a triangle have?",
+        "Answer": "A triangle has three sides."
+    },
+    {
+        "Question": "How does a refrigerator keep things cold?",
+        "Answer": "Refrigerators have a special system that moves heat out! This keeps the inside temperature nice and chilly for our food."
+    },
+    {
+        "Question": "Instead of getting upset when you make a mistake, what can you try to do?",
+        "Answer": "Figure out *why* it went wrong. That way, you can avoid making the same mistake again."
+    },
+    {
+        "Question": "What is the opposite of 'tiny'?",
+        "Answer": "Words like giant, huge, or enormous mean the opposite. Can you think of something that's REALLY big?"
+    },
+    {
+        "Question": "What's better for getting rid of germs on dishes: washing by hand in the sink or using the dishwasher?",
+        "Answer": "The dishwasher! It uses very hot water that kills germs better than we can by hand."
+    },
+    {
+        "Question": "Why do we need street signs?",
+        "Answer": "Street signs help drivers know the rules of the road, find their way, and stay safe."
+    },
+    {
+        "Question": "What are germs?",
+        "Answer": "Germs are tiny things that can make us sick. They include things like bacteria and viruses."
+    },
+    {
+        "Question": "What does 'responsible shopping' mean?",
+        "Answer": "Making choices that are good for you, your family, and the planet!"
+    },
+    {
+        "Question": "What does a white rectangle with 'Speed Limit 25' mean?",
+        "Answer": "You are not allowed to drive faster than 25 miles per hour."
+    },
+    {
+        "Question": "What is a question mark for?",
+        "Answer": "We put it at the end of a sentence when we're asking a question."
+    },
+    {
+        "Question": "What should you always do before crossing the street?",
+        "Answer": "Look both ways carefully to make sure there are no cars coming."
+    },
+    {
+        "Question": "Have you ever seen art made from unusual things?",
+        "Answer": "Artists use all sorts of materials, like food, bottle caps, or even junk!"
+    },
+    {
+        "Question": "Can you compost food scraps instead of throwing them in the trash?",
+        "Answer": "Yes! Things like fruit and veggie peels, eggshells, even coffee grounds can turn into soil for a garden."
+    },
+    {
+        "Question": "Why does ice cream melt?",
+        "Answer": "Ice cream is frozen solid. When it gets warmer, it gains heat energy, and this turns it back into a liquid."
+    },
+    {
+        "Question": "Does food sometimes look or smell different than it tastes?",
+        "Answer": "Definitely!  That's why it's important to try new things, even if they seem weird."
+    },
+    {
+        "Question": "Can you name 3 fruits?",
+        "Answer": "Apples, bananas, strawberries, oranges"
+    },
+    {
+        "Question": "What if you start with five crayons, and someone gives you two more?  How many would you have?",
+        "Answer": "You'd have seven crayons!  Five plus two equals seven."
+    },
+    {
+        "Question": "Why would someone use a wedge to hold a door open?",
+        "Answer": "The wedge fits under the door and the slant helps keep it from moving. That way, you don't need to use your hands!"
+    },
+    {
+        "Question": "Can engineers design things that help people with disabilities?",
+        "Answer": "Definitely! They can create wheelchairs, special tools, and all sorts of things to make life easier."
+    },
+    {
+        "Question": "Why do stars twinkle?",
+        "Answer": "Stars don't really twinkle! Earth's moving air makes their light wiggle a bit, which looks like twinkling to us."
+    },
+    {
+        "Question": "Why do we have to go to school?",
+        "Answer": "School teaches us important skills for life, like reading, math, science, and how to get along with others. It helps us learn how to think for ourselves!"
+    },
+    {
+        "Question": "Why is sleep important for athletes?",
+        "Answer": "Sleep is when our bodies rest and repair themselves. It's crucial for building muscle and recovering from hard workouts."
+    },
+    {
+        "Question": "Why do we need bones?",
+        "Answer": "Bones are like our body's strong framework. They help us stand up tall, move around, and protect our squishy insides!"
+    },
+    {
+        "Question": "How many inches are in one foot?",
+        "Answer": "12 inches."
+    },
+    {
+        "Question": "Instead of a glass of milk, what's another way to get your calcium?",
+        "Answer": "Yogurt, cheese, or even leafy green vegetables."
+    },
+    {
+        "Question": "Have you ever grown any of your own food, even in a small pot?",
+        "Answer": "It's super rewarding!  Herbs, tomatoes, or even lettuce can grow in small spaces."
+    },
+    {
+        "Question": "What is a 'growth mindset'?",
+        "Answer": "Believing that you can get smarter, better, and learn new things if you work hard and don't give up."
+    },
+    {
+        "Question": "How does a whisk make whipped cream?",
+        "Answer": "A whisk traps lots of tiny air bubbles in the cream. All these air bubbles make it fluffy and light."
+    },
+    {
+        "Question": "What is the sun?",
+        "Answer": "The sun is a giant star! It's a massive ball of hot gas that gives us light and warmth."
+    },
+    {
+        "Question": "Why is it important to put groceries away when you get home, especially things that need to stay cold?",
+        "Answer": "So the food stays fresh and safe to eat!"
+    },
+    {
+        "Question": "Is it okay to taste a little bit of your food as you're cooking it?",
+        "Answer": "Sometimes! But make sure it's not too hot, and don't double-dip a spoon."
+    },
+    {
+        "Question": "When you run really fast, what does your heart do?",
+        "Answer": "It beats faster to pump blood and energy to all your muscles!"
+    },
+    {
+        "Question": "What parts of your hands should you scrub when washing?",
+        "Answer": "The tops, the bottoms, between your fingers, and under your nails."
+    },
+    {
+        "Question": "Are there ways to save money at the grocery store?",
+        "Answer": "Yes! Using coupons, looking at flyers for sales, or buying generic brands."
+    },
+    {
+        "Question": "Is a ball a flat shape or a solid shape?",
+        "Answer": "A ball is a solid shape!  Solid shapes take up space. Flat shapes only have length and width."
+    },
+    {
+        "Question": "What do you call a word that means the opposite of another word?",
+        "Answer": "An antonym! Like 'hot' and 'cold' are antonyms."
+    },
+    {
+        "Question": "Why do we breathe heavier during exercise?",
+        "Answer": "Our muscles need more oxygen when we work hard! Breathing faster helps our bodies get more oxygen to our muscles. "
+    },
+    {
+        "Question": "Why can't I eat candy all the time?",
+        "Answer": "Candy is a treat, but too much isn't good for our bodies. Eating lots of healthy foods gives us the energy to grow and play!"
+    },
+    {
+        "Question": "Where can you find the Amazon rainforest?",
+        "Answer": "Mostly in Brazil, South America."
+    },
+    {
+        "Question": "What is lightning?",
+        "Answer": "Lightning is a giant spark of electricity in the sky, happening during a storm."
+    },
+    {
+        "Question": "Who is a famous soccer player known for his amazing goals and skills?",
+        "Answer": "Lionel Messi (or Cristiano Ronaldo) are both soccer superstars!"
+    },
+    {
+        "Question": "Is pizza a healthy food to eat every day?",
+        "Answer": "No!  Pizza can be a fun food sometimes, but it doesn't have all the healthy stuff our bodies need every day. "
+    },
+    {
+        "Question": "Do you need to wash fruits and vegetables with skins before eating them?",
+        "Answer": "Yes! Even if you're going to peel them, give them a rinse to wash away dirt and germs."
+    },
+    {
+        "Question": "Are monsters under my bed?",
+        "Answer": "Let's check together!  Sometimes our imagination plays tricks on us. Do you want to build a fort to feel extra safe and cozy?"
+    },
+    {
+        "Question": "Can you do 5 jumping jacks?",
+        "Answer": "(Let them try!) Jumping jacks get your heart pumping and your body moving."
+    },
+    {
+        "Question": "Does going for a walk count as exercise?",
+        "Answer": "Yes!  Even walking is good for your body."
+    },
+    {
+        "Question": "If you have 8 stickers and you give 5 away, how many stickers would you have left?",
+        "Answer": "You would have 3 stickers left! 8 minus 5 equals 3."
+    },
+    {
+        "Question": "What does a red rectangle with 'Wrong Way' written on it mean? ",
+        "Answer": "It means you're going the wrong direction on a street! Turn around safely."
+    },
+    {
+        "Question": "Why do we get vaccines?",
+        "Answer": "Vaccines help train our bodies to fight off specific germs. It's like giving our immune system a sneak peek at the bad guys!"
+    },
+    {
+        "Question": "What do you do if a recipe says 'add a tablespoon' of something?",
+        "Answer": "You use a measuring spoon! Grown-ups can help you read the recipe."
+    },
+    {
+        "Question": "When you make a mistake, does it mean you're not smart?",
+        "Answer": "Absolutely not! Mistakes are how we learn and get better at things."
+    },
+    {
+        "Question": "Is the sun a planet?",
+        "Answer": "Nope! The sun is a star, a giant ball of fiery hot gas. Planets are smaller and orbit stars."
+    },
+    {
+        "Question": "Does eating lots of colorful fruits and veggies help your body fight off getting sick?",
+        "Answer": "Yes! Healthy foods have vitamins that keep our immune system strong."
+    },
+    {
+        "Question": "When you're doing a jigsaw puzzle, what's a good problem-solving strategy?",
+        "Answer": "Sorting by color or shape, doing the edges first, and looking closely at the picture for clues."
+    },
+    {
+        "Question": "Why is it important to wear a hard hat on a construction site?",
+        "Answer": "To protect your head!  There are things being built and moved that could fall and hurt you."
+    },
+    {
+        "Question": "Is getting dressed in the morning a form of problem-solving?",
+        "Answer": "In a way! You decide what works with the weather, and what makes you feel good."
+    },
+    {
+        "Question": "Are reusable bags better for the environment than plastic bags from the grocery store?",
+        "Answer": "Yes!  We can use them over and over, which means less trash."
+    },
+    {
+        "Question": "What was life like in ancient Rome?",
+        "Answer": "They had big cities, powerful armies, gladiators fought in arenas, and rich people lived in fancy houses while many others were poor."
+    },
+    {
+        "Question": "What is one of the BEST ways to fight off germs?",
+        "Answer": "Washing our hands with soap and water!"
+    },
+    {
+        "Question": "What kind of vehicles can travel on water?",
+        "Answer": "Boats, ships, and even ferries can take us across oceans, rivers, and lakes."
+    },
+    {
+        "Question": "What color is Garfield the cat?",
+        "Answer": "Orange"
+    },
+    {
+        "Question": "What do we use to measure how much liquid is in a cup?",
+        "Answer": "We can use ounces, milliliters, or special measuring cups!"
+    },
+    {
+        "Question": "If you spill something while cooking, what should you do?",
+        "Answer": "Tell a grown-up right away so they can help you clean it up safely."
+    },
+    {
+        "Question": "Are food allergies the same as just not liking a food?",
+        "Answer": "No!  Food allergies can make someone feel very sick, that's serious."
+    },
+    {
+        "Question": "If reading is hard for you, does a growth mindset mean believing you CAN get better at it with practice?",
+        "Answer": "Definitely!  Everyone learns at their own pace, and effort matters."
+    },
+    {
+        "Question": "Is buying the biggest container of something ALWAYS the most responsible choice?",
+        "Answer": "Not if you end up throwing some out because it goes bad!  Better to buy what you can use."
+    },
+    {
+        "Question": "I have a face, hands, and numbers, but I can't tell you how you look.  What am I?",
+        "Answer": "A clock!"
+    },
+    {
+        "Question": "Do vegetables from the store need to be washed?",
+        "Answer": "Yes! To wash away dirt and any germs they might have picked up."
+    },
+    {
+        "Question": "Can you think of a word that rhymes with 'cat'?",
+        "Answer": "Hat, bat, sat, mat..."
+    },
+    {
+        "Question": "Why is the wind sometimes strong and sometimes gentle?",
+        "Answer": "Wind happens when air moves from warmer places to colder places. The bigger the difference, the stronger the wind!"
+    },
+    {
+        "Question": "If you see someone who looks lost or needs help, what should you do?",
+        "Answer": "Tell a trusted grown-up!  They can help the person who needs it."
+    },
+    {
+        "Question": "What foods change when you heat them up?",
+        "Answer": "Eggs cook and get firm, cheese melts, veggies get softer... "
+    },
+    {
+        "Question": "Can you name a road sign that is red and shaped like an octagon (eight sides)?",
+        "Answer": "That's a stop sign!"
+    },
+    {
+        "Question": "Why do we dream?",
+        "Answer": "Scientists are still figuring that out! Dreams might help our brains process emotions, learn, or just be a fun mix of stories our brain makes up."
+    },
+    {
+        "Question": "How do we turn sheep's wool into yarn for knitting a sweater?",
+        "Answer": "The wool is washed and spun into long threads called yarn."
+    },
+    {
+        "Question": "Which country is famous for maple syrup?",
+        "Answer": "Canada"
+    },
+    {
+        "Question": "Why is it important to be on time?",
+        "Answer": "Being on time shows that you respect other people and their time. It helps things run smoothly and avoids making people wait."
+    },
+    {
+        "Question": "What's a yummy topping to make plain oatmeal more exciting?",
+        "Answer": "Berries, a little honey or maple syrup, chopped nuts, or even sprinkles!"
+    },
+    {
+        "Question": "What food do we get from cows?",
+        "Answer": "Milk! (Which we can make into cheese, yogurt, and ice cream)"
+    },
+    {
+        "Question": "If you try something to solve a problem and it doesn't work, what should you do?",
+        "Answer": "Don't give up! Try a different way, or take a little break and come back to it."
+    },
+    {
+        "Question": "Have you ever accidentally used salt instead of sugar in a recipe?  How did it taste?",
+        "Answer": "Yuck!  Sweet and salty don't mix too well in baking."
+    },
+    {
+        "Question": "What is a sentence?",
+        "Answer": "A sentence is a group of words that express a complete thought."
+    },
+    {
+        "Question": "What do doctors and nurses do?",
+        "Answer": "They help us stay healthy, and take care of us when we're sick or hurt."
+    },
+    {
+        "Question": "Can you name a simple machine that helps you lift heavy things?",
+        "Answer": "A lever! It's like a long bar that rests on a point.  Think of a seesaw \u2013 pushing down on one side makes the other side go up!"
+    },
+    {
+        "Question": "What sport uses a ball and a net, where you hit the ball over with your hands?",
+        "Answer": "Volleyball."
+    },
+    {
+        "Question": "What kind of animal is Scooby-Doo?",
+        "Answer": "A Great Dane (a kind of dog)"
+    },
+    {
+        "Question": "Why might fruits and vegetables sometimes be cheaper at a farmer's market than in a big grocery store?",
+        "Answer": "They're coming directly from the grower, and didn't have to  be shipped across the country."
+    },
+    {
+        "Question": "Why is it a good idea to wear sneakers when you're playing outside?",
+        "Answer": "They protect our feet and give us good grip so we don't slip."
+    },
+    {
+        "Question": "Whose job is it to decide what foods are served at home?",
+        "Answer": "Grown-ups!"
+    },
+    {
+        "Question": "Why do mosquitoes bite us?",
+        "Answer": "Female mosquitoes (the kind that bite) need the protein in our blood to make their eggs! Itchy bites are no fun for us."
+    },
+    {
+        "Question": "What is the fancy hat called that some people in Mexico wear, which is wide and colorful?",
+        "Answer": "A sombrero!"
+    },
+    {
+        "Question": "What kind of fun shapes can you make sandwiches with?",
+        "Answer": "Cookie cutters! Turn a simple sandwich into stars, hearts, or dinosaurs."
+    },
+    {
+        "Question": "What does the word 'tiny' mean?",
+        "Answer": "It means something is very, very small.  Think of how small an ant is compared to you!"
+    },
+    {
+        "Question": "Can you stretch your arms up towards the sky as high as you can?",
+        "Answer": "Stretching helps our muscles feel good and gets them ready to move."
+    },
+    {
+        "Question": "Is a whisper loud or quiet?",
+        "Answer": "Very quiet! If you whisper, it's almost like you're talking in a secret voice."
+    },
+    {
+        "Question": "Why are some rocks shiny?",
+        "Answer": "Some rocks have tiny crystals inside that catch the light and make them sparkle."
+    },
+    {
+        "Question": "What are some fun toppings for pancakes or waffles?",
+        "Answer": "Fruit, whipped cream, nuts, chocolate chips, syrup... so many choices!"
+    },
+    {
+        "Question": "Why do we wear different clothes in the summer and winter?",
+        "Answer": "To stay comfortable!  Light clothes help us stay cool in summer, and warm clothes keep us cozy in winter."
+    },
+    {
+        "Question": "How does a microwave oven heat food?",
+        "Answer": "Microwaves use special waves of energy that make water molecules inside food jiggle around and get hot."
+    },
+    {
+        "Question": "What does a red light mean?",
+        "Answer": "Stop!  Cars cannot go until the light turns green."
+    },
+    {
+        "Question": "Why does a ball bounce?",
+        "Answer": "When a ball hits the ground, it squishes a bit, storing energy. Then, it springs back into shape, pushing off the ground and bouncing up!"
+    },
+    {
+        "Question": "After we have fabric, what's the next step in making a t-shirt?",
+        "Answer": "Cutting the fabric into the right shapes for the different parts of the shirt."
+    },
+    {
+        "Question": "What is an adjective?",
+        "Answer": "An adjective describes a noun. It tells us what something is like."
+    },
+    {
+        "Question": "Can you name something that floats on water?",
+        "Answer": "A boat, a toy duck, a leaf... lots of things can float!"
+    },
+    {
+        "Question": "When you're really hungry, is an apple or a small cookie going to fill you up more?",
+        "Answer": "An apple! It has healthy stuff our bodies need, cookies are mostly sugar."
+    },
+    {
+        "Question": "What do plants need to grow?",
+        "Answer": "Sunlight, water, and soil with nutrients."
+    },
+    {
+        "Question": "Does someone make clothes all by themselves?",
+        "Answer": "It takes lots of people! Farmers, factory workers, designers, and people who sell clothes in stores."
+    },
+    {
+        "Question": "What word means a loud, sudden sound that might scare you?",
+        "Answer": "Words like bang, crash, or boom!  Think of the sound fireworks make."
+    },
+    {
+        "Question": "What do you call your father's brother?",
+        "Answer": "Your uncle!"
+    },
+    {
+        "Question": "Why do we need traffic signs?",
+        "Answer": "They keep drivers safe by telling them what to do \u2013 stop, go, or slow down!"
+    },
+    {
+        "Question": "What is a construction site?",
+        "Answer": "That's the place where builders are working on a project."
+    },
+    {
+        "Question": "What are some different types of engineers?",
+        "Answer": "There are many!  Civil engineers (roads, bridges), mechanical engineers (machines), electrical engineers (things that use electricity), chemical engineers (who work with materials and substances)...and so many more!"
+    },
+    {
+        "Question": "Why do we sweat when we're hot?",
+        "Answer": "Sweating is our body's cooling system! When the sweat evaporates, it takes heat away from our skin, helping us cool down."
+    },
+    {
+        "Question": "What color are the Minions?",
+        "Answer": "Yellow"
+    },
+    {
+        "Question": "Why is too much screen time bad?",
+        "Answer": "Too much time in front of screens can hurt our eyes, make it harder to sleep, and take time away from exercise and playing with others."
+    },
+    {
+        "Question": "Why does our heart rate go back down after exercising?",
+        "Answer": "After exercise, our muscles don't need as much oxygen, so our heart doesn't need to pump as hard."
+    },
+    {
+        "Question": "Does everyone make mistakes sometimes?",
+        "Answer": "Yes! Even grown-ups, even the smartest people in the world."
+    },
+    {
+        "Question": "Do you smoke/drink?",
+        "Answer": "That's a very grown-up question. Those are choices adults get to make, but it's important to know they can be harmful.  How about I teach you about taking care of your body by eating healthy!"
+    },
+    {
+        "Question": "When is it SUPER important to wash your hands?",
+        "Answer": "Before eating, after the bathroom, after coughing or sneezing, after playing outside."
+    },
+    {
+        "Question": "Can you name 2 green vegetables?",
+        "Answer": "Broccoli, spinach, peas, green beans, etc."
+    },
+    {
+        "Question": "Can you count backwards from 10?",
+        "Answer": "Yes! 10, 9, 8, 7, 6, 5, 4, 3, 2, 1!"
+    },
+    {
+        "Question": "What's the difference between the regular checkout line and the self-checkout at the grocery store?",
+        "Answer": "At regular checkout a cashier helps you.  At self-checkout, you scan and bag your own items."
+    },
+    {
+        "Question": "Do you have a favorite food you'd like to learn to make yourself?",
+        "Answer": "There's no wrong answer! Pizza? Pasta? The possibilities are endless!"
+    },
+    {
+        "Question": "Which famous baseball player was known for hitting lots of home runs?",
+        "Answer": "Babe Ruth was a legendary baseball player."
+    },
+    {
+        "Question": "Why is it important to walk on the sidewalk?",
+        "Answer": "The sidewalk is further away from fast-moving cars and keeps us safe."
+    },
+    {
+        "Question": "Let's build a sculpture! What can you use?",
+        "Answer": "Can you use blocks, clay, or even boxes from the recycling bin?"
+    },
+    {
+        "Question": "Why do we get goosebumps?",
+        "Answer": "Tiny muscles in our skin make our hairs stand up when we're cold or scared! It's a leftover from when our ancestors were much furrier."
+    },
+    {
+        "Question": "Why do we have two eyes?",
+        "Answer": "Two eyes help us see depth!  This means we can tell how far away things are, which helps us move around safely."
+    },
+    {
+        "Question": "How do you feel after reading a funny story?",
+        "Answer": "Happy!  Maybe you giggled or laughed."
+    },
+    {
+        "Question": "Does food you make yourself sometimes taste even better than store-bought?",
+        "Answer": "Often it does! There's a special satisfaction when you made it yourself."
+    },
+    {
+        "Question": "If your friends are arguing over what game to play, can you use problem-solving to help?",
+        "Answer": "Yes!  Listen to everyone's ideas, maybe find a compromise, or take turns deciding."
+    },
+    {
+        "Question": "Do you know what a bicycle is powered by?",
+        "Answer": "Our own legs pedaling the bike make it move!"
+    },
+    {
+        "Question": "Whose job is it to learn to like lots of different healthy foods",
+        "Answer": "Kids! Our tastebuds change and grow as we do."
+    },
+    {
+        "Question": "Where are the tags on your clothes usually found?",
+        "Answer": "On the inside, by your neck or side. They tell you what it's made of, and how to wash it."
+    },
+    {
+        "Question": "What's a word that means the opposite of 'fast'?",
+        "Answer": "Slow!  Think of how a snail moves compared to a rabbit."
+    },
+    {
+        "Question": "Why is it important to respect people who are different from us?",
+        "Answer": "Everyone deserves kindness! Having different backgrounds and ideas makes the world more interesting."
+    },
+    {
+        "Question": "What's the special tool doctors use to listen to your heartbeat?",
+        "Answer": "A stethoscope!"
+    },
+    {
+        "Question": "Why can some bugs walk on water?",
+        "Answer": "Their legs spread out their weight and trap tiny air bubbles. A force called surface tension on the water also helps them stay afloat!"
+    },
+    {
+        "Question": "Which number is smaller, 2 or 7?",
+        "Answer": "2 is smaller than 7."
+    },
+    {
+        "Question": "Should you always follow a recipe exactly, or is it okay to experiment a little bit?",
+        "Answer": "Both!  Start by following the recipe, then once you're comfortable you can try adding your own twists."
+    },
+    {
+        "Question": "What makes popcorn pop?",
+        "Answer": "Each popcorn kernel has a tiny drop of water inside. When it gets hot, the water turns to steam, the pressure builds up, and POP!"
+    },
+    {
+        "Question": "Can you do push-ups against the wall?",
+        "Answer": "Wall push-ups are a great way to start building arm strength."
+    },
+    {
+        "Question": "What are some different holidays celebrated around the world?",
+        "Answer": "Diwali (Festival of Lights), Chinese New Year, Hanukkah, Christmas, and many more!"
+    },
+    {
+        "Question": "What do you call your sister's son?",
+        "Answer": "Your nephew!"
+    },
+    {
+        "Question": "What's one easy recipe you could make with minimal help?",
+        "Answer": "Smoothies, putting together a sandwich, or assembling a salad."
+    },
+    {
+        "Question": "Why does our heart beat?",
+        "Answer": "Our heart is a super strong muscle that pumps blood all around our body. The blood carries important stuff our body needs to work!"
+    },
+    {
+        "Question": "Why is it important to try and understand how other people feel?",
+        "Answer": "It helps us be good friends, get along with others, and treat people with kindness."
+    },
+    {
+        "Question": "How many cups are in a pint?",
+        "Answer": "There are 2 cups in one pint."
+    },
+    {
+        "Question": "How many stars are there?",
+        "Answer": "There are SO many stars, more than we could ever count! Just in our galaxy, there might be hundreds of billions of them."
+    },
+    {
+        "Question": "What are letters?",
+        "Answer": "Letters are the small symbols we put together to make words."
+    },
+    {
+        "Question": "Are foods with lots of packaging good for the environment?",
+        "Answer": "No.  Too much packaging creates trash.  Choose foods with less wrapping when you can."
+    },
+    {
+        "Question": "Is your brain like a muscle?",
+        "Answer": "Kind of! The more you use it and challenge it, the stronger it gets."
+    },
+    {
+        "Question": "Can we break a bone?",
+        "Answer": "Yes, if there's enough force, our strong bones can sometimes break. But don't worry, doctors can fix them up and they'll heal strong again!"
+    },
+    {
+        "Question": "What is hand-eye coordination?",
+        "Answer": "Hand-eye coordination is using your eyes and hands together to perform tasks, like catching a ball or hitting a target."
+    },
+    {
+        "Question": "Who was the first woman to fly solo across the Atlantic Ocean?",
+        "Answer": "Amelia Earhart"
+    },
+    {
+        "Question": "What can make it harder for our body to fight off germs and viruses?",
+        "Answer": "Not getting enough sleep, or not eating enough healthy foods."
+    },
+    {
+        "Question": "Do engineers need to be good at math?",
+        "Answer": "Yes! Math helps them calculate things, make sure their designs are safe, and work with measurements."
+    },
+    {
+        "Question": "What kind of machine is used to make cloth out of cotton or yarn?",
+        "Answer": "A loom! It weaves threads together to create fabric."
+    },
+    {
+        "Question": "What are muscles, and why are they important?",
+        "Answer": "Muscles are the parts of our body that help us move. Exercise makes them stronger!"
+    },
+    {
+        "Question": "Why is cooking sometimes called a 'science experiment'?",
+        "Answer": "Recipes are kind of like formulas!  Ingredients react to each other, and heat changes things."
+    },
+    {
+        "Question": "What's the opposite of 'wet'?",
+        "Answer": "Dry!"
+    },
+    {
+        "Question": "Is it okay to ask for help after you've tried to solve something on your own?",
+        "Answer": "Definitely! Sometimes a fresh perspective or a little guidance is all you need."
+    },
+    {
+        "Question": "What should make up the biggest part of a healthy meal?",
+        "Answer": "Fruits and vegetables!  They fill us up and give us lots of good vitamins."
+    },
+    {
+        "Question": "If someone is hurt, but it's not a big emergency, where could you take them for help?",
+        "Answer": "A doctor's office or an urgent care clinic."
+    },
+    {
+        "Question": "Can you pack your own lunch for school sometimes?",
+        "Answer": "Maybe!  It's a good way to choose foods you like and learn responsibility."
+    },
+    {
+        "Question": "Why do we have joints?",
+        "Answer": "Joints are where bones connect, allowing us to bend and move in all sorts of directions."
+    },
+    {
+        "Question": "Why is staying hydrated important for athletes?",
+        "Answer": "Water keeps our bodies working properly, and we lose extra water through sweat when we exercise."
+    },
+    {
+        "Question": "What did Leonardo da Vinci do?",
+        "Answer": "He was a painter, sculptor, inventor, and more! Famous for paintings like the Mona Lisa."
+    },
+    {
+        "Question": "What are some traditional foods from different countries?",
+        "Answer": "Pizza (Italy), Sushi (Japan), Tacos (Mexico), Pad Thai (Thailand)... the world is a delicious place!"
+    },
+    {
+        "Question": "What is a family?",
+        "Answer": "People who love and care for each other.  It can be parents, siblings, grandparents, aunts, uncles, cousins...even pets!"
+    },
+    {
+        "Question": "Why do some plants smell bad?",
+        "Answer": "Some plants smell bad to keep hungry bugs away or to attract special bugs that help them grow."
+    },
+    {
+        "Question": "Should we drink lots of water or sugary drinks like soda?",
+        "Answer": "Water! It's the healthiest drink for our bodies."
+    },
+    {
+        "Question": "Why do we need to follow rules?",
+        "Answer": "Rules help keep us safe, make things fair, and help everyone get along and live together peacefully."
+    },
+    {
+        "Question": "What are some healthy snacks you can assemble with no cooking required?",
+        "Answer": "Ants on a log (celery with peanut butter and raisins), apple slices with cheese, yogurt with fruit."
+    },
+    {
+        "Question": "What's a fastener that helps keep our pants up?",
+        "Answer": "A belt!"
+    },
+    {
+        "Question": "How can you make your writing more exciting?",
+        "Answer": "Use strong verbs, interesting adjectives, and different kinds of sentences!"
+    },
+    {
+        "Question": "Can watching TV count as exercise?",
+        "Answer": "Not really.  Exercise needs to get your body moving."
+    },
+    {
+        "Question": "Is a bus driver a helper?",
+        "Answer": "Absolutely! They get people where they need to go, especially kids going to school."
+    },
+    {
+        "Question": "What is the very first word many babies learn to say?",
+        "Answer": "Mama, dada, or simple words for things they see."
+    },
+    {
+        "Question": "Sometimes foods come in glass jars instead of plastic. Is this a more responsible choice?",
+        "Answer": "Often, yes! Glass can be recycled more easily than some plastics."
+    },
+    {
+        "Question": "What does a red circle with a white line through it mean?",
+        "Answer": "Do Not Enter. This means you cannot drive down that street."
+    },
+    {
+        "Question": "Do engineers help design our phones and computers?",
+        "Answer": "Absolutely!  Computer engineers and software engineers are essential for all the technology we use. "
+    },
+    {
+        "Question": "Why do we have belly buttons?",
+        "Answer": "When we were babies inside our mommies, we were connected to them by a special cord. The belly button is a scar where that cord used to be!"
+    },
+    {
+        "Question": "Have you ever twisted something into wood, or used a jar lid?  What simple machine does that use?",
+        "Answer": "A screw!  It's an inclined plane wrapped around and around, making it easier to push into things."
+    },
+    {
+        "Question": "What do builders do?",
+        "Answer": "They build the things we use every day \u2013 houses, roads, bridges, even playgrounds!"
+    },
+    {
+        "Question": "Can drawing or sketching out your ideas help you when solving a problem?",
+        "Answer": "Definitely!  It lets you visualize things and maybe see solutions you wouldn't think of without it. "
+    },
+    {
+        "Question": "How does your body feel when you've had enough exercise for the day?",
+        "Answer": "You might feel pleasantly tired, a little sweaty, and proud of yourself for being active."
+    },
+    {
+        "Question": "If your friend makes a mistake, what's a helpful thing you can do?",
+        "Answer": "Help them figure out what went wrong, or offer to try to fix it together."
+    },
+    {
+        "Question": "Why do wheels make things easier to move?",
+        "Answer": "Wheels reduce friction (that force that makes things slow down). Less friction means it takes less effort to move heavy things!"
+    },
+    {
+        "Question": "When you learn to ride a bike, do you get it perfect on the first try?",
+        "Answer": "Usually not!  It takes falls and tries, which is how your brain and body learn the skill."
+    },
+    {
+        "Question": "What are some foods that are mostly sugar, and not so healthy?",
+        "Answer": "Candy, soda, cookies, and cake.  These are okay as a 'sometimes treat', but not every day!"
+    },
+    {
+        "Question": "How does our brain work?",
+        "Answer": "Our brain is like our body's control center! It sends messages all over our body, helps us think, feel, and remember things."
+    },
+    {
+        "Question": "What if a sentence is talking about something happening right NOW? Do we use past or present tense?",
+        "Answer": "Present tense!  (Example: I play, you jump, they sing)"
+    },
+    {
+        "Question": "Why do some plants have thorns?",
+        "Answer": "Thorns protect plants from animals who might want to eat them. Ouch!"
+    },
+    {
+        "Question": "What kind of food group is peanut butter in?",
+        "Answer": "Protein foods!  It's made from peanuts, which are a type of nut."
+    },
+    {
+        "Question": "Do helpers have to go to school to learn how to do their jobs?",
+        "Answer": "Most do!  It takes a lot of learning and practice to be good at helping others."
+    },
+    {
+        "Question": "How do seeds become plants?",
+        "Answer": "Seeds have a tiny baby plant inside! With sunlight, water, and soil, they sprout and grow big."
+    },
+    {
+        "Question": "Who was the 16th president of the United States?",
+        "Answer": "Abraham Lincoln"
+    },
+    {
+        "Question": "What does a sign with a person in a wheelchair mean?",
+        "Answer": "Accessible parking space. These spots are only for people with disabilities."
+    },
+    {
+        "Question": "How does a straw work?",
+        "Answer": "When you suck on a straw, you lower the air pressure inside. The higher air pressure outside pushes the drink up the straw!"
+    },
+    {
+        "Question": "Why does my friend use a wheelchair?",
+        "Answer": "People use wheelchairs for many reasons.  Maybe they were born with a condition that makes it hard to walk, or maybe they had an accident.  The important thing is to be kind and include everyone in the fun!"
+    },
+    {
+        "Question": "What do you call your mother's sister?",
+        "Answer": "Your aunt!"
+    },
+    {
+        "Question": "Can plants move?",
+        "Answer": "Plants don't walk around, but they can move slowly! They bend towards sunlight or grow roots down to find water."
+    },
+    {
+        "Question": "How does our nose smell things?",
+        "Answer": "Our nose has special sensors that catch tiny scent particles in the air and send messages to our brain about what we're smelling."
+    },
+    {
+        "Question": "Before it's turned into cloth, what does cotton look like?",
+        "Answer": "Cotton grows as fluffy white balls on a plant!"
+    },
+    {
+        "Question": "What does it feel like to be drunk?",
+        "Answer": "Being drunk is bad for your body and mind. It can make you act silly, get sick, and not be able to think clearly. It can be dangerous, that's why only grown-ups are allowed to decide, but even then, it's important to be responsible."
+    },
+    {
+        "Question": "What are some things families do together?",
+        "Answer": "Eat meals, celebrate holidays, play games, go on adventures, help each other...so many things!"
+    },
+    {
+        "Question": "Why do some things float in water?",
+        "Answer": "Things float if they are less dense than water. Density means how tightly packed the stuff something's made of is."
+    },
+    {
+        "Question": "Why do we yawn?",
+        "Answer": "Scientists aren't completely sure! Yawning might help get more oxygen, cool down our brains, or even be a way of communicating we're tired."
+    },
+    {
+        "Question": "Why did someone steal from our neighbor?",
+        "Answer": "Sometimes people make bad choices that hurt others. There's often more going on though. Maybe they feel desperate or don't have good role models. Stealing is never right, and it's good your neighbor has you to help them feel safe."
+    },
+    {
+        "Question": "Why do we get fevers?",
+        "Answer": "A fever is our body's way of fighting off bad germs. It gets a bit hotter inside to make it a bad place for those germs to live."
+    },
+    {
+        "Question": "Does food that looks delicious in commercials or on the box always taste as good?",
+        "Answer": "Not always!  Advertising tries to make us want things, even if they're not that great."
+    },
+    {
+        "Question": "Who was the first person to walk on the moon?",
+        "Answer": "Neil Armstrong, an American astronaut."
+    },
+    {
+        "Question": "Why is teamwork important in sports? ",
+        "Answer": "Working together helps teams pass the ball, score points, and play their best!"
+    },
+    {
+        "Question": "How is snow made?",
+        "Answer": "Snow forms in clouds when tiny bits of ice stick together and get heavy enough to fall."
+    },
+    {
+        "Question": "How can you tell if your friend is feeling sad?",
+        "Answer": "They might frown, have tears, look down, or want to be alone."
+    },
+    {
+        "Question": "What are some healthy foods?",
+        "Answer": "Fruits, vegetables, whole grains (like brown rice), lean meats, fish, nuts, and beans \u2013 all sorts of yummy and nutritious foods!"
+    },
+    {
+        "Question": "Why did dinosaurs go extinct?",
+        "Answer": "Scientists think a giant asteroid hit Earth, causing big changes that dinosaurs couldn't survive."
+    },
+    {
+        "Question": "What color is SpongeBob SquarePants?",
+        "Answer": "Yellow!"
+    },
+    {
+        "Question": "Name a food that's soft.",
+        "Answer": "Bananas, yogurt, bread... (let the child name them!)"
+    },
+    {
+        "Question": "Sometimes clothes have pictures or words on them, how does that get there?",
+        "Answer": "They can be printed on the fabric, or sewn on with colorful threads called embroidery."
+    },
+    {
+        "Question": "If you ask for a 'treat' at the grocery store and a grown-up offers you a healthy snack instead, is it okay to try it even if you're not sure you'll like it?",
+        "Answer": "Yes! You might be surprised, and it shows you're willing to try."
+    }
+]

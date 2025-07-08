@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: Why do we get vaccines?...",
+  "content": "Question: Why do we get vaccines?\n\nAnswer: Vaccines help train our bodies to fight off specific germs. It's like giving our immune system a sneak peek at the bad guys!",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "explanatory",
+    "topic": "safety_community",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.614476",
+    "content_length": 23,
+    "difficulty": "intermediate"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: Why do some fruits and vegetables have stickers on...",
+  "content": "Question: Why do some fruits and vegetables have stickers on them?\n\nAnswer: The stickers have codes that tell the cashier what kind they are and how much they cost.",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "explanatory",
+    "topic": "social_emotional",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.588608",
+    "content_length": 17,
+    "difficulty": "beginner"
+  }
+}

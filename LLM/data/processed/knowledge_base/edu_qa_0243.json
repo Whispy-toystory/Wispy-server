@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: What's one section of the grocery store that might...",
+  "content": "Question: What's one section of the grocery store that might have lots of colorful foods? \n\nAnswer: The produce section, with all the fruits and vegetables!",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "factual",
+    "topic": "nutrition_cooking",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.590908",
+    "content_length": 9,
+    "difficulty": "beginner"
+  }
+}

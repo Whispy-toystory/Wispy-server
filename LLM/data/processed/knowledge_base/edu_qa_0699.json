@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: What if a sentence is talking about something happ...",
+  "content": "Question: What if a sentence is talking about something happening right NOW? Do we use past or present tense?\n\nAnswer: Present tense!  (Example: I play, you jump, they sing)",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "factual",
+    "topic": "physical_activity",
+    "age_group": "3-4",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.625234",
+    "content_length": 9,
+    "difficulty": "beginner"
+  }
+}

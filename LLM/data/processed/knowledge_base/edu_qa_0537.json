@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: Is it okay to taste a little bit of your food as y...",
+  "content": "Question: Is it okay to taste a little bit of your food as you're cooking it?\n\nAnswer: Sometimes! But make sure it's not too hot, and don't double-dip a spoon.",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "general",
+    "topic": "nutrition_cooking",
+    "age_group": "3-4",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.613037",
+    "content_length": 13,
+    "difficulty": "beginner"
+  }
+}

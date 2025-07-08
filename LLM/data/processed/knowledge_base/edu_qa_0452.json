@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: What are shapes?...",
+  "content": "Question: What are shapes?\n\nAnswer: Shapes are flat, closed figures with sides – like squares, circles, and triangles.",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "factual",
+    "topic": "math_numbers",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.606620",
+    "content_length": 13,
+    "difficulty": "beginner"
+  }
+}

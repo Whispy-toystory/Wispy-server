@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: What should make up the biggest part of a healthy ...",
+  "content": "Question: What should make up the biggest part of a healthy meal?\n\nAnswer: Fruits and vegetables!  They fill us up and give us lots of good vitamins.",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "factual",
+    "topic": "nutrition_cooking",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.623059",
+    "content_length": 14,
+    "difficulty": "beginner"
+  }
+}

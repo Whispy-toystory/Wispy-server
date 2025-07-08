@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: How many ounces are in one pound?...",
+  "content": "Question: How many ounces are in one pound?\n\nAnswer: There are 16 ounces in one pound.",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "explanatory",
+    "topic": "general_knowledge",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.604810",
+    "content_length": 7,
+    "difficulty": "beginner"
+  }
+}

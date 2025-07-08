@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: Does cheese come from plants or animals?...",
+  "content": "Question: Does cheese come from plants or animals?\n\nAnswer: Animals!  Cheese is made from milk, which comes from cows.",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "instructional",
+    "topic": "nature_science",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.598977",
+    "content_length": 10,
+    "difficulty": "beginner"
+  }
+}

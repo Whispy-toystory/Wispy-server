@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: Why might fruits and vegetables sometimes be cheap...",
+  "content": "Question: Why might fruits and vegetables sometimes be cheaper at a farmer's market than in a big grocery store?\n\nAnswer: They're coming directly from the grower, and didn't have to  be shipped across the country.",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "explanatory",
+    "topic": "math_numbers",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.617573",
+    "content_length": 15,
+    "difficulty": "beginner"
+  }
+}

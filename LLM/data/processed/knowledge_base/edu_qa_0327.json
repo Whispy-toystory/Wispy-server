@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: What is a good 'first recipe' to learn how to cook...",
+  "content": "Question: What is a good 'first recipe' to learn how to cook all by yourself?\n\nAnswer: Scrambled eggs!  They're easy, but still feel like a big accomplishment.",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "factual",
+    "topic": "nutrition_cooking",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.597549",
+    "content_length": 11,
+    "difficulty": "beginner"
+  }
+}

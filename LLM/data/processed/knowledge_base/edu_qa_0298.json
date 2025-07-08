@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: What are some different ways we can travel from on...",
+  "content": "Question: What are some different ways we can travel from one place to another?\n\nAnswer: We can walk, bike, ride in cars, buses, trains, airplanes, and even ships!",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "factual",
+    "topic": "general_knowledge",
+    "age_group": "3-4",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.595417",
+    "content_length": 13,
+    "difficulty": "beginner"
+  }
+}

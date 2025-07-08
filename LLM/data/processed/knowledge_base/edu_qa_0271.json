@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: How does the internet work?...",
+  "content": "Question: How does the internet work?\n\nAnswer: The internet is like a giant network of connected computers all around the world! Information travels along cables and wireless signals.",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "explanatory",
+    "topic": "general_knowledge",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.593344",
+    "content_length": 21,
+    "difficulty": "intermediate"
+  }
+}

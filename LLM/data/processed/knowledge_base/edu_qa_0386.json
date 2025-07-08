@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: Why does our hair grow long?...",
+  "content": "Question: Why does our hair grow long?\n\nAnswer: Hair grows from tiny little pockets in our skin called follicles. Cells in the follicles keep making new hair, which is why it gets longer!",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "explanatory",
+    "topic": "general_knowledge",
+    "age_group": "6-8",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.601818",
+    "content_length": 25,
+    "difficulty": "intermediate"
+  }
+}

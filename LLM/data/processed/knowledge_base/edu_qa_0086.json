@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: What word describes a color that has no color at a...",
+  "content": "Question: What word describes a color that has no color at all, like snow?\n\nAnswer: White!  A blank piece of paper is white too.",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "factual",
+    "topic": "language_literacy",
+    "age_group": "3-4",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.578859",
+    "content_length": 9,
+    "difficulty": "beginner"
+  }
+}

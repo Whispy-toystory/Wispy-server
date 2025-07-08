@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: What do we use to measure how much liquid is in a ...",
+  "content": "Question: What do we use to measure how much liquid is in a cup?\n\nAnswer: We can use ounces, milliliters, or special measuring cups!",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "factual",
+    "topic": "math_numbers",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.615571",
+    "content_length": 9,
+    "difficulty": "beginner"
+  }
+}

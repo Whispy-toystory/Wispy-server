@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: What are the first ten numbers you learn to count?...",
+  "content": "Question: What are the first ten numbers you learn to count?\n\nAnswer: One, two, three, four, five, six, seven, eight, nine, and ten!",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "factual",
+    "topic": "math_numbers",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.599473",
+    "content_length": 11,
+    "difficulty": "beginner"
+  }
+}

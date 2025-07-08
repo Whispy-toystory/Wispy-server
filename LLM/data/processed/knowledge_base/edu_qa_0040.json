@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: How can you add more vegetables to a pizza you mak...",
+  "content": "Question: How can you add more vegetables to a pizza you make at home?\n\nAnswer: Onions, peppers, mushrooms, spinach – load up those toppings!",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "explanatory",
+    "topic": "general_knowledge",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.575515",
+    "content_length": 9,
+    "difficulty": "beginner"
+  }
+}

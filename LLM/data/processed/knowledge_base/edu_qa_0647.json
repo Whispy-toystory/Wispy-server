@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: What makes popcorn pop?...",
+  "content": "Question: What makes popcorn pop?\n\nAnswer: Each popcorn kernel has a tiny drop of water inside. When it gets hot, the water turns to steam, the pressure builds up, and POP!",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "factual",
+    "topic": "general_knowledge",
+    "age_group": "5-7",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.621483",
+    "content_length": 25,
+    "difficulty": "intermediate"
+  }
+}

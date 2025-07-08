@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: Can you name 3 sports you can play with a ball?...",
+  "content": "Question: Can you name 3 sports you can play with a ball?\n\nAnswer: Basketball, soccer, baseball, football, tennis... there are so many!",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "instructional",
+    "topic": "physical_activity",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.588188",
+    "content_length": 9,
+    "difficulty": "beginner"
+  }
+}

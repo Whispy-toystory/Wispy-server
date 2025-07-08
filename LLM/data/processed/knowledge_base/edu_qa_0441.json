@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: Where does rain come from?...",
+  "content": "Question: Where does rain come from?\n\nAnswer: Rain comes from clouds! Water on the ground warms up, turns into invisible vapor, and makes clouds. When the clouds get too heavy, it rains!",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "factual",
+    "topic": "general_knowledge",
+    "age_group": "5-7",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.605822",
+    "content_length": 25,
+    "difficulty": "intermediate"
+  }
+}

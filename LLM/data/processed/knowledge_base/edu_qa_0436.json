@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: Can you name some healthy snacks?...",
+  "content": "Question: Can you name some healthy snacks?\n\nAnswer: Apples, carrot sticks, yogurt, nuts, or whole grain crackers.",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "instructional",
+    "topic": "nutrition_cooking",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.605437",
+    "content_length": 9,
+    "difficulty": "beginner"
+  }
+}

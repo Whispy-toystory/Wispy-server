@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: What causes a storm?...",
+  "content": "Question: What causes a storm?\n\nAnswer: Storms happen when warm air and cold air meet and mix in the atmosphere – it makes the air swirl and causes strong winds and rain.",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "factual",
+    "topic": "general_knowledge",
+    "age_group": "5-7",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.575984",
+    "content_length": 26,
+    "difficulty": "intermediate"
+  }
+}

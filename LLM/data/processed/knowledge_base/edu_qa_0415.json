@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: What color do you get when you mix blue and yellow...",
+  "content": "Question: What color do you get when you mix blue and yellow?\n\nAnswer: Green!",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "factual",
+    "topic": "arts_creativity",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.603927",
+    "content_length": 1,
+    "difficulty": "beginner"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: Have you ever grown any of your own food, even in ...",
+  "content": "Question: Have you ever grown any of your own food, even in a small pot?\n\nAnswer: It's super rewarding!  Herbs, tomatoes, or even lettuce can grow in small spaces.",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "general",
+    "topic": "nutrition_cooking",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.612673",
+    "content_length": 13,
+    "difficulty": "beginner"
+  }
+}

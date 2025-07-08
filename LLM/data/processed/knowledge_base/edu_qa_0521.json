@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: Does food sometimes look or smell different than i...",
+  "content": "Question: Does food sometimes look or smell different than it tastes?\n\nAnswer: Definitely!  That's why it's important to try new things, even if they seem weird.",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "instructional",
+    "topic": "nutrition_cooking",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.611802",
+    "content_length": 14,
+    "difficulty": "beginner"
+  }
+}

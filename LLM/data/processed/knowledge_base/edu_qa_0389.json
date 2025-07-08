@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: Why do grocery stores keep milk and cheese refrige...",
+  "content": "Question: Why do grocery stores keep milk and cheese refrigerated?\n\nAnswer: To keep them cold and fresh so they don't go bad too quickly.",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "explanatory",
+    "topic": "general_knowledge",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.602027",
+    "content_length": 13,
+    "difficulty": "beginner"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: What food do we get from cows?...",
+  "content": "Question: What food do we get from cows?\n\nAnswer: Milk! (Which we can make into cheese, yogurt, and ice cream)",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "factual",
+    "topic": "nutrition_cooking",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.617004",
+    "content_length": 11,
+    "difficulty": "beginner"
+  }
+}

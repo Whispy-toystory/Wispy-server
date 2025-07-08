@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: If a recipe calls for 2 eggs, and you only have 1,...",
+  "content": "Question: If a recipe calls for 2 eggs, and you only have 1, is that a problem to solve?\n\nAnswer: Yes!  You'll need to adjust the recipe, or find an egg substitute.",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "general",
+    "topic": "general_knowledge",
+    "age_group": "3-4",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.585321",
+    "content_length": 12,
+    "difficulty": "beginner"
+  }
+}

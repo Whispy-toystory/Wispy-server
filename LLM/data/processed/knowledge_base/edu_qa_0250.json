@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: Imagine there are 10 birds on a tree and 3 fly awa...",
+  "content": "Question: Imagine there are 10 birds on a tree and 3 fly away.  How many birds are left on the tree?\n\nAnswer: There would be 7 birds left on the tree.",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "explanatory",
+    "topic": "general_knowledge",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.591663",
+    "content_length": 9,
+    "difficulty": "beginner"
+  }
+}

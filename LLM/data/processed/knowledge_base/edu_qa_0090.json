@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: If something is 'delicious', how does it taste?...",
+  "content": "Question: If something is 'delicious', how does it taste?\n\nAnswer: Really yummy! Delicious food makes you want to eat lots more. What's your favorite delicious snack?",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "explanatory",
+    "topic": "nutrition_cooking",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.579127",
+    "content_length": 16,
+    "difficulty": "beginner"
+  }
+}

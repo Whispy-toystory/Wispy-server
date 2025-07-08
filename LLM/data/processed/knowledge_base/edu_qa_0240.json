@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: Why is breakfast important?...",
+  "content": "Question: Why is breakfast important?\n\nAnswer: It gives your body energy to start the day, especially for your brain to learn and focus!",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "explanatory",
+    "topic": "health_body",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.590677",
+    "content_length": 17,
+    "difficulty": "beginner"
+  }
+}

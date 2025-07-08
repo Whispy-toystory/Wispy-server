@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: Do you know what a bicycle is powered by?...",
+  "content": "Question: Do you know what a bicycle is powered by?\n\nAnswer: Our own legs pedaling the bike make it move!",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "factual",
+    "topic": "general_knowledge",
+    "age_group": "3-4",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.620791",
+    "content_length": 9,
+    "difficulty": "beginner"
+  }
+}

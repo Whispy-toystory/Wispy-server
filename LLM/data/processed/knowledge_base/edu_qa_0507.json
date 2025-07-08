@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: How many sides does a triangle have?...",
+  "content": "Question: How many sides does a triangle have?\n\nAnswer: A triangle has three sides.",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "explanatory",
+    "topic": "general_knowledge",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.610699",
+    "content_length": 5,
+    "difficulty": "beginner"
+  }
+}

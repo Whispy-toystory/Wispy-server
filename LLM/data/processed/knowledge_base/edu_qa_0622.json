@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: Why does our heart rate go back down after exercis...",
+  "content": "Question: Why does our heart rate go back down after exercising?\n\nAnswer: After exercise, our muscles don't need as much oxygen, so our heart doesn't need to pump as hard.",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "explanatory",
+    "topic": "health_body",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.619722",
+    "content_length": 18,
+    "difficulty": "beginner"
+  }
+}

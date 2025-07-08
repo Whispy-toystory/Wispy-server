@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: Would you rather make a sweet treat or a savory sn...",
+  "content": "Question: Would you rather make a sweet treat or a savory snack to cook?\n\nAnswer: It depends! Both can be delicious.",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "general",
+    "topic": "nutrition_cooking",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.606475",
+    "content_length": 6,
+    "difficulty": "beginner"
+  }
+}

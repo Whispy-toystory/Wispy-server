@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: What is bread made from?...",
+  "content": "Question: What is bread made from?\n\nAnswer: Grains, like wheat or oats!",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "factual",
+    "topic": "nutrition_cooking",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.599283",
+    "content_length": 5,
+    "difficulty": "beginner"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: What if you start with five crayons, and someone g...",
+  "content": "Question: What if you start with five crayons, and someone gives you two more?  How many would you have?\n\nAnswer: You'd have seven crayons!  Five plus two equals seven.",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "factual",
+    "topic": "arts_creativity",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.611957",
+    "content_length": 9,
+    "difficulty": "beginner"
+  }
+}

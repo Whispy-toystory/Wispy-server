@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: Which number is smaller, 2 or 7?...",
+  "content": "Question: Which number is smaller, 2 or 7?\n\nAnswer: 2 is smaller than 7.",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "general",
+    "topic": "math_numbers",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.621313",
+    "content_length": 5,
+    "difficulty": "beginner"
+  }
+}

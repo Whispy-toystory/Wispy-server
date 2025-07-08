@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: Are all germs bad?...",
+  "content": "Question: Are all germs bad?\n\nAnswer: Nope! There are good germs in our bodies that help with digestion and keeping us healthy.",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "general",
+    "topic": "nutrition_cooking",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.574815",
+    "content_length": 16,
+    "difficulty": "beginner"
+  }
+}

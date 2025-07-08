@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: Is a ball a flat shape or a solid shape?...",
+  "content": "Question: Is a ball a flat shape or a solid shape?\n\nAnswer: A ball is a solid shape!  Solid shapes take up space. Flat shapes only have length and width.",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "general",
+    "topic": "math_numbers",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.613348",
+    "content_length": 18,
+    "difficulty": "beginner"
+  }
+}

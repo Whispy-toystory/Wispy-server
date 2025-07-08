@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: Why do we need to brush our teeth?...",
+  "content": "Question: Why do we need to brush our teeth?\n\nAnswer: Brushing removes yucky stuff called plaque that can cause cavities (holes in our teeth). It helps keep our smiles healthy!",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "explanatory",
+    "topic": "nutrition_cooking",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.588678",
+    "content_length": 20,
+    "difficulty": "intermediate"
+  }
+}

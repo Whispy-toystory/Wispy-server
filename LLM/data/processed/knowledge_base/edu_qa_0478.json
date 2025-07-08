@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: Is a plate full of only french fries a balanced me...",
+  "content": "Question: Is a plate full of only french fries a balanced meal?\n\nAnswer: Nope!  It needs more variety – maybe some fruit, and a protein food too.",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "general",
+    "topic": "nutrition_cooking",
+    "age_group": "3-4",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.608562",
+    "content_length": 14,
+    "difficulty": "beginner"
+  }
+}

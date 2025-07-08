@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: Have you ever twisted something into wood, or used...",
+  "content": "Question: Have you ever twisted something into wood, or used a jar lid?  What simple machine does that use?\n\nAnswer: A screw!  It's an inclined plane wrapped around and around, making it easier to push into things.",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "factual",
+    "topic": "general_knowledge",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.624577",
+    "content_length": 17,
+    "difficulty": "beginner"
+  }
+}

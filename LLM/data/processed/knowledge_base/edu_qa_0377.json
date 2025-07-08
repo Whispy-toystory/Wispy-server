@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: If a word starts with a capital letter, what does ...",
+  "content": "Question: If a word starts with a capital letter, what does that usually mean?\n\nAnswer: It might be a name, the first word of a sentence, or an important word.",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "factual",
+    "topic": "language_literacy",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.601209",
+    "content_length": 15,
+    "difficulty": "beginner"
+  }
+}

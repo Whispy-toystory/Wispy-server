@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: What's one easy recipe you could make with minimal...",
+  "content": "Question: What's one easy recipe you could make with minimal help?\n\nAnswer: Smoothies, putting together a sandwich, or assembling a salad.",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "factual",
+    "topic": "safety_community",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.621779",
+    "content_length": 9,
+    "difficulty": "beginner"
+  }
+}

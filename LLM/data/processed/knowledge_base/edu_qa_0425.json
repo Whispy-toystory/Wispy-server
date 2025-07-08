@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: Which is longer, a sentence or a paragraph?...",
+  "content": "Question: Which is longer, a sentence or a paragraph?\n\nAnswer: A paragraph! It has a group of sentences about one topic. ",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "general",
+    "topic": "general_knowledge",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.604667",
+    "content_length": 11,
+    "difficulty": "beginner"
+  }
+}

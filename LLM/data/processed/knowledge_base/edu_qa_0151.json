@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: What is the tallest tree in the world?...",
+  "content": "Question: What is the tallest tree in the world?\n\nAnswer: The tallest trees are redwoods! They can grow taller than a football field is long.",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "factual",
+    "topic": "general_knowledge",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.583662",
+    "content_length": 15,
+    "difficulty": "beginner"
+  }
+}

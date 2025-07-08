@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: Someone with a growth mindset sees a difficult pro...",
+  "content": "Question: Someone with a growth mindset sees a difficult problem and thinks...?\n\nAnswer: 'This is a chance to learn something new!'  instead of 'I'll never be able to do this.'",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "recall",
+    "topic": "general_knowledge",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.610626",
+    "content_length": 17,
+    "difficulty": "beginner"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: If it's raining outside, how could we measure how ...",
+  "content": "Question: If it's raining outside, how could we measure how much rain has fallen?\n\nAnswer: With a rain gauge! It's like a special cup with markings to show how many inches of rain.",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "explanatory",
+    "topic": "math_numbers",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.603191",
+    "content_length": 18,
+    "difficulty": "beginner"
+  }
+}

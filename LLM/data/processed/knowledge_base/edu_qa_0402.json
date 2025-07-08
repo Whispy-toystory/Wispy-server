@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: What is whole grain bread made from?...",
+  "content": "Question: What is whole grain bread made from?\n\nAnswer: Grains like wheat or oats. It's healthier than white bread.",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "factual",
+    "topic": "nutrition_cooking",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.602973",
+    "content_length": 10,
+    "difficulty": "beginner"
+  }
+}

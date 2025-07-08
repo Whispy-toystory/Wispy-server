@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: Which cartoon dog has a big red nose?...",
+  "content": "Question: Which cartoon dog has a big red nose?\n\nAnswer: Clifford the Big Red Dog",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "instructional",
+    "topic": "arts_creativity",
+    "age_group": "3-4",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.597047",
+    "content_length": 5,
+    "difficulty": "beginner"
+  }
+}

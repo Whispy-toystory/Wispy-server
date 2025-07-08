@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: What does a red light mean?...",
+  "content": "Question: What does a red light mean?\n\nAnswer: Stop!  Cars cannot go until the light turns green.",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "factual",
+    "topic": "general_knowledge",
+    "age_group": "3-4",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.618505",
+    "content_length": 9,
+    "difficulty": "beginner"
+  }
+}

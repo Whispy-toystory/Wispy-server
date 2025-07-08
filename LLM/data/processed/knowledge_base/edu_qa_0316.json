@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: What does our stomach do?...",
+  "content": "Question: What does our stomach do?\n\nAnswer: Our stomach is like a food blender! It breaks down food into smaller pieces that our body can use.",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "factual",
+    "topic": "nutrition_cooking",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.596764",
+    "content_length": 19,
+    "difficulty": "beginner"
+  }
+}

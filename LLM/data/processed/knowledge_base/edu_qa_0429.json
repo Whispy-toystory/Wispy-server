@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: What is an architect?...",
+  "content": "Question: What is an architect?\n\nAnswer: They design the buildings!  They draw plans that the builders follow.",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "factual",
+    "topic": "arts_creativity",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.604942",
+    "content_length": 11,
+    "difficulty": "beginner"
+  }
+}

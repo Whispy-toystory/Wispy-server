@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: Can we predict the weather?...",
+  "content": "Question: Can we predict the weather?\n\nAnswer: Meteorologists (weather scientists) study patterns and use computers to predict, but weather can be tricky to get exactly right!",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "instructional",
+    "topic": "nutrition_cooking",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.591960",
+    "content_length": 19,
+    "difficulty": "beginner"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: Can you name 3 different types of helpers?...",
+  "content": "Question: Can you name 3 different types of helpers?\n\nAnswer: Doctors, teachers, firefighters, police officers... there are so many!",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "instructional",
+    "topic": "health_body",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.597118",
+    "content_length": 9,
+    "difficulty": "beginner"
+  }
+}

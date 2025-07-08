@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: Have you ever grown herbs that you can use to add ...",
+  "content": "Question: Have you ever grown herbs that you can use to add flavor to your cooking?\n\nAnswer: It's fun to grow your own!  Basil, mint, and chives are good starters.",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "instructional",
+    "topic": "nutrition_cooking",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.581714",
+    "content_length": 13,
+    "difficulty": "beginner"
+  }
+}

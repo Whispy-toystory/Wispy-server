@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: How do airplanes fly?...",
+  "content": "Question: How do airplanes fly?\n\nAnswer: Airplanes fly using lift! The special shape of their wings makes air move faster over the top, creating a force that pushes them up.",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "explanatory",
+    "topic": "nutrition_cooking",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.591737",
+    "content_length": 24,
+    "difficulty": "intermediate"
+  }
+}

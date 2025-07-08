@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: Can you see a clock in your house?  What parts of ...",
+  "content": "Question: Can you see a clock in your house?  What parts of a clock help us tell time?\n\nAnswer: The numbers, the big hand for minutes, and the little hand for hours all help us tell time!",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "factual",
+    "topic": "math_numbers",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.600343",
+    "content_length": 18,
+    "difficulty": "beginner"
+  }
+}

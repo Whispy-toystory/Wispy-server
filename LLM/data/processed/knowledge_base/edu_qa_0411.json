@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: Photos can be beautiful art too! What would you li...",
+  "content": "Question: Photos can be beautiful art too! What would you like to take a picture of?\n\nAnswer: A flower, your pet, a cool building... anything that catches your eye!",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "factual",
+    "topic": "arts_creativity",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.603620",
+    "content_length": 12,
+    "difficulty": "beginner"
+  }
+}

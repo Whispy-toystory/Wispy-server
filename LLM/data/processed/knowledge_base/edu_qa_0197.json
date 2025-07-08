@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: Why do we sometimes get a shock from the fridge or...",
+  "content": "Question: Why do we sometimes get a shock from the fridge or oven?\n\nAnswer: This is static electricity! It happens when there's a build-up of electric charges on the appliance, and they jump to your body when you touch it.",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "explanatory",
+    "topic": "health_body",
+    "age_group": "6-8",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.587346",
+    "content_length": 26,
+    "difficulty": "intermediate"
+  }
+}

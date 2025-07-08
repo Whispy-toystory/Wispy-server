@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: Instead of getting upset when you make a mistake, ...",
+  "content": "Question: Instead of getting upset when you make a mistake, what can you try to do?\n\nAnswer: Figure out *why* it went wrong. That way, you can avoid making the same mistake again.",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "factual",
+    "topic": "general_knowledge",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.610903",
+    "content_length": 16,
+    "difficulty": "beginner"
+  }
+}

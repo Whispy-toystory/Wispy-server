@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: Can you name a simple machine that helps you lift ...",
+  "content": "Question: Can you name a simple machine that helps you lift heavy things?\n\nAnswer: A lever! It's like a long bar that rests on a point.  Think of a seesaw – pushing down on one side makes the other side go up!",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "instructional",
+    "topic": "safety_community",
+    "age_group": "5-7",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.617371",
+    "content_length": 28,
+    "difficulty": "intermediate"
+  }
+}

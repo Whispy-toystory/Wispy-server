@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: Did you know there's a lady with a mysterious smil...",
+  "content": "Question: Did you know there's a lady with a mysterious smile in a super famous painting?  Who painted it?\n\nAnswer: That's the Mona Lisa, painted by the amazing Leonardo da Vinci.",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "factual",
+    "topic": "arts_creativity",
+    "age_group": "3-4",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.573106",
+    "content_length": 11,
+    "difficulty": "beginner"
+  }
+}

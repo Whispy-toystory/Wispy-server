@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: Is it important to listen to your body when you're...",
+  "content": "Question: Is it important to listen to your body when you're feeling full?\n\nAnswer: Yes!  It's telling you it has enough energy for now.",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "factual",
+    "topic": "health_body",
+    "age_group": "3-4",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.603411",
+    "content_length": 10,
+    "difficulty": "beginner"
+  }
+}

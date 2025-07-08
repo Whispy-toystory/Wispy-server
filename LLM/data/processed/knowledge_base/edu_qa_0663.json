@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: Do engineers need to be good at math?...",
+  "content": "Question: Do engineers need to be good at math?\n\nAnswer: Yes! Math helps them calculate things, make sure their designs are safe, and work with measurements.",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "instructional",
+    "topic": "math_numbers",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.622618",
+    "content_length": 16,
+    "difficulty": "beginner"
+  }
+}

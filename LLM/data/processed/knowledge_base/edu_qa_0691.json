@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: What do builders do?...",
+  "content": "Question: What do builders do?\n\nAnswer: They build the things we use every day – houses, roads, bridges, even playgrounds!",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "factual",
+    "topic": "physical_activity",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.624653",
+    "content_length": 14,
+    "difficulty": "beginner"
+  }
+}

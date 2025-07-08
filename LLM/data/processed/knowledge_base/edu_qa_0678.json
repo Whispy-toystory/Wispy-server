@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: Should we drink lots of water or sugary drinks lik...",
+  "content": "Question: Should we drink lots of water or sugary drinks like soda?\n\nAnswer: Water! It's the healthiest drink for our bodies.",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "instructional",
+    "topic": "health_body",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.623686",
+    "content_length": 8,
+    "difficulty": "beginner"
+  }
+}

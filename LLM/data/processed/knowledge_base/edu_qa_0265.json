@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: Why does a spinning top stay upright?...",
+  "content": "Question: Why does a spinning top stay upright?\n\nAnswer: Spinning gives the top something called angular momentum, which helps it balance and resist falling over.",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "explanatory",
+    "topic": "safety_community",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.592868",
+    "content_length": 16,
+    "difficulty": "beginner"
+  }
+}

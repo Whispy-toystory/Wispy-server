@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: Why is ice slippery?...",
+  "content": "Question: Why is ice slippery?\n\nAnswer: Ice has a thin layer of water on top when it gets a little warmer. That water reduces friction, making it super slippery!",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "explanatory",
+    "topic": "general_knowledge",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.603857",
+    "content_length": 23,
+    "difficulty": "intermediate"
+  }
+}

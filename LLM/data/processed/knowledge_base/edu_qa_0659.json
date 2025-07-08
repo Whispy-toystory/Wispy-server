@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: Can we break a bone?...",
+  "content": "Question: Can we break a bone?\n\nAnswer: Yes, if there's enough force, our strong bones can sometimes break. But don't worry, doctors can fix them up and they'll heal strong again!",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "instructional",
+    "topic": "health_body",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.622332",
+    "content_length": 24,
+    "difficulty": "intermediate"
+  }
+}

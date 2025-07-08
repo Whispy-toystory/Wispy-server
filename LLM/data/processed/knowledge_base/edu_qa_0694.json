@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: If your friend makes a mistake, what's a helpful t...",
+  "content": "Question: If your friend makes a mistake, what's a helpful thing you can do?\n\nAnswer: Help them figure out what went wrong, or offer to try to fix it together.",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "factual",
+    "topic": "social_emotional",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.624854",
+    "content_length": 15,
+    "difficulty": "beginner"
+  }
+}

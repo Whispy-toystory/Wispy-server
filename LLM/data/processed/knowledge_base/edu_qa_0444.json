@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: What do teachers do?...",
+  "content": "Question: What do teachers do?\n\nAnswer: They help us learn new things and share their knowledge!",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "factual",
+    "topic": "safety_community",
+    "age_group": "3-4",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.606038",
+    "content_length": 10,
+    "difficulty": "beginner"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: Who works at the grocery store to help customers?...",
+  "content": "Question: Who works at the grocery store to help customers?\n\nAnswer: Cashiers, people stocking shelves, sometimes butchers or bakers in special sections.",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "factual",
+    "topic": "safety_community",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.582893",
+    "content_length": 11,
+    "difficulty": "beginner"
+  }
+}

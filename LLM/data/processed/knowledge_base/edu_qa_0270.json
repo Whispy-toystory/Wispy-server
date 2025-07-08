@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: What's something besides food that you can buy in ...",
+  "content": "Question: What's something besides food that you can buy in bulk to reduce waste?\n\nAnswer: Things like soap, shampoo, or even toilet paper come in big sizes so you need less packaging.",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "factual",
+    "topic": "nutrition_cooking",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.593264",
+    "content_length": 17,
+    "difficulty": "beginner"
+  }
+}

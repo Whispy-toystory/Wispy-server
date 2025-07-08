@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: How does your body feel when you've had enough exe...",
+  "content": "Question: How does your body feel when you've had enough exercise for the day?\n\nAnswer: You might feel pleasantly tired, a little sweaty, and proud of yourself for being active.",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "factual",
+    "topic": "nutrition_cooking",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.624789",
+    "content_length": 15,
+    "difficulty": "beginner"
+  }
+}

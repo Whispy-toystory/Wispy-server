@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: Why do we sweat when we're hot?...",
+  "content": "Question: Why do we sweat when we're hot?\n\nAnswer: Sweating is our body's cooling system! When the sweat evaporates, it takes heat away from our skin, helping us cool down.",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "factual",
+    "topic": "nutrition_cooking",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.619495",
+    "content_length": 21,
+    "difficulty": "intermediate"
+  }
+}

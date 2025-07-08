@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: What do you do if a recipe says 'add a tablespoon'...",
+  "content": "Question: What do you do if a recipe says 'add a tablespoon' of something?\n\nAnswer: You use a measuring spoon! Grown-ups can help you read the recipe.",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "factual",
+    "topic": "language_literacy",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.614565",
+    "content_length": 12,
+    "difficulty": "beginner"
+  }
+}

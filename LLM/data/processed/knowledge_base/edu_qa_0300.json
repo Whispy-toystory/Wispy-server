@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: Can you hop on one foot? How about the other foot?...",
+  "content": "Question: Can you hop on one foot? How about the other foot?\n\nAnswer: Hopping helps build balance and coordination.",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "explanatory",
+    "topic": "safety_community",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.595553",
+    "content_length": 6,
+    "difficulty": "beginner"
+  }
+}

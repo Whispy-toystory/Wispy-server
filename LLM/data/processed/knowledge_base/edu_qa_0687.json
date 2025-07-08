@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: What does a red circle with a white line through i...",
+  "content": "Question: What does a red circle with a white line through it mean?\n\nAnswer: Do Not Enter. This means you cannot drive down that street.",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "factual",
+    "topic": "general_knowledge",
+    "age_group": "3-4",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.624317",
+    "content_length": 11,
+    "difficulty": "beginner"
+  }
+}

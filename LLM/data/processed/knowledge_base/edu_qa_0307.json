@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: Would a peanut butter and jelly sandwich be better...",
+  "content": "Question: Would a peanut butter and jelly sandwich be better on white bread or whole grain bread?\n\nAnswer: Whole grain bread! It's healthier and gives us more fiber.",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "factual",
+    "topic": "health_body",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.596096",
+    "content_length": 10,
+    "difficulty": "beginner"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: What are allergies?...",
+  "content": "Question: What are allergies?\n\nAnswer: Allergies happen when our bodies overreact to something that's usually harmless, like pollen or peanuts. It can make us sneeze or get a rash.",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "factual",
+    "topic": "general_knowledge",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.598141",
+    "content_length": 24,
+    "difficulty": "intermediate"
+  }
+}

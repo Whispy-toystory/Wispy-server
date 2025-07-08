@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: What animal gives us soft, warm wool?...",
+  "content": "Question: What animal gives us soft, warm wool?\n\nAnswer: Sheep! We shear their fluffy coats to make wool.",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "factual",
+    "topic": "nature_science",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.581039",
+    "content_length": 9,
+    "difficulty": "beginner"
+  }
+}

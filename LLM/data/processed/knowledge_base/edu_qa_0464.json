@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: What are some important kitchen safety rules?...",
+  "content": "Question: What are some important kitchen safety rules?\n\nAnswer: Always ask an adult before using the stove or oven, use knives carefully (or have an adult help), wash your hands often!",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "factual",
+    "topic": "safety_community",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.607501",
+    "content_length": 22,
+    "difficulty": "intermediate"
+  }
+}

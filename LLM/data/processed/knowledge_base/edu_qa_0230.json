@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: Which cartoon character says 'D'oh!'?...",
+  "content": "Question: Which cartoon character says 'D'oh!'?\n\nAnswer: Homer Simpson",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "general",
+    "topic": "arts_creativity",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.589821",
+    "content_length": 2,
+    "difficulty": "beginner"
+  }
+}

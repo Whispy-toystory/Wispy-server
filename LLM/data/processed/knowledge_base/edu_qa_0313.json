@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: Is the number seven odd or even?...",
+  "content": "Question: Is the number seven odd or even?\n\nAnswer: Seven is an odd number. Odd numbers don't have a partner to perfectly match up with.",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "general",
+    "topic": "math_numbers",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.596531",
+    "content_length": 16,
+    "difficulty": "beginner"
+  }
+}

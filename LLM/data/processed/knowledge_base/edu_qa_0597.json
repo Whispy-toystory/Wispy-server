@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: What is the fancy hat called that some people in M...",
+  "content": "Question: What is the fancy hat called that some people in Mexico wear, which is wide and colorful?\n\nAnswer: A sombrero!",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "factual",
+    "topic": "arts_creativity",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.617848",
+    "content_length": 2,
+    "difficulty": "beginner"
+  }
+}

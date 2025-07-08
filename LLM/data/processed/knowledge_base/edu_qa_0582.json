@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: Which country is famous for maple syrup?...",
+  "content": "Question: Which country is famous for maple syrup?\n\nAnswer: Canada",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "general",
+    "topic": "math_numbers",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.616784",
+    "content_length": 1,
+    "difficulty": "beginner"
+  }
+}

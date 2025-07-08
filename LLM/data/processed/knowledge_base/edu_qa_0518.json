@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: Have you ever seen art made from unusual things?...",
+  "content": "Question: Have you ever seen art made from unusual things?\n\nAnswer: Artists use all sorts of materials, like food, bottle caps, or even junk!",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "general",
+    "topic": "nutrition_cooking",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.611596",
+    "content_length": 13,
+    "difficulty": "beginner"
+  }
+}

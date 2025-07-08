@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: Can you name some nouns in your room?...",
+  "content": "Question: Can you name some nouns in your room?\n\nAnswer: Answers will vary, but could include things like: bed, desk, toy, book, etc.",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "instructional",
+    "topic": "general_knowledge",
+    "age_group": "3-4",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.601004",
+    "content_length": 13,
+    "difficulty": "beginner"
+  }
+}

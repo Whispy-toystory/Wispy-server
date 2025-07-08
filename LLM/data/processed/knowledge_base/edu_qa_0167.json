@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: What does a plumber do?...",
+  "content": "Question: What does a plumber do?\n\nAnswer: They install and fix all the pipes that bring water into our houses, and take used water away.",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "factual",
+    "topic": "general_knowledge",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.584841",
+    "content_length": 18,
+    "difficulty": "beginner"
+  }
+}

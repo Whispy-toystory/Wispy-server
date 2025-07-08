@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: Who was Albert Einstein?...",
+  "content": "Question: Who was Albert Einstein?\n\nAnswer: A super smart scientist famous for his ideas about energy, gravity, and how the universe works.",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "factual",
+    "topic": "arts_creativity",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.609732",
+    "content_length": 16,
+    "difficulty": "beginner"
+  }
+}

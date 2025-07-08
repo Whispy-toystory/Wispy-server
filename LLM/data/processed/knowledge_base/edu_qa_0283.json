@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: What do your parents call their parents?...",
+  "content": "Question: What do your parents call their parents?\n\nAnswer: Grandma and Grandpa (just like you do!)",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "factual",
+    "topic": "general_knowledge",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.594279",
+    "content_length": 7,
+    "difficulty": "beginner"
+  }
+}

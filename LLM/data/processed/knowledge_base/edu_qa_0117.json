@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: What's a carpenter?...",
+  "content": "Question: What's a carpenter?\n\nAnswer: A builder who specializes in working with wood to make things like houses and furniture. ",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "factual",
+    "topic": "general_knowledge",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.581175",
+    "content_length": 15,
+    "difficulty": "beginner"
+  }
+}

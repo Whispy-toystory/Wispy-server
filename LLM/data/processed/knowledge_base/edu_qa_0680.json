@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: What are some healthy snacks you can assemble with...",
+  "content": "Question: What are some healthy snacks you can assemble with no cooking required?\n\nAnswer: Ants on a log (celery with peanut butter and raisins), apple slices with cheese, yogurt with fruit.",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "factual",
+    "topic": "nutrition_cooking",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.623826",
+    "content_length": 17,
+    "difficulty": "beginner"
+  }
+}

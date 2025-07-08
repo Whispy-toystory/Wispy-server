@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: Is there a place called 9-1-1 that you should call...",
+  "content": "Question: Is there a place called 9-1-1 that you should call if you need help in an emergency?\n\nAnswer: Yes! It's very important to know that number, but only call if there's a real emergency.",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "instructional",
+    "topic": "math_numbers",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.574536",
+    "content_length": 16,
+    "difficulty": "beginner"
+  }
+}

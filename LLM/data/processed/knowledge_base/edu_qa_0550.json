@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: Are monsters under my bed?...",
+  "content": "Question: Are monsters under my bed?\n\nAnswer: Let's check together!  Sometimes our imagination plays tricks on us. Do you want to build a fort to feel extra safe and cozy?",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "general",
+    "topic": "social_emotional",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.614053",
+    "content_length": 23,
+    "difficulty": "intermediate"
+  }
+}

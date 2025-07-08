@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: What simple salad dressings can you make by whiski...",
+  "content": "Question: What simple salad dressings can you make by whisking things together?\n\nAnswer: Olive oil and lemon juice, honey mustard, or Italian dressing!",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "factual",
+    "topic": "general_knowledge",
+    "age_group": "3-4",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.602095",
+    "content_length": 10,
+    "difficulty": "beginner"
+  }
+}

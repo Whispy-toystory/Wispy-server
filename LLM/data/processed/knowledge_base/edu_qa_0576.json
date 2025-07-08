@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: Why is the wind sometimes strong and sometimes gen...",
+  "content": "Question: Why is the wind sometimes strong and sometimes gentle?\n\nAnswer: Wind happens when air moves from warmer places to colder places. The bigger the difference, the stronger the wind!",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "explanatory",
+    "topic": "general_knowledge",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.616256",
+    "content_length": 19,
+    "difficulty": "beginner"
+  }
+}

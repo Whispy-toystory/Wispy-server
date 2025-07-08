@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: What is the sun?...",
+  "content": "Question: What is the sun?\n\nAnswer: The sun is a giant star! It's a massive ball of hot gas that gives us light and warmth.",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "factual",
+    "topic": "general_knowledge",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.612905",
+    "content_length": 19,
+    "difficulty": "beginner"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: Can food be healthy AND delicious?...",
+  "content": "Question: Can food be healthy AND delicious?\n\nAnswer: Absolutely! There are so many tasty recipes with good-for-you ingredients.",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "instructional",
+    "topic": "nutrition_cooking",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.574468",
+    "content_length": 10,
+    "difficulty": "beginner"
+  }
+}

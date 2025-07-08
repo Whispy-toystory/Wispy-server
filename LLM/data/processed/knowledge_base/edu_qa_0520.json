@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: Why does ice cream melt?...",
+  "content": "Question: Why does ice cream melt?\n\nAnswer: Ice cream is frozen solid. When it gets warmer, it gains heat energy, and this turns it back into a liquid.",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "explanatory",
+    "topic": "nutrition_cooking",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.611731",
+    "content_length": 21,
+    "difficulty": "intermediate"
+  }
+}

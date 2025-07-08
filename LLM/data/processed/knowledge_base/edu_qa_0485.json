@@ -1,0 +1,15 @@
+{
+  "title": "Educational Q&A: Why does dough rise?...",
+  "content": "Question: Why does dough rise?\n\nAnswer: Yeast in bread dough eats sugar and releases tiny gas bubbles. These bubbles get trapped, making the dough puff up!",
+  "metadata": {
+    "type": "educational_qa",
+    "question_type": "explanatory",
+    "topic": "nutrition_cooking",
+    "age_group": "4-6",
+    "source": "educational_dataset",
+    "language": "english",
+    "created_at": "2025-07-08T18:03:31.609069",
+    "content_length": 20,
+    "difficulty": "intermediate"
+  }
+}
