@@ -14,6 +14,5 @@ import java.util.UUID;
 public class GlbGenerationResponse {
 
     private UUID characterId;
-
     private String glbUrl;
 }
