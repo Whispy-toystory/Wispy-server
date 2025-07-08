@@ -12,6 +12,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.Authentication;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
+import com.wispyserver.WispyServer.dto.response.GlbGenerateResponse;
 
 import java.util.List;
 import java.util.UUID;
@@ -75,6 +76,76 @@ public class CharacterController {
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(errorResponse);
         }
     }
+
+    @PostMapping("/{characterId}/generate-glb")
+    public ResponseEntity<ApiResponse<GlbGenerateResponse>> generateGlb(
+            @PathVariable("characterId") UUID characterId,
+            @RequestParam("front") MultipartFile front,
+            @RequestParam("left") MultipartFile left,
+            @RequestParam("right") MultipartFile right,
+            @RequestParam("back") MultipartFile back,
+            Authentication authentication) {
+
+        try {
+            String userIdStr = authentication.getName();
+            UUID userId = UUID.fromString(userIdStr);
+
+            log.info("POST /api/characters/{}/generate-glb - User ID: {}",
+                    characterId, userId);
+
+            // 파일 검증
+            if (front == null || front.isEmpty() ||
+                    left == null || left.isEmpty() ||
+                    right == null || right.isEmpty() ||
+                    back == null || back.isEmpty()) {
+
+                ApiResponse<GlbGenerateResponse> errorResponse = ApiResponse.error(
+                        "MISSING_FILES",
+                        "All four image files (front, left, right, back) are required"
+                );
+                return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(errorResponse);
+            }
+
+            // 서비스 호출
+            GlbGenerateResponse response = characterService.generateGlb(
+                    userId, characterId, front, left, right, back);
+
+            ApiResponse<GlbGenerateResponse> apiResponse = ApiResponse.success(
+                    response,
+                    "GLB generation started successfully"
+            );
+
+            return ResponseEntity.ok(apiResponse);
+
+        } catch (CustomException e) {
+            log.error("GLB generation failed: {}", e.getMessage());
+
+            if ("CHARACTER_NOT_FOUND".equals(e.getErrorCode())) {
+                ApiResponse<GlbGenerateResponse> errorResponse = ApiResponse.error(
+                        "CHARACTER_NOT_FOUND",
+                        "Character not found"
+                );
+                return ResponseEntity.status(HttpStatus.NOT_FOUND).body(errorResponse);
+            }
+
+            ApiResponse<GlbGenerateResponse> errorResponse = ApiResponse.error(
+                    e.getErrorCode(),
+                    e.getMessage()
+            );
+            return ResponseEntity.status(e.getStatusCode()).body(errorResponse);
+
+        } catch (Exception e) {
+            log.error("Unexpected error during GLB generation", e);
+
+            ApiResponse<GlbGenerateResponse> errorResponse = ApiResponse.error(
+                    "GLB_GENERATION_FAILED",
+                    "Failed to generate GLB: " + e.getMessage()
+            );
+
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(errorResponse);
+        }
+    }
+
 
     @GetMapping
     public ResponseEntity<ApiResponse<List<CharacterListResponse>>> getCharacterList(

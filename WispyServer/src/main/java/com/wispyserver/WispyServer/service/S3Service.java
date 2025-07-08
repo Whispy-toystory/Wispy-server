@@ -32,6 +32,7 @@ public class S3Service {
 
     @Value("${aws.secret-access-key}")
     private String secretAccessKey;
+
     public String uploadGlbFile(UUID characterId, MultipartFile file) throws IOException {
         log.info("Uploading GLB file for character: {}, file size: {} bytes",
                 characterId, file.getSize());
@@ -64,6 +65,7 @@ public class S3Service {
             s3Client.close();
         }
     }
+
     private S3Client createS3Client() {
         AwsBasicCredentials awsCredentials = AwsBasicCredentials.create(accessKeyId, secretAccessKey);
 
@@ -99,6 +101,45 @@ public class S3Service {
         String originalFilename = file.getOriginalFilename();
         if (originalFilename == null || !originalFilename.toLowerCase().endsWith(".glb")) {
             throw new IllegalArgumentException("Only GLB files are allowed");
+        }
+    }
+
+    public String uploadTempImage(UUID characterId, String imageType, MultipartFile file) throws IOException {
+        String fileName = String.format("temp/%s/%s_%s", characterId, imageType, file.getOriginalFilename());
+        return uploadFile(fileName, file);
+    }
+
+    public String uploadFile(String key, MultipartFile file) throws IOException {
+        log.info("Uploading file to S3: {}, file size: {} bytes", key, file.getSize());
+
+        S3Client s3Client = createS3Client();
+
+        try {
+            String contentType = file.getContentType();
+            if (contentType == null) {
+                contentType = "application/octet-stream";
+            }
+
+            PutObjectRequest putObjectRequest = PutObjectRequest.builder()
+                    .bucket(bucketName)
+                    .key(key)
+                    .contentType(contentType)
+                    .contentLength(file.getSize())
+                    .build();
+
+            PutObjectResponse response = s3Client.putObject(
+                    putObjectRequest,
+                    RequestBody.fromInputStream(file.getInputStream(), file.getSize())
+            );
+
+            String fileUrl = generateFileUrl(key);
+
+            log.info("File uploaded successfully. URL: {}, ETag: {}", fileUrl, response.eTag());
+
+            return fileUrl;
+
+        } finally {
+            s3Client.close();
         }
     }
 }

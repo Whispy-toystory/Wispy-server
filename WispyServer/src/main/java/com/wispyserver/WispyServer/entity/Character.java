@@ -52,4 +52,10 @@ public class Character {
     @UpdateTimestamp
     @Column(name = "updated_at", nullable = false)
     private LocalDateTime updatedAt;
+
+    @Column(name = "glb_generation_status")
+    private String glbGenerationStatus;
+
+    @Column(name = "glb_generation_job_id")
+    private String glbGenerationJobId;
 }

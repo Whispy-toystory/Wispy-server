@@ -1,0 +1,42 @@
+temp/
+output/
+logs/
+
+# 모델 파일
+models/
+*.pth
+*.bin
+*.safetensors
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# 환경 설정
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 시스템 파일
+.DS_Store
+Thumbs.db
+
+# Hunyuan3D 클론된 저장소
+Hunyuan3D-2/
+
+# 테스트 파일
+test_images/
+*.jpg
+*.png
+*.jpeg

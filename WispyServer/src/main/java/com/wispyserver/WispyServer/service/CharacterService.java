@@ -1,10 +1,7 @@
 package com.wispyserver.WispyServer.service;
 
 import com.wispyserver.WispyServer.dto.request.CreateCharacterRequest;
-import com.wispyserver.WispyServer.dto.response.CharacterListResponse;
-import com.wispyserver.WispyServer.dto.response.CharacterResponse;
-import com.wispyserver.WispyServer.dto.response.CharacterSelectResponse;
-import com.wispyserver.WispyServer.dto.response.GlbUploadResponse;
+import com.wispyserver.WispyServer.dto.response.*;
 import com.wispyserver.WispyServer.entity.Character;
 import com.wispyserver.WispyServer.entity.ConversationSummary;
 import com.wispyserver.WispyServer.entity.User;
@@ -204,6 +201,135 @@ public class CharacterService {
                 .summary(summaryInfo)
                 .build();
     }
+
+    @Transactional
+    public GlbGenerateResponse generateGlb(UUID userId, UUID characterId,
+                                           MultipartFile front, MultipartFile left,
+                                           MultipartFile right, MultipartFile back) {
+        log.info("Generating GLB for character: {}, user: {}", characterId, userId);
+
+        try {
+            User user = userRepository.findById(userId)
+                    .orElseThrow(() -> CustomException.notFound("User not found"));
+
+            if (!user.getIsActive()) {
+                throw CustomException.badRequest("User account is inactive");
+            }
+
+            Character character = characterRepository.findById(characterId)
+                    .orElseThrow(() -> CustomException.characterNotFound("Character not found"));
+
+            if (!character.getUser().getUserId().equals(userId)) {
+                throw CustomException.unauthorized("You do not have permission to generate GLB for this character");
+            }
+
+            if (!character.getIsActive()) {
+                throw CustomException.badRequest("Character is not active");
+            }
+
+            validateImageFiles(front, left, right, back);
+
+            String frontUrl = s3Service.uploadTempImage(characterId, "front", front);
+            String leftUrl = s3Service.uploadTempImage(characterId, "left", left);
+            String rightUrl = s3Service.uploadTempImage(characterId, "right", right);
+            String backUrl = s3Service.uploadTempImage(characterId, "back", back);
+
+            String jobId = UUID.randomUUID().toString();
+
+            log.info("Generated job ID: {} for character: {}", jobId, characterId);
+
+            // TODO: 실제 Hunyuan3D API 서비스 호출
+
+            log.info("Image URLs - Front: {}, Left: {}, Right: {}, Back: {}",
+                    frontUrl, leftUrl, rightUrl, backUrl);
+
+            character.setGlbGenerationStatus("PROCESSING");
+            character.setGlbGenerationJobId(jobId);
+            characterRepository.save(character);
+
+            log.info("GLB generation started successfully for character: {}, job ID: {}",
+                    characterId, jobId);
+
+            return GlbGenerateResponse.builder()
+                    .characterId(characterId.toString())
+                    .status("PROCESSING")
+                    .jobId(jobId)
+                    .message("GLB generation started successfully")
+                    .glbUrl(null)
+                    .build();
+
+        } catch (IOException e) {
+            log.error("IOException while generating GLB for character: {}", characterId, e);
+            throw CustomException.badRequest("Failed to process image files: " + e.getMessage());
+        } catch (Exception e) {
+            log.error("Failed to generate GLB for character: {}", characterId, e);
+
+            if (e instanceof CustomException) {
+                throw e;
+            }
+            throw CustomException.badRequest("Failed to generate GLB: " + e.getMessage());
+        }
+    }
+
+    private void validateImageFiles(MultipartFile front, MultipartFile left,
+                                    MultipartFile right, MultipartFile back) {
+        MultipartFile[] files = {front, left, right, back};
+        String[] fileNames = {"front", "left", "right", "back"};
+
+        for (int i = 0; i < files.length; i++) {
+            MultipartFile file = files[i];
+            String fileName = fileNames[i];
+
+            if (file == null || file.isEmpty()) {
+                throw CustomException.badRequest(fileName + " image is required");
+            }
+
+            if (file.getSize() > 10 * 1024 * 1024) {
+                throw CustomException.badRequest(fileName + " image size must be less than 10MB");
+            }
+
+            String contentType = file.getContentType();
+            if (contentType == null || !contentType.startsWith("image/")) {
+                throw CustomException.badRequest(fileName + " file must be an image");
+            }
+
+            if (!contentType.equals("image/jpeg") &&
+                    !contentType.equals("image/jpg") &&
+                    !contentType.equals("image/png")) {
+                throw CustomException.badRequest(fileName + " image must be in JPEG or PNG format");
+            }
+        }
+    }
+
+    @Transactional(readOnly = true)
+    public GlbGenerateResponse getGlbGenerationStatus(UUID userId, UUID characterId) {
+        log.info("Getting GLB generation status for character: {}, user: {}", characterId, userId);
+
+        Character character = characterRepository.findById(characterId)
+                .orElseThrow(() -> CustomException.characterNotFound("Character not found"));
+
+        if (!character.getUser().getUserId().equals(userId)) {
+            throw CustomException.unauthorized("You do not have permission to check this character's status");
+        }
+
+        String status = character.getGlbGenerationStatus();
+        String jobId = character.getGlbGenerationJobId();
+        String glbUrl = character.getGlbUrl();
+
+        if (status == null) {
+            status = "NOT_STARTED";
+        }
+
+        return GlbGenerateResponse.builder()
+                .characterId(characterId.toString())
+                .status(status)
+                .jobId(jobId)
+                .message("GLB generation status retrieved")
+                .glbUrl(glbUrl)
+                .build();
+    }
+
+
 
     private CharacterSelectResponse.SummaryInfo getYesterdaySummary(User user, Character character) {
         LocalDate yesterday = LocalDate.now().minusDays(1);
