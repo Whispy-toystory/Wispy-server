@@ -4,7 +4,7 @@ from transformers import pipeline
 
 wiki_ds = load_from_disk("data/simple_wiki")
 
-qg = pipeline("question-generation", model="iarfmoose/t5-base-question-generator")
+qg = pipeline("text2text-generation", model="iarfmoose/t5-base-question-generator")
 
 def para_filter(record):
     for para in record["text"].split("\n\n"):
@@ -13,11 +13,13 @@ def para_filter(record):
             yield p
 
 def make_qa(para):
-    qa = qg(para)[0]   # {'question', 'answer'}
+    generated = qg(para, max_length=64, do_sample=False)[0]['generated_text']
+    question, answer = generated.split("answer: ")
+    question = question.replace("question: ", "").strip()
     return {
         "id": str(uuid.uuid4()),
-        "question": qa["question"],
-        "answer": qa["answer"],
+        "question": question,
+        "answer": answer.strip(),
         "source": "simplewiki",
         "reading_level": "grade2"
     }
