@@ -1,0 +1,38 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "simple-wikipedia",
+  "dataset_size": 144689943,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/rahular/simple-wikipedia@b716115a07479d49e58233d2382295c5ca585431/data/train-00000-of-00001-090b52ccb189d47a.parquet": {
+      "num_bytes": 86969379,
+      "checksum": null
+    }
+  },
+  "download_size": 86969379,
+  "features": {
+    "text": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 231659322,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 144689943,
+      "num_examples": 769764,
+      "dataset_name": "simple-wikipedia"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "builder_name": "csv",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "simple_qa",
+  "dataset_size": 2036599,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/basicv8vc/SimpleQA@e319282ab125c3dbd0c7fd00be2e4dd54e7e8f94/simple_qa_test_set.csv": {
+      "num_bytes": 2012910,
+      "checksum": null
+    }
+  },
+  "download_size": 2012910,
+  "features": {
+    "metadata": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "problem": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "answer": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 4049509,
+  "splits": {
+    "test": {
+      "name": "test",
+      "num_bytes": 2036599,
+      "num_examples": 4326,
+      "dataset_name": "simple_qa"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
